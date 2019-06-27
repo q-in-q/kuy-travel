@@ -28,7 +28,7 @@
     </button>
 
     <div class="collapse navbar-collapse" id="navbarSupportedContent">
-      <form class="col-md-6 form-inline my-2 my-lg-0">
+      <form class="col-md-4 form-inline my-2 my-lg-0">
         <input class="form-control" type="search" placeholder="Search" data-toggle="modal" data-target="#centralModallg" aria-label="Search">
       </form>
       <ul class="navbar-nav mr-auto">
@@ -36,10 +36,16 @@
             <a class="nav-link" href="#" onclick="window.location.href='index.php'">Home <span class="sr-only">(current)</span></a>
           </li>
           <li class="nav-item">
-          <a class="nav-link" href="#">Paket Wisata</a>
+          <a class="nav-link" href="#">Rekomendasi Wisata</a>
          </li>
           <li class="nav-item">
-          <a class="nav-link" href="#">Promo</a>
+            <a class="nav-link" href="#">Paket Wisata</a>
+         </li>
+         <li class="nav-item">
+           <a class="nav-link" href="#">Pemesanan</a>
+         </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#">Promo</a>
           </li>
           
          <li class="nav-item dropdown">
