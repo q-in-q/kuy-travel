@@ -1,0 +1,183 @@
+/*Navbar*/
+
+.kepala{
+  background-color: #3498db;
+}
+
+
+
+
+/* Footer */
+@import url('https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css');
+section {
+    padding: 20px 0;
+}
+
+section .section-title {
+    text-align: center;
+    color: #3498db;
+    margin-bottom: 10px;
+    text-transform: uppercase;
+
+}
+#footer {
+    background: #3498db!important;
+    background-color: rgba(0, 32, 91, 0.8);
+}
+#footer h5{
+	padding-left: 10px;
+    border-left: 3px solid #eeeeee;
+    padding-bottom: 6px;
+    margin-bottom: 20px;
+    color:#ffffff;
+}
+#footer a {
+    color: #ffffff;
+    text-decoration: none !important;
+    background-color: transparent;
+    -webkit-text-decoration-skip: objects;
+}
+#footer ul.social li{
+	padding: 3px 0;
+}
+#footer ul.social li a i {
+    margin-right: 5px;
+	font-size:25px;
+	-webkit-transition: .5s all ease;
+	-moz-transition: .5s all ease;
+	transition: .5s all ease;
+}
+#footer ul.social li:hover a i {
+	font-size:30px;
+	margin-top:-10px;
+}
+#footer ul.social li a,
+#footer ul.quick-links li a{
+	color:#ffffff;
+}
+#footer ul.social li a:hover{
+	color:#eeeeee;
+}
+#footer ul.quick-links li{
+	padding: 3px 0;
+	-webkit-transition: .5s all ease;
+	-moz-transition: .5s all ease;
+	transition: .5s all ease;
+}
+#footer ul.quick-links li:hover{
+	padding: 3px 0;
+	margin-left:5px;
+	font-weight:700;
+}
+#footer ul.quick-links li a i{
+	margin-right: 5px;
+}
+#footer ul.quick-links li:hover a i {
+    font-weight: 700;
+}
+
+@media (max-width:767px){
+	#footer h5 {
+    padding-left: 0;
+    border-left: transparent;
+    padding-bottom: 0px;
+    margin-bottom: 10px;
+}
+}
+
+/*destinasi*/
+
+
+/*Related post at: https://superdevresources.com/zoom-effect-image-css/ */
+
+@media (max-width: 767px){
+    .home h2 {
+        font-size: 20px;
+    }
+}
+
+.home h2{
+    font-size: 30px;
+    color: #009ada;
+    line-height: normal;
+    text-align: center;
+    margin-top: 10px;
+    margin-bottom: 0;
+    font-family: inherit;
+}
+
+.home div{
+    width: 100px;
+    height: 3px;
+    background-color: #0098d8;
+    margin: auto;
+    margin-bottom: 5px;
+    margin-top: 10px;
+}
+.container-fluid{
+    padding: 10px 100px 5px 100px;
+}
+
+.destinasi {
+    padding: 5px;
+}
+
+.produk1 img
+{
+  width: 100%;
+  height: auto;
+}
+
+.row.text-center{
+    margin: 0 auto;
+    padding-top: 10px;
+}
+
+/*zoom efect*/
+
+.produk1 {
+    width: 100%;
+    margin: 0 auto;
+  }
+  
+  .zoom-effect {
+    position: relative;
+    width: 100%;
+    height: 360px;
+    margin: 0 auto;
+    overflow: hidden;
+  }
+  
+  .kotak {
+    position: absolute;
+    top: 0;
+    left: 0;
+  }
+  
+  .kotak img {
+    -webkit-transition: 0.4s ease;
+    transition: 0.4s ease;
+    width: 700px;
+  }
+  
+  .zoom-effect:hover .kotak img {
+    -webkit-transform: scale(1.08);
+    transform: scale(1.08);
+  }
+
+
+  /*listdestinasi*/
+
+  .listdestinasi ul li
+  {
+      list-style: none;
+  }
+
+  .listdestinasi ul a{
+      text-decoration: none;
+      border-bottom: 0;
+      color: #000000;
+  }
+
+
+
