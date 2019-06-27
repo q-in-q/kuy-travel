@@ -4,6 +4,10 @@
     background-color: #ecf0f1;
   }
 
+.kepala ul li .login{
+    list-style: none;
+}
+
   /* adds some margin below the link sets  */
 .navbar .dropdown-menu div[class*="col"] {
     margin-bottom:1rem;
@@ -51,6 +55,34 @@
    }
  
  }
+
+ /*slider*/
+/*content*/
+
+@media (max-width: 767px){
+    .home h2 {
+        font-size: 20px;
+    }
+}
+
+.home h2{
+    font-size: 30px;
+    color: #000000;
+    line-height: normal;
+    text-align: center;
+    margin-top: 10px;
+    margin-bottom: 0;
+    font-family: inherit;
+}
+
+.home div{
+    width: 100px;
+    height: 3px;
+    background-color: #0098d8;
+    margin: auto;
+    margin-bottom: 5px;
+    margin-top: 10px;
+}
 
 /* Footer */
 @import url('https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css');
