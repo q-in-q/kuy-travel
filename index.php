@@ -72,7 +72,7 @@ include ("header.php");
 <div class="container-fluid">
   <div class="row">
     <div class="col-md-4">
-      <div><a href="javascript:void();"><i class="fab fa-facebook"></i></a></div>
+      <div><a href="javascript:void();"><i class="far fa-map"></i></a></div>
       <h2>asiap</h2>
 
     </div>
