@@ -10,6 +10,7 @@
     <script src="js/popper.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
     <script src="js/bootstrap.min.js" type="text/javascript"></script>
     <script src="js/jquery.js" type="text/javascript"></script>
+    <script src="js/slider.js" type="text.javascript"></script>
 
     <!-- Bootstrap CSS -->
     <link rel="stylesheet" href="./css/bootstrap.min.css">
@@ -47,8 +48,9 @@
           <li class="nav-item">
             <a class="nav-link" href="#">Promo</a>
           </li>
+        
           
-         <li class="nav-item dropdown">
+         <li class="nav-item ">
                     <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
                       Information
                     </a>
@@ -58,57 +60,25 @@
                       <div class="container">
                         <div class="row">
                           <div class="col-md-3">
-                            <span class="text-uppercase">Tentang Kami</span>
-                            <ul class="nav flex-column">
-                              <li class="nav-item">
-                                <a class="nav-link active" href="#">Active</a>
-                              </li>
-                              <li class="nav-item">
-                                <a class="nav-link" href="#">Link item</a>
-                              </li>
-                              <li class="nav-item">
-                                <a class="nav-link" href="#">Link item</a>
-                              </li>
-                           </ul>
+                            <span class="text-uppercase">Tentang Kami</span><br><br>
+                            <p>Perusahan Kami bergerak pada bidang jasa travel</p>
+                            <button type="button" class="btn btn-light">Baca Selengkapnya</button>
                           </div>
                           <!-- /.col-md-3  -->
                           <div class="col-md-3">
-                            <span class="text-uppercase">FAQ</span>
-                            <ul class="nav flex-column">
-                            <li class="nav-item">
-                              <a class="nav-link active" href="#">Active</a>
-                            </li>
-                            <li class="nav-item">
-                              <a class="nav-link" href="#">Link item</a>
-                            </li>
-                            <li class="nav-item">
-                              <a class="nav-link" href="#">Link item</a>
-                            </li>
+                            <span class="text-uppercase">FAQ</span><br><br>
+                            <p>Bagaimana cara memesan travel di kuytravel ?</p>
+                            <button type="button" class="btn btn-light">Baca Selengkapnya</button>
+                          </div>
+                          <!-- /.col-md-3  -->
+                          <div class="col-md-3">
+                            <span class="text-uppercase">Syarat dan Ketentuan</span><br><br>
+                            <p>Minimal pemesana travel untuk 5 orang </p>
+                            <button type="button" class="btn btn-light">Baca Selengkapnya</button>
                           </ul>
                           </div>
                           <!-- /.col-md-3  -->
-                          <div class="col-md-3">
-                            <span class="text-uppercase">Syarat dan Ketentuan</span>
-                            <ul class="nav flex-column">
-                            <li class="nav-item">
-                              <a class="nav-link active" href="#">Active</a>
-                            </li>
-                            <li class="nav-item">
-                              <a class="nav-link" href="#">Link item</a>
-                            </li>
-                            <li class="nav-item">
-                              <a class="nav-link" href="#">Link item</a>
-                            </li>
-                          </ul>
-                          </div>
-                          <!-- /.col-md-3  -->
-                          <div class="col-md-3">
-                            <a href="">
-                              <img src="https://dummyimage.com/200x100/ccc/000&text=image+link" alt="" class="img-fluid">
-                            </a>
-                            <p >Short image call to action</p>
 
-                          </div>
                           <!-- /.col-md-4  -->
                         </div>
                       </div>
@@ -116,9 +86,18 @@
 
 
                     </div>
+                    
         </li>
 
+
       </ul>
+      <ul class="navbar-nav mr-auto">
+        <li class="nav-item ">
+        <button type="button" class="btn btn-light" onclick="window.location.href='login.php'">LOGIN</button>
+        <button type="button" class="btn btn-light">PROFIL</button>
+        </li>
+      </ul>
+     
 
     </div>
 </nav>
