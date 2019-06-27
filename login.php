@@ -31,7 +31,7 @@
                         </div>
                         <input type="password" name="" class="form-control" placeholder="Masukkan Password" required="required">
                     </div><br>
-                    <button type="submit" class="btn">LOGIN</button>
+                    <button type="submit" class="btn" onclick="window.location.href='index.php'">LOGIN</button>
                 </div>
 
                 <div class="signupform">
@@ -60,7 +60,7 @@
                         </div>
                         <input type="password" name="" class="form-control" placeholder="Konfirmasi Password Anda" required="required">
                     </div>
-                    <button type="submit" class="btn">REGISTRASI</button>
+                    <button type="submit" class="btn" onclick="window.location.href='index.php'">REGISTRASI</button>
                 </div>
 
                 <div class="login_msg">Memiliki Akun ?</div>
