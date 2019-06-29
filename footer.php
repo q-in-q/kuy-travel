@@ -123,7 +123,7 @@
   </div>
 </footer>
 
-<div style="width: 1318px; height: 90px; background: orange;
+<div style="width: 100%; height: 90px; background: orange;
 margin-top: 20px; padding-top: 20px;">
     <div class="container" >
       <div class="row align-items-center">

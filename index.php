@@ -70,7 +70,7 @@ include ("header.php");
                 <!-- footer nya jangan diubah lagi ntar aku yang atur-->                  
                 </div>
               <div class="container-fluid" style="width: 1320px;
-  background-image: url(https://d19m59y37dris4.cloudfront.net/directory/1-2/img/photo/photo-1497436072909-60f360e1d4b1.jpg);
+  background-image: url(nitish-meena-RbbdzZBKRDY-unsplash.jpg);
   width: 100%;
   height: 700px;
   margin-left: 5px;">
