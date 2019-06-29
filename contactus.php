@@ -219,8 +219,7 @@ a {
   }
 }
   </style>
-</head>
-<body>
+
 <div class="container">
 <div class="contact-section">
     <h2 class="ct-section-head">

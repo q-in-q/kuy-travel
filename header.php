@@ -47,12 +47,16 @@
           <li class="nav-item active">
             <a class="nav-link" href="#" onclick="window.location.href='index.php'">Home <span class="sr-only">(current)</span></a>
           </li>
-          <li class="nav-item">
-          <a class="nav-link" href="#">Tour Recomendation</a>
-         </li>
-          <li class="nav-item">
-            <a class="nav-link" href="#">Tour Packet</a>
-         </li>
+          <li class="nav-item dropdown rute">
+            <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+              Route
+            </a>
+            <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+              <a class="dropdown-item" href="#">Action</a>
+              <a class="dropdown-item" href="#">Another action</a>
+              <div class="dropdown-divider"></div>
+            </div>
+          </li>
          <li class="nav-item">
            <a class="nav-link" href="#">Booking</a>
          </li>
