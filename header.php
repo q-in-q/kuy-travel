@@ -48,16 +48,16 @@
             <a class="nav-link" href="#" onclick="window.location.href='index.php'">Home <span class="sr-only">(current)</span></a>
           </li>
           <li class="nav-item">
-          <a class="nav-link" href="#">Rekomendasi Wisata</a>
+          <a class="nav-link" href="#">Tour Recomendation</a>
          </li>
           <li class="nav-item">
-            <a class="nav-link" href="#">Paket Wisata</a>
+            <a class="nav-link" href="#">Tour Packet</a>
          </li>
          <li class="nav-item">
-           <a class="nav-link" href="#">Pemesanan</a>
+           <a class="nav-link" href="#">Booking</a>
          </li>
           <li class="nav-item">
-            <a class="nav-link" href="#">Promo</a>
+            <a class="nav-link" href="#">Discount</a>
           </li>
         
           
