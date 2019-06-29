@@ -2,6 +2,54 @@
 include ("header.php");
 ?>
 <!--Carousel Wrapper-->
+<title>KUY Travel</title>
+  </head>
+  <body>
+    <style>
+      body {
+        font-family: 'Montserrat', sans-serif;
+      }
+    </style>
+      <!--Navbar-->
+    <nav class="kepala navbar navbar-expand-lg navbar-light fixed-top">
+
+            <a class="navbar-brand" href="#">Travel Jogja</a>
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+              <span class="navbar-toggler-icon"></span>
+            </button>
+          
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+              <ul class="navbar-nav mr-auto">
+                <li class="nav-item active">
+                  <a class="nav-link" href="#">Home <span class="sr-only">(current)</span></a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="#">Link</a>
+                </li>
+                <li class="nav-item dropdown">
+                  <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                    Dropdown
+                  </a>
+                  <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                    <a class="dropdown-item" href="#">Action</a>
+                    <a class="dropdown-item" href="#">Another action</a>
+                    <div class="dropdown-divider"></div>
+                    <a class="dropdown-item" href="#">Something else here</a>
+                  </div>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link disabled" href="#" tabindex="-1" aria-disabled="true">Disabled</a>
+                </li>
+              </ul>
+              <form class="form-inline my-2 my-lg-0">
+                <input class="form-control mr-sm-2" type="search" placeholder="Search" aria-label="Search">
+                <button class="btn btn-outline-success my-2 my-sm-0" type="submit"><i class="fas fa-search"></i></button>
+              </form>
+            </div>
+          </nav>
+
+          <!--Slider-->
+          <!--Carousel Wrapper-->
 <div id="carousel-example-2" class="carousel slide carousel-fade" data-ride="carousel">
   <!--Indicators-->
   <ol class="carousel-indicators">
@@ -60,11 +108,112 @@ include ("header.php");
   </a>
   <!--/.Controls-->
 </div>
+<!--/.Carousel Wrapper-->
+<br>
+<br>
+              <!--footer-->
+              <div class="menufooter">
+                <div class="listfooter">
+                  <div class="listfooter1">
+                    <p>Commercial Aircraft</p>
+                    <hr>
+                    <div class="listservis">
+                      <ul>
+                        <li><a href="#">Ifly A380.com</a></li>
+                        <li><a href="#">Service by Airbus</a></li>
+                        <li><a href="#">Airspace</a></li>
+                        <li><a href="#">Pasengger Aircraft</a></li>
+                        <li><a href="#">Corporate Aircraft</a></li>
+                      </ul>
+                    </div>
+                  </div>
+                  <div class="listfooter1">
+                      <p>Inovation</p>
+                      <hr>
+                      <div class="listservis">
+                        <ul>
+                          <li><a href="#">Airbus aerial</a></li>
+                          <li><a href="#">Airbus Ventures</a></li>
+                          <li><a href="#">Airbus Bizlab</a></li>
+                          <li><a href="#">Fly Your Ideas</a></li>
+                        </ul>
+                      </div>
+                        </div>
+                        <div class="listfooter1">
+                      <p>Inovation</p>
+                      <hr>
+                      <div class="listservis">
+                        <ul>
+                          <li><a href="#">Airbus aerial</a></li>
+                          <li><a href="#">Airbus Ventures</a></li>
+                          <li><a href="#">Airbus Bizlab</a></li>
+                          <li><a href="#">Fly Your Ideas</a></li>
+                        </ul>
+                      </div>
+                  </div>
+                  <div class="listfooter1">
+                      <p>Others</p>
+                      <hr>
+                      <div class="listservis">
+                        <ul>
+                          <li><a href="#">Newsroom</a></li>
+                          <li><a href="#">Investors</a></li>
+                          <li><a href="#">Careers</a></li>
+                          <li><a href="#">Supliers</a></li>
+                          <li><a href="#">Let's shop</a></li>
+                        </ul>
+                      </div>
+                  </div>
+                  <br>
+                  <br>
+                  <br>
+                <br>
+                <br>
+                <br>
+          <div class="bd-example">
+                <div id="carouselExampleCaptions" class="carousel slide" data-ride="carousel">
+                  <ol class="carousel-indicators">
+                    <li data-target="#carouselExampleCaptions" data-slide-to="0" class="active"></li>
+                    <li data-target="#carouselExampleCaptions" data-slide-to="1"></li>
+                    <li data-target="#carouselExampleCaptions" data-slide-to="2"></li>
+                  </ol>
+                  <div class="carousel-inner">
+                    <div class="carousel-item active">
+                      <img src="image/walp.jpg" class="d-block w-100" alt="...">
+                      <div class="carousel-caption d-none d-md-block">
+                        <h5>First slide label</h5>
+                        <p>Nulla vitae elit libero, a pharetra augue mollis interdum.</p>
+                      </div>
+                    </div>
+                    <div class="carousel-item">
+                      <img src="image/wapl2.jpg" class="d-block w-100" alt="...">
+                      <div class="carousel-caption d-none d-md-block">
+                        <h5>Second slide label</h5>
+                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+                      </div>
+                    </div>
+                    <div class="carousel-item">
+                      <img src="image/wapl2.jpg" class="d-block w-100" alt="...">
+                      <div class="carousel-caption d-none d-md-block">
+                        <h5>Third slide label</h5>
+                        <p>Praesent commodo cursus magna, vel scelerisque nisl consectetur.</p>
+                      </div>
+                    </div>
+                  </div>
+                  <a class="carousel-control-prev" href="#carouselExampleCaptions" role="button" data-slide="prev">
+                    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                    <span class="sr-only">Previous</span>
+                  </a>
+                  <a class="carousel-control-next" href="#carouselExampleCaptions" role="button" data-slide="next">
+                    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                    <span class="sr-only">Next</span>
+                  </a>
+                </div>
+              </div>
 
-
-<!--conten aziz-->
-
-</div>
+>>>>>>> 4f6fc4d99b1637394e48236bb235de5d61ecaa86
+                <!-- footer nya jangan diubah lagi ntar aku yang atur-->                  
+                </div>
               <div class="container-fluid" style="width: 1320px;
   background-image: url(https://d19m59y37dris4.cloudfront.net/directory/1-2/img/photo/photo-1497436072909-60f360e1d4b1.jpg);
   height: 700px;
@@ -278,8 +427,6 @@ margin-top: 20px; padding-top: 20px;">
       </div>
     </div>
   </div>
-          </div>  
-
 
    
 
