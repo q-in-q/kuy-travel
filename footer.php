@@ -73,7 +73,7 @@
           <h6 class="font-weight-bold textt-uppercase text-dark mb-3">Pages</h6>
           <ul class="list-unstyled">
             <li>
-              <a href="Three.html" class="text-dark"
+              <a href="#" onclick="window.location.href='contactus.php'" class="text-dark"
               data-toggle="tooltip" title="Any Problem?">Contact US</a>
             </li>
             <li>
