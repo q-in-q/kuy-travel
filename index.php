@@ -68,12 +68,16 @@ include ("header.php");
 <br>
 <!-- footer nya jangan diubah lagi ntar aku yang atur-->         
  </div>
+<<<<<<< HEAD
+ <div class="container-fluid"style="background: #bdc3c7; height: 700px; padding-top: 50px; width: 100%; margin-left: 9px; width: 100%;">
+=======
  <div class="container">
     <div class="col-md-12">
 
     </div>
  </div>
 <div class="class-content-inner"style="background: #bdc3c7; height: 700px; padding-top: 50px; width: 100%; margin-left: 9px;">
+>>>>>>> fcdf1104b8e99f4a4643d8e1b2a5d711e20f86e2
         <h1 align="center">Wisata Dengan Paket Murah</h1>
     <p align="center" class="font-weight-lighter">Note: Try to add a new div with class="col" inside the row class - this will create four equal-width columns.
     </p><p align="center">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
@@ -223,8 +227,12 @@ include ("header.php");
 </div>
 <br>
 <br>
+<<<<<<< HEAD
+<section id="examples" class="container-fluid">
+=======
 
 <section id="examples" class="text-center">
+>>>>>>> fcdf1104b8e99f4a4643d8e1b2a5d711e20f86e2
 
                 <!-- Heading -->
                 <h2 class="mb-5 font-weight-bold">Stunning Examples</h2>
@@ -349,7 +357,7 @@ include ("header.php");
             <hr class="my-5">
 
             <!--Section: Gallery-->
-            <section id="gallery">
+            <section id="gallery" class="container-fluid">
 
                 <!-- Heading -->
                 <h2 class="mb-5 font-weight-bold text-center">Gallery heading</h2>
@@ -439,8 +447,8 @@ include ("header.php");
   <br>
   <br>
   <br>
-  <div class="cont" style="
-  width: 1318px;
+  <div class="container-fluid" style="
+  width: 100%;
   height: 680px">
   <h1 align="center">Look the reccomendation Holiday</h1>
   <p align="center">Display headings are used to stand out more than normal headings (larger font-size and lighter font-weight)
@@ -499,7 +507,7 @@ include ("header.php");
 <div class="tab">
   <style>
     .tab {
-      width: 1300px;
+      width: 100%;
       height: 30px;
       -webkit-transition: height 1s;
       transition: height 1s;
@@ -693,12 +701,14 @@ function openCity(evt, cityName) {
   </div>
   <br>  
   <br>
-  <div class="container-5" style=" width: 1318px; padding-top: 40px; background-color: lavender; height: 200px;">
+  <div class="container-fluid" style=" width: 100%; padding-top: 40px; background-color: lavender; height: 200px;">
   <h1 align="center">Abbrevitations</h1>
   <p class="lead" style="font-size: 1rem; text-align: center;">Elemen abbr digunakan untuk menandai singkatan atau akronim:</p> 
   <p class="lead" style="font-size: 1rem; text-align: center;">The <abbr title="World Health Oraganization">WHO</abbr> was founded in 1948</p>
   </div>
- <div class="container-fluid" style="width: 1320px;
+  <br>
+  <br>
+ <div class="container-fluid" style="width: 100%;
   background-image: url(nitish-meena-RbbdzZBKRDY-unsplash.jpg);
   width: 100%;
   height: 700px;
