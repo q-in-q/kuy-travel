@@ -41,18 +41,22 @@
 
     <div class="collapse navbar-collapse" id="navbarSupportedContent">
       <form class="col-md-4 form-inline my-2 my-lg-0">
-        <input class="form-control" type="search" placeholder="Search" data-toggle="modal" data-target="#centralModallg" aria-label="Search">
+        <input class="form-control" type="search" placeholder="Search" data-toggle="modal" data-target="#centralModallg" aria-label="Search" data-target="#centralModalSm">
       </form>
       <ul class="navbar-nav mr-auto">
           <li class="nav-item active">
             <a class="nav-link" href="#" onclick="window.location.href='index.php'">Home <span class="sr-only">(current)</span></a>
           </li>
-          <li class="nav-item">
-          <a class="nav-link" href="#">Tour Recomendation</a>
-         </li>
-          <li class="nav-item">
-            <a class="nav-link" href="#">Tour Packet</a>
-         </li>
+          <li class="nav-item dropdown rute">
+            <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+              Route
+            </a>
+            <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+              <a class="dropdown-item" href="#">Action</a>
+              <a class="dropdown-item" href="#">Another action</a>
+              <div class="dropdown-divider"></div>
+            </div>
+          </li>
          <li class="nav-item">
            <a class="nav-link" href="#">Booking</a>
          </li>
@@ -108,6 +112,35 @@
         <button type="button" class="btn btn-light">PROFIL</button>
         </li>
       </ul>
+
+      <!--modallllsearchinggg bossskuuu-->
+
+      <!-- Central Modal Small -->
+<div class="modal fade" id="centralModalSm" tabindex="-1" role="dialog" aria-labelledby="myModalLabel"
+  aria-hidden="true">
+
+  <!-- Change class .modal-sm to change the size of the modal -->
+  <div class="modal-dialog modal-sm" role="document">
+
+
+    <div class="modal-content">
+      <div class="modal-header">
+        <h4 class="modal-title w-100" id="myModalLabel">Modal title</h4>
+        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+          <span aria-hidden="true">&times;</span>
+        </button>
+      </div>
+      <div class="modal-body">
+        ...
+      </div>
+      <div class="modal-footer">
+        <button type="button" class="btn btn-secondary btn-sm" data-dismiss="modal">Close</button>
+        <button type="button" class="btn btn-primary btn-sm">Save changes</button>
+      </div>
+    </div>
+  </div>
+</div>
+<!-- Central Modal Small -->
      
 
     </div>
