@@ -66,7 +66,9 @@ include ("header.php");
 <!--/.Carousel Wrapper-->
 <br>
 <br>
-<div class="class-content-inner"style="background: #bdc3c7; height: 700px; padding-top: 50px; width: 1327px; margin-left: 9px;">
+<!-- footer nya jangan diubah lagi ntar aku yang atur-->         
+ </div>
+ <div class="class-content-inner"style="background: #bdc3c7; height: 700px; padding-top: 50px; width: 1327px; margin-left: 9px;">
         <h1 align="center">Wisata Dengan Paket Murah</h1>
     <p align="center" class="font-weight-lighter">Note: Try to add a new div with class="col" inside the row class - this will create four equal-width columns.
     </p><p align="center">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
@@ -690,10 +692,7 @@ function openCity(evt, cityName) {
   <p class="lead" style="font-size: 1rem; text-align: center;">Elemen abbr digunakan untuk menandai singkatan atau akronim:</p> 
   <p class="lead" style="font-size: 1rem; text-align: center;">The <abbr title="World Health Oraganization">WHO</abbr> was founded in 1948</p>
   </div>
-             
-                <!-- footer nya jangan diubah lagi ntar aku yang atur-->                  
-                </div>
-              <div class="container-fluid" style="width: 1320px;
+ <div class="container-fluid" style="width: 1320px;
   background-image: url(nitish-meena-RbbdzZBKRDY-unsplash.jpg);
   width: 100%;
   height: 700px;
