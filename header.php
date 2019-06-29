@@ -48,16 +48,16 @@
             <a class="nav-link" href="#" onclick="window.location.href='index.php'">Home <span class="sr-only">(current)</span></a>
           </li>
           <li class="nav-item">
-          <a class="nav-link" href="#">Rekomendasi Wisata</a>
+          <a class="nav-link" href="#">Tour Recomendation</a>
          </li>
           <li class="nav-item">
-            <a class="nav-link" href="#">Paket Wisata</a>
+            <a class="nav-link" href="#">Tour Packet</a>
          </li>
          <li class="nav-item">
-           <a class="nav-link" href="#">Pemesanan</a>
+           <a class="nav-link" href="#">Booking</a>
          </li>
           <li class="nav-item">
-            <a class="nav-link" href="#">Promo</a>
+            <a class="nav-link" href="#">Discount</a>
           </li>
         
           
@@ -72,19 +72,19 @@
                         <div class="row">
                           <div class="col-md-3">
                             <span class="text-uppercase">Tentang Kami</span><br><br>
-                            <p>Perusahan Kami bergerak pada bidang jasa travel</p>
+                          
                             <button type="button" class="btn btn-light">Baca Selengkapnya</button>
                           </div>
                           <!-- /.col-md-3  -->
                           <div class="col-md-3">
                             <span class="text-uppercase">FAQ</span><br><br>
-                            <p>Bagaimana cara memesan travel di kuytravel ?</p>
+                            
                             <button type="button" class="btn btn-light">Baca Selengkapnya</button>
                           </div>
                           <!-- /.col-md-3  -->
                           <div class="col-md-3">
                             <span class="text-uppercase">Syarat dan Ketentuan</span><br><br>
-                            <p>Minimal pemesana travel untuk 5 orang </p>
+                            
                             <button type="button" class="btn btn-light">Baca Selengkapnya</button>
                           </ul>
                           </div>
