@@ -68,7 +68,12 @@ include ("header.php");
 <br>
 <!-- footer nya jangan diubah lagi ntar aku yang atur-->         
  </div>
- <div class="class-content-inner"style="background: #bdc3c7; height: 700px; padding-top: 50px; width: 1327px; margin-left: 9px;">
+ <div class="container">
+    <div class="col-md-12">
+
+    </div>
+ </div>
+<div class="class-content-inner"style="background: #bdc3c7; height: 700px; padding-top: 50px; width: 100%; margin-left: 9px;">
         <h1 align="center">Wisata Dengan Paket Murah</h1>
     <p align="center" class="font-weight-lighter">Note: Try to add a new div with class="col" inside the row class - this will create four equal-width columns.
     </p><p align="center">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
@@ -218,6 +223,7 @@ include ("header.php");
 </div>
 <br>
 <br>
+
 <section id="examples" class="text-center">
 
                 <!-- Heading -->
