@@ -1,0 +1,40 @@
+  /*countdown promo*/
+
+
+
+  ul.countdown li {
+    display: inline-block;
+    font-size: 12px;
+    list-style-type: none;
+    padding: 10px;
+    text-transform: uppercase;
+  }
+  
+  ul.countdown li span {
+    display: block;
+    font-size: 12px;
+  }
+
+  .container.text-transparent {
+      background: #ffffffb6;
+      color: #202020;
+      
+  }
+
+  .container.text-transparent ul {
+      padding: 0;
+  }
+
+  .countdown h4{
+      color: #0069d9;
+      padding: 10px 0 0 0;
+      font-size: 15px;
+      font-weight: 500;
+      margin: 0;
+  }
+
+  .countdown h4.berakhir {
+      color: #b40000;
+      font-weight: bold;
+  }
+  
