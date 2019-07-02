@@ -102,10 +102,7 @@
 
               <div class="clear"></div>
 
-              <div class="row text-center">
-                  <button type="button" class="btn btn-primary" > <a onclick="window.location.href='promoall.php'">View All</a></button>
-
-              </div>
+          
 
             
 
