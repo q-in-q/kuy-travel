@@ -124,10 +124,12 @@
 </footer>
 
 <div style="width: 100%; 
-height: 90px; 
+height: 120px; 
+padding-bottom: 10px;
 background: #343a40 !important; 
 padding-top: 40px;
-padding-left: 20px;">
+padding-left: 20px;
+">
 		<div class="container-fluid" >
 			<div class="row align-items-center">
 				<div class="col-md-6 text-center text-md-left">

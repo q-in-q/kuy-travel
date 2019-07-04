@@ -63,10 +63,7 @@ include ("header.php");
   </a>
   <!--/.Controls-->
 </div>
-<!--/.Carousel Wrapper-->
-<br>
-<br>
-<!-- footer nya jangan diubah lagi ntar aku yang atur-->         
+<!--/.Carousel Wrapper-->    
  </div>
 <div class="container-fluid">
     <div class="row">
@@ -399,7 +396,7 @@ include ("header.php");
                             </ol>
                             <!--/.Indicators-->
                             <!--Slides-->
-                            <div class="carousel-inner z-depth-1-half" role="listbox">
+                            <div class="carousel-inner" role="listbox">
                                 <!--First slide-->
                                 <div class="carousel-item active">
                                     <img class="d-block w-100" src="https://mdbootstrap.com/img/Photos/Slides/img%20(130).jpg"
@@ -535,7 +532,6 @@ include ("header.php");
   </blockquote>
 </div>
 
-   
 
 <?php 
 include ("footer.php");
