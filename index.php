@@ -68,166 +68,17 @@ include ("header.php");
 <br>
 <!-- footer nya jangan diubah lagi ntar aku yang atur-->         
  </div>
-<div class="class-content-inner"style="background: #bdc3c7; height: 700px; padding-top: 50px; width: 100%; margin-left: 9px;">
-
-        <h1 align="center">Wisata Dengan Paket Murah</h1>
-    <p align="center" class="font-weight-lighter">Note: Try to add a new div with class="col" inside the row class - this will create four equal-width columns.
-    </p><p align="center">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
-    tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
-    quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
-    consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
-    cillum dolore eu fugiat nulla pariatur.</p>
-    <div class="row" style="padding-top: 40px; margin-left: 0px;">
-      <div align="left" style="background: url(Anime-Minimalism-4e-Wallpaper-640-x-960-380x570.jpg);
-      color: white;
-      width: 290px;
-      height: 400px;
-      margin-left: 20px;
-      border-radius: 20px;
-      margin-left: 50px;
-      padding-top: 100px;
-      padding-left: 20px;
-      padding-right: 20px;">
-      <p style=" 
-      color: white;
-      " align="center">
-        Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
-        tempor incididunt ut labore et dolore magna aliqua. 
-      </p>
-    </div>
-      <div align="center" style="
-      background-image: url(Anime-Minimalism-4e-Wallpaper-640-x-960-380x570.jpg);
-        width: 290px; 
-        margin-right: 10px;
-        border-radius: 20px;
-        height: 400px;
-        margin-left: 20px;
-        margin-right: 20px;"
-        align="center">       
-      </div>
-      <div align="right">
-      <p style="background: url(Anime-Minimalism-4e-Wallpaper-640-x-960-380x570.jpg);
-      color: white;
-      width: 290px;
-      height: 400px;
-      padding-top: 100px;
-      padding-left: 20px;
-      padding-right: 20px;
-      border-radius: 20px;
-      margin-right: 20px;
-      " align="center">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
-      tempor incididunt ut labore et dolore magna aliqua.</p>
-    </div>
-    <div style="background-image: url(Anime-Minimalism-4e-Wallpaper-640-x-960-380x570.jpg);
-        width: 290px; 
-        margin-right: 10px;
-        border-radius: 20px;
-        height: 400px;
-        margin-right: 10px;">
-        <div> 
-      </div>
-    </div>
-  </div>
-  <br>
-  <br>
-  <br>
-  <br>
-  <div class="container-fluid" style="width: 1318px; 
-  margin-top: 70px;
-  margin-bottom: 70px;">
-  <h1 align="center">Two Unequal Responsive Columns</h1>
-  <h2 align="center" style="
-  font-size: 2.5rem;
-  ">Start Bootsrap</h2>
-  <p align="center" style="
-  font-size: 2rem;
-  ">Resize the browser window to see the effect.</p>
-  <p align="center" class="lead">The columns will automatically stack on top of each other when the screen is less than 576px wide.</p>
-  <br>
-  <br>
-  <div class="row" style="
-  width: 1330px;
-  height: 800px;
-  margin-left: -7px;">
-    <div class="" style="
-    background-image: url(glass_hands_drink_142823_960x544.jpg);
-    width: 653px;
-    height: 400px;
-    margin-right: 2px;
-    ">
-      <div>
-        <p align="center"
-        style="
-        color: white;
-        ">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
-        tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
-        quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
-        consequat..</p>
-      </div>
-    </div>
-    <div align="right"style="
-    background-image: url(glass_hands_drink_142823_960x544.jpg);
-    margin-left: 0px;
-    width: 653px;
-    height: 400px;
-    ">
-    <p style="
-      color: white;
-      text-align: center;
-      padding-top: 40px;">
-      Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
-      tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
-      quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
-      consequat.
-    </p>
-    </div>
-    <div align="left"style="
-    background-image: url(glass_hands_drink_142823_960x544.jpg);
-    width: 653px;
-    height: 400px;
-    margin-top: 2px;
-    ">
-    <p style="
-      color: white;
-      text-align: center;
-      padding-top: 40px;">
-      Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
-      tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
-      quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
-      consequat.
-    </p>
-    </div>
-    <div align="right"style="
-    background-image: url(glass_hands_drink_142823_960x544.jpg);
-    margin-left: 0px;
-    width: 653px;
-    height: 400px;
-    margin-top: 2px;
-    margin-left: 2px;
-    ">
-    <p style="
-      color: white;
-      text-align: center;
-      padding-top: 40px;">
-      Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
-      tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
-      quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
-      consequat.
-    </p>
-    </div>
-  </div>
-</div>
-<br>
-<br>
-
-<hr class="my-5">
-<!--stuninggg-->
-<section id="examples" class="container-fluid">
-
-<section id="examples" class="text-center">
+<div class="container-fluid">
+    <div class="row">
+      <section id="examples" class="text-center"
+      style="
+      background:  #f8f9fa !important;
+      height: 600px;
+      padding:120px 20px 20px 20px;
+      ">
 
                 <!-- Heading -->
-                <h2 class="mb-5 font-weight-bold">Stunning Examples</h2>
+                <h2 class="mb-5 font-weight-bold">ONE-OF-KIND VACATION RENTALS</h2>
 
                 <!--Grid row-->
                 <div class="row">
@@ -235,7 +86,182 @@ include ("header.php");
                     <!--Grid column-->
                     <div class="col-lg-4 col-md-12 mb-4">
 
-                        <div class="view overlay z-depth-1-half">
+                        <div class="">
+                          
+                            <div class="mask rgba-white-slight"></div>
+                        </div>
+                        <i><img class="text-center" src="002-bus-3.png"
+                          style="width: 80px;
+                          height: 80px;"></i>
+                        <h4 class="my-4 font-weight-bold">Column 1</h4>
+                        <p class="grey-text">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Reprehenderit
+                            maiores nam,
+                            aperiam minima
+                            assumenda deleniti hic.</p>
+
+                    </div>
+                    <!--Grid column-->
+
+                    <!--Grid column-->
+                    <div class="col-lg-4 col-md-6 mb-4">
+
+                        <div class="">
+                           
+                            <div class="mask rgba-white-slight"></div>
+                        </div>
+                        <i><img class="text-center" src="010-train-2.png"
+                          style="width: 80px;
+                          height: 80px;"></i>
+                        <h4 class="my-4 font-weight-bold">Column 2</h4>
+                        <p class="grey-text">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Reprehenderit
+                            maiores nam,
+                            aperiam minima
+                            assumenda deleniti hic.</p>
+
+                    </div>
+                    <!--Grid column-->
+
+                    <!--Grid column-->
+                    <div class="col-lg-4 col-md-6 mb-4">
+
+                        <div class="">
+                        
+                            <div class="mask rgba-white-slight"></div>
+                        </div>
+                        <i><img class="text-center" src="014-car.PNG"
+                          style="width: 80px;
+                          height: 80px;"></i>
+                        <h4 class="my-4 font-weight-bold">Column 3</h4>
+                        <p class="grey-text">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Reprehenderit
+                            maiores nam,
+                            aperiam minima
+                            assumenda deleniti hic.</p>
+
+                    </div>
+                    <!--Grid column-->
+
+                </div>
+              </section>
+    </div>
+  </div>
+  <section class="bg-white shadow">
+  <div class="class-content-inner"style="height: 740px; width: 100%; margin-left: 50px; 
+  padding: 100px 20px 20px 20px;">
+    <h5 align="left">
+    <B style="margin-left: 21px;
+    margin-top: 40px;
+    color: lightblue;">STAY AND EAT LIKE A LOCAL</B>
+    </h5>
+    <h1 style="margin-left: 20px;"><p align="left"><b>Our Guides</b></p>
+    </h1>
+    <h6 align="right" style="padding-right: 120px;"><a href="" class="text-muted">see all guides</a></h6>
+    <div class="row" style=" width:100%; padding-top: 40px; margin-left: 0px;">
+      <div align="center" style="background: url(Anime-Minimalism-4e-Wallpaper-640-x-960-380x570.jpg);
+      color: white;
+      width: 212px;
+      height: 350px;
+      border-radius: 10px;
+      margin-left: 20px;
+      padding-top: 100px;
+      padding-left: 20px;
+      padding-right: 20px;">
+      <p style=" 
+      color: white;
+      " align="left">
+        <div align="left" style="margin-top: 150px;">
+        <b>Yogyakarta</b>
+        <p>Lorem ipsum dolor sit amet,</p>
+        </div> 
+      </p>
+    </div>
+      <div align="center" style="
+      background-image: url(Anime-Minimalism-4e-Wallpaper-640-x-960-380x570.jpg);
+      color: white;
+      width: 212px;
+      height: 350px;
+      border-radius: 10px;
+      margin-left: 30px;
+      padding-top: 100px;
+      padding-left: 20px;
+      padding-right: 20px;"
+      align="center">
+      <div align="left" style="margin-top: 150px; color: white; padding-left: 20px
+        padding-right:20px;">
+        <b>Yogyakarta</b>
+        <p>Lorem ipsum dolor sit amet,</p>
+        </div>        
+      </div>
+      <div align="center"
+      style="background: url(Anime-Minimalism-4e-Wallpaper-640-x-960-380x570.jpg);
+      color: white;
+      width: 212px;
+      height: 350px;
+      padding-top: 100px;
+      padding-left: 20px;
+      padding-right: 20px;
+      border-radius: 10px;
+      margin-right: 30px;
+      margin-left: 30px;
+      " align="center">
+      <div align="left" style="margin-top: 150px; color: white; padding-left: 20px
+        padding-right:20px;">
+        <b>Yogyakarta</b>
+        <p>Lorem ipsum dolor sit amet,</p>
+        </div>
+    </div>
+    <div style="background-image: url(Anime-Minimalism-4e-Wallpaper-640-x-960-380x570.jpg);
+      color: white;
+      width: 212px;
+      height: 350px;
+      padding-top: 100px;
+      padding-left: 20px;
+      padding-right: 20px;
+      border-radius: 10px;
+      margin-right: 30px;">
+        <div align="left" style="margin-top: 150px; color: white; padding-left: 20px
+        padding-right:20px;">
+        <b>Yogyakarta</b>
+        <p>Lorem ipsum dolor sit amet,</p>
+        </div>
+        <div> 
+      </div>
+    </div>
+    <div style="background-image: url(Anime-Minimalism-4e-Wallpaper-640-x-960-380x570.jpg);
+      color: white;
+      width: 212px;
+      height: 350px;
+      padding-top: 100px;
+      padding-left: 20px;
+      padding-right: 20px;
+      border-radius: 10px;
+      margin-right: 30px;">
+        <div align="left" style="margin-top: 150px; color: white; padding-left: 20px
+        padding-right:20px;">
+        <b>Yogyakarta</b>
+        <p>Lorem ipsum dolor sit amet,</p>
+        </div>
+    </div>
+  </div>
+</div>
+</section>
+  <section id="examples" class="text-center"
+  style="
+  width: 100%;
+  padding: 60px 20px 10px 20px;
+  background: #f8f9fa !important;"   
+  >
+
+                <!-- Heading -->
+                <h2 class="mb-5 font-weight-bold">Stunning Examples</h2>
+                <p class="mb-5 font-weight-light"> Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmodtempor incididunt ut labore et dolore magna aliqua. </p>
+
+                <!--Grid row-->
+                <div class="row">
+
+                    <!--Grid column-->
+                    <div class="col-lg-4 col-md-12 mb-4">
+
+                        <div class="">
                             <img src="https://mdbootstrap.com/img/Photos/Others/images/48.jpg" class="img-fluid" alt="">
                             <div class="mask rgba-white-slight"></div>
                         </div>
@@ -252,7 +278,7 @@ include ("header.php");
                     <!--Grid column-->
                     <div class="col-lg-4 col-md-6 mb-4">
 
-                        <div class="view overlay z-depth-1-half">
+                        <div class="">
                             <img src="https://mdbootstrap.com/img/Photos/Others/images/49.jpg" class="img-fluid" alt="">
                             <div class="mask rgba-white-slight"></div>
                         </div>
@@ -269,7 +295,7 @@ include ("header.php");
                     <!--Grid column-->
                     <div class="col-lg-4 col-md-6 mb-4">
 
-                        <div class="view overlay z-depth-1-half">
+                        <div class="">
                             <img src="https://mdbootstrap.com/img/Photos/Others/images/29.jpg" class="img-fluid" alt="">
                             <div class="mask rgba-white-slight"></div>
                         </div>
@@ -292,7 +318,7 @@ include ("header.php");
                     <!--Grid column-->
                     <div class="col-lg-4 col-md-12 mb-4">
 
-                        <div class="view overlay z-depth-1-half">
+                        <div class="">
                             <img src="https://mdbootstrap.com/img/Photos/Others/images/10.jpg" class="img-fluid" alt="">
                             <div class="mask rgba-white-slight"></div>
                         </div>
@@ -309,7 +335,7 @@ include ("header.php");
                     <!--Grid column-->
                     <div class="col-lg-4 col-md-6 mb-4">
 
-                        <div class="view overlay z-depth-1-half">
+                        <div class="">
                             <img src="https://mdbootstrap.com/img/Photos/Others/images/11.jpg" class="img-fluid" alt="">
                             <div class="mask rgba-white-slight"></div>
                         </div>
@@ -326,7 +352,7 @@ include ("header.php");
                     <!--Grid column-->
                     <div class="col-lg-4 col-md-6 mb-4">
 
-                        <div class="view overlay z-depth-1-half">
+                        <div class="">
                             <img src="https://mdbootstrap.com/img/Photos/Others/images/13.jpg" class="img-fluid" alt="">
                             <div class="mask rgba-white-slight"></div>
                         </div>
@@ -349,7 +375,10 @@ include ("header.php");
             <hr class="my-5">
 
             <!--Section: Gallery-->
-            <section id="gallery" class="container-fluid">
+            <section id="gallery" 
+            style="
+            width: 100%;
+            padding: 10px 10px 10px 10px;">
 
                 <!-- Heading -->
                 <h2 class="mb-5 font-weight-bold text-center">Gallery heading</h2>
@@ -436,273 +465,21 @@ include ("header.php");
                 <!--Grid row-->
 
             </section>
-  <br>
-  <br>
-  <br>
+
+  <hr class="my-5">
+
   <div class="container-fluid" style="
   width: 100%;
-  height: 680px">
+  height: 680px;
+  padding:10px 10px 10px 10px;"
+  >
   <h1 align="center">Look the reccomendation Holiday</h1>
   <p align="center">Display headings are used to stand out more than normal headings (larger font-size and lighter font-weight)
   <br>
   click on it! and check the descriptin at the your has choose</p>
-
- <style>
-.tab {
-  overflow: hidden;
-  border: 1px solid #ccc;
-  background-color: #f1f1f1;
-}
-
-/* Style the buttons inside the tab */
-.tab button {
-  background-color: inherit;
-  float: left;
-  border: none;
-  outline: none;
-  cursor: pointer;
-  padding: 14px 16px;
-  transition: 0.3s;
-  font-size: 17px;
-}
-
-/* Change background color of buttons on hover */
-.tab button:hover {
-  background-color: #ddd;
-}
-
-/* Create an active/current tablink class */
-.tab button.active {
-  background-color: #ccc;
-}
-
-/* Style the tab content */
-.tabcontent {
-  display: none;
-  padding: 6px 12px;
-  -webkit-animation: fadeEffect 1s;
-  animation: fadeEffect 1s;
-}
-
-/* Fade in tabs */
-@-webkit-keyframes fadeEffect {
-  from {opacity: 0;}
-  to {opacity: 1;}
-}
-
-@keyframes fadeEffect {
-  from {opacity: 0;}
-  to {opacity: 1;}
-}
-</style>
-
-<div class="tab">
-  <style>
-    .tab {
-      width: 100%;
-      height: 30px;
-      -webkit-transition: height 1s;
-      transition: height 1s;
-    }
-     .tab:hover 
-     {
-      height: 50px;
-    }
-  </style>
-  <button class="tablinks" onclick="openCity(event, 'London')">London</button>
-  <button class="tablinks" onclick="openCity(event, 'Paris')">Paris</button>
-  <button class="tablinks" onclick="openCity(event, 'Tokyo')">Tokyo</button>
-  <button class="tablinks" onclick="openCity(event, 'Jogja')">Jogja</button>
-  <button class="tablinks" onclick="openCity(event, 'Tokyo')">Tokyo</button>
-  <button class="tablinks" onclick="openCity(event, 'Tokyo')">Tokyo</button>
-  <button class="tablinks" onclick="openCity(event, 'Tokyo')">Tokyo</button>
-  <button class="tablinks" onclick="openCity(event, 'Tokyo')">Tokyo</button>
-  <button class="tablinks" onclick="openCity(event, 'Tokyo')">Tokyo</button>
-  <button class="tablinks" onclick="openCity(event, 'Tokyo')">Tokyo</button>
-  <button class="tablinks" onclick="openCity(event, 'Tokyo')">Tokyo</button>
-</div>
-
-<div id="London" class="tabcontent">
-  <h3>London</h3>
-  <p>London is the capital city of England.</p>
-  <p><img src="Anime-Minimalism-4e-Wallpaper-640-x-960-380x570.jpg" style="float: left;
-  margin-right: 15px;
-  border-radius: 20px;">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
-  tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
-  quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
-  consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
-  cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
-  proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
-  Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
-  tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
-  quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
-  consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
-  cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
-  proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
-</div>
-
-<div id="Paris" class="tabcontent">
-  <h3>Paris</h3>
-  <p>Paris is the capital of France.</p> 
-  <p><img src="Anime-Minimalism-4e-Wallpaper-640-x-960-380x570.jpg" style="float: left;
-  margin-right: 15px;
-  border-radius: 20px;">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
-  tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
-  quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
-  consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
-  cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
-  proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
-  Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
-  tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
-  quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
-  consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
-  cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
-  proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
-</div>
-
-<div id="Tokyo" class="tabcontent">
-  <h3>Tokyo</h3>
-  <p>Tokyo is the capital of Japan.</p>
-  <p><img src="Anime-Minimalism-4e-Wallpaper-640-x-960-380x570.jpg" style="float: left;
-  margin-right: 15px;
-  border-radius: 20px;">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
-  tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
-  quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
-  consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
-  cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
-  proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
-  Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
-  tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
-  quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
-  consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
-  cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
-  proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
-</div>
-
-<div id="Jogja" class="tabcontent">
-  <h3 style="padding: 10px;">Jogja</h3>
-  <p>Jogjakarta is great place to Holiday</p>
-  <p><img src="Anime-Minimalism-4e-Wallpaper-640-x-960-380x570.jpg" style="float: left;
-  margin-right: 15px;
-  border-radius: 20px;">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
-  tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
-  quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
-  consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
-  cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
-  proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
-  Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
-  tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
-  quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
-  consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
-  cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
-  proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
-</div>
-
-<div id="Jogja" class="tabcontent">
-  <h3 style="padding: 10px;">Jogja</h3>
-  <p>Jogjakarta is great place to Holiday</p>
-  <p><img src="Anime-Minimalism-4e-Wallpaper-640-x-960-380x570.jpg" style="float: left;
-  margin-right: 15px;
-  border-radius: 20px;">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
-  tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
-  quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
-  consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
-  cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
-  proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
-  Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
-  tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
-  quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
-  consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
-  cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
-  proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
-</div>
-
-<div id="Jogja" class="tabcontent">
-  <h3 style="padding: 10px;">Jogja</h3>
-  <p>Jogjakarta is great place to Holiday</p>
-  <p><img src="Anime-Minimalism-4e-Wallpaper-640-x-960-380x570.jpg" style="float: left;
-  margin-right: 15px;
-  border-radius: 20px;">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
-  tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
-  quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
-  consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
-  cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
-  proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
-  Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
-  tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
-  quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
-  consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
-  cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
-  proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
-</div>
-
-<div id="Jogja" class="tabcontent">
-  <h3 style="padding: 10px;">Jogja</h3>
-  <p>Jogjakarta is great place to Holiday</p>
-  <p><img src="Anime-Minimalism-4e-Wallpaper-640-x-960-380x570.jpg" style="float: left;
-  margin-right: 15px;
-  border-radius: 20px;">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
-  tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
-  quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
-  consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
-  cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
-  proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
-  Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
-  tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
-  quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
-  consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
-  cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
-  proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
-</div>
-
-<div id="Jogja" class="tabcontent">
-  <h3 style="padding: 10px;">Jogja</h3>
-  <p>Jogjakarta is great place to Holiday</p>
-  <p><img src="Anime-Minimalism-4e-Wallpaper-640-x-960-380x570.jpg" style="float: left;
-  margin-right: 15px;
-  border-radius: 20px;">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
-  tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
-  quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
-  consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
-  cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
-  proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
-  Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
-  tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
-  quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
-  consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
-  cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
-  proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
-</div>
-
-<script>
-function openCity(evt, cityName) {
-  var i, tabcontent, tablinks;
-  tabcontent = document.getElementsByClassName("tabcontent");
-  for (i = 0; i < tabcontent.length; i++) {
-    tabcontent[i].style.display = "none";
-  }
-  tablinks = document.getElementsByClassName("tablinks");
-  for (i = 0; i < tablinks.length; i++) {
-    tablinks[i].className = tablinks[i].className.replace(" active", "");
-  }
-  document.getElementById(cityName).style.display = "block";
-  evt.currentTarget.className += " active";
-}
-</script>
-
-  </div>
-  <br>  
   <br>
-  <div class="container-fluid" style=" width: 100%; padding-top: 40px; background-color: lavender; height: 200px;">
-  <h1 align="center">Abbrevitations</h1>
-  <p class="lead" style="font-size: 1rem; text-align: center;">Elemen abbr digunakan untuk menandai singkatan atau akronim:</p> 
-  <p class="lead" style="font-size: 1rem; text-align: center;">The <abbr title="World Health Oraganization">WHO</abbr> was founded in 1948</p>
-  </div>
-  <br>
-  <br>
- <div class="container-fluid" style="width: 100%;
-  background-image: url(nitish-meena-RbbdzZBKRDY-unsplash.jpg);
-  width: 100%;
+  <div class="container-fluid" style="width: 100%;
+  background-image: url(https://d19m59y37dris4.cloudfront.net/directory/1-2/img/photo/photo-1497436072909-60f360e1d4b1.jpg);
   height: 700px;
   margin-left: 5px;">
   <h1 style="color: white;
@@ -747,7 +524,7 @@ function openCity(evt, cityName) {
       </div>
     </div>
     </section>
-  <br>
+    <br>
   <br>
   <div class="container">
   <h1>Blockquotes</h1>
@@ -757,8 +534,6 @@ function openCity(evt, cityName) {
     <footer class="blockquote-footer">From WWF's website</footer>
   </blockquote>
 </div>
-<br>
-<br>
 
    
 
