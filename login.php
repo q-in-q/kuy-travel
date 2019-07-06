@@ -4,7 +4,7 @@
 
     <link rel="stylesheet" href="css/bootstrap.min.css">
 	<link rel="stylesheet" href="css/themify-icons.css">
-    <link rel="stylesheet" href="css/login.css">
+    <link rel="stylesheet" href="login.css">
 	
 	<link rel="stylesheet" type="text/css" href="fontawesome/css/all.css">
 

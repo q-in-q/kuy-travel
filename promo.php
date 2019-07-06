@@ -1,6 +1,6 @@
 <?php include("header.php");?>
-<hr>
-<br><br>
+
+<br><br><br><br>
 <!-- destinasi -->
 <div class="home">
         <h2>DISCOUNT</h2>

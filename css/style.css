@@ -1,6 +1,8 @@
 /*Navbar*/
 
-/*header menu*/
+.kepala{
+  background-color: #343a40;
+}
 
   /* adds some margin below the link sets  */
 .navbar .dropdown-menu div[class*="col"] {

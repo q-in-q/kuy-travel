@@ -17,6 +17,7 @@
     <link rel="stylesheet" href="fontawesome-free-5.9.0-web/css/all.css">
     <link rel="stylesheet" href="css/style.css">
     <link rel="stylesheet" href="css/stylecountdown.css">
+    <link rel="stylesheet" href="css/stylepaket.css">
 
     
     <script src="js/countdown.js" type="text/javascript"></script>
@@ -40,71 +41,73 @@
 </head>
 <body>
 
-<nav class="kepala navbar navbar-expand-lg navbar-light fixed-top">
+<nav class="kepala navbar navbar-expand-lg navbar-light fixed-top" style="background:#343a40;">
 
-    <a class="navbar-brand" href="">KuyTravel</a>
+    <a class="navbar-brand" href="#" style="color:#ffffff">KuyTravel</a>
     <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
       <span class="navbar-toggler-icon"></span>
     </button>
 
     <div class="collapse navbar-collapse" id="navbarSupportedContent">
       <form class="col-md-4 form-inline my-2 my-lg-0">
-        <input class="form-control" type="search" placeholder="Search" data-toggle="modal" data-target="#centralModallg" aria-label="Search" data-target="#centralModalSm">
+        <input style="background:#bdc3c7;" class="form-control" type="search" placeholder="Search" data-toggle="modal" data-target="#centralModallg" aria-label="Search" data-target="#centralModalSm">
       </form>
       <ul class="navbar-nav mr-auto">
           <li class="nav-item active">
-            <a class="nav-link" href="#" onclick="window.location.href='index.php'">Home <span class="sr-only">(current)</span></a>
+            <a class="nav-link" href="#" onclick="window.location.href='index.php'" style="color:#ffffff">Home <span class="sr-only">(current)</span></a>
           </li>
           <li class="nav-item">
-           <a class="nav-link" href="#">Package</a>
+           <a class="nav-link" href="#" onclick="window.location.href='paket.php'"  style="color:#ffffff">Package</a>
          </li>
         
          <li class="nav-item">
-           <a class="nav-link" href="#">Booking</a>
+           <a class="nav-link" href="#" style="color:#ffffff">Booking</a>
          </li>
           <li class="nav-item">
-            <a class="nav-link" href="#" onclick="window.location.href='promo.php'">Discount</a>
+            <a class="nav-link" href="#" onclick="window.location.href='.php'" style="color:#ffffff">Discount</a>
           </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#" onclick="window.location.href='.php'" style="color:#ffffff">About Us</a>
+          </li>
+
         
           
-         <li class="nav-item dropdown">
-                    <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+         <!--<li class="nav-item dropdown" >
+                    <a style="color:#ffffff" class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
                       Information
                     </a>
-                    <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                    <div class="dropdown-menu" aria-labelledby="navbarDropdown" style="background:#343a40;">
 
 
-                      <div class="container">
+                      <div class="container" >
                         <div class="row">
                           <div class="col-md-3">
                             <span class="text-uppercase">Tentang Kami</span><br><br>
                           
                             <button type="button" class="btn btn-light">Baca Selengkapnya</button>
                           </div>
-                          <!-- /.col-md-3  -->
+                       
                           <div class="col-md-3">
                             <span class="text-uppercase">FAQ</span><br><br>
                             
                             <button type="button" class="btn btn-light">Baca Selengkapnya</button>
                           </div>
-                          <!-- /.col-md-3  -->
+                          
                           <div class="col-md-3">
                             <span class="text-uppercase">Syarat dan Ketentuan</span><br><br>
                             
                             <button type="button" class="btn btn-light">Baca Selengkapnya</button>
                           </ul>
                           </div>
-                          <!-- /.col-md-3  -->
-
-                          <!-- /.col-md-4  -->
+                         
                         </div>
                       </div>
-                      <!--  /.container  -->
+                     
 
 
                     </div>
                     
-        </li>
+        </li>-->
 
 
       </ul>
