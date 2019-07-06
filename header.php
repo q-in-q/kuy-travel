@@ -18,6 +18,8 @@
     <link rel="stylesheet" href="css/style.css">
     <link rel="stylesheet" href="css/stylecountdown.css">
     <link rel="stylesheet" href="css/stylepaket.css">
+    <link rel="stylesheet" href="css/stylepesan.css">
+    <link rel="stylesheet" href="css/nice-select.css">
 
     
     <script src="js/countdown.js" type="text/javascript"></script>
@@ -61,7 +63,7 @@
          </li>
         
          <li class="nav-item">
-           <a class="nav-link" href="#" style="color:#ffffff">Booking</a>
+           <a class="nav-link" href="#" style="color:#ffffff" onclick="window.location.href='pesan.php'">Booking</a>
          </li>
           <li class="nav-item">
             <a class="nav-link" href="#" onclick="window.location.href='promo.php'" style="color:#ffffff">Discount</a>
