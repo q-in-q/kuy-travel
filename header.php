@@ -64,7 +64,7 @@
            <a class="nav-link" href="#" style="color:#ffffff">Booking</a>
          </li>
           <li class="nav-item">
-            <a class="nav-link" href="#" onclick="window.location.href='.php'" style="color:#ffffff">Discount</a>
+            <a class="nav-link" href="#" onclick="window.location.href='promo.php'" style="color:#ffffff">Discount</a>
           </li>
           <li class="nav-item">
             <a class="nav-link" href="#" onclick="window.location.href='.php'" style="color:#ffffff">About Us</a>
