@@ -4,14 +4,13 @@
 
     <link rel="stylesheet" href="css/bootstrap.min.css">
 	<link rel="stylesheet" href="css/themify-icons.css">
-	<link rel="stylesheet" href="css/style.css">
-	<link rel="stylesheet" type="text/css" href="fontawesome-free-5.9.0-web/css/all.min.css">
+    <link rel="stylesheet" href="css/login.css">
+	
+	<link rel="stylesheet" type="text/css" href="fontawesome/css/all.css">
 
-        <link href="Main.css" rel="stylesheet">
-        <script src="jquery-3.4.1.min.js"></script>
-        <script src="JQUERYmain.js"></script>
-
-        <title>FormLogin</title>
+    <script src="jquery-3.4.1.min.js"></script>
+    <script src="JQUERYmain.js"></script>
+    <title>FormLogin</title>
     </head>
 
     <body>
@@ -27,7 +26,7 @@
                     </div><br>
                     <div class="input-group">
                         <div class="input-group-prepend">
-                            <div class="input-group-text"><i class="fas fa-unlock-alt"></i></div>
+                            <div class="input-group-text"><i class="fas fa-unlock"></i></div>
                         </div>
                         <input type="password" name="" class="form-control" placeholder="Masukkan Password" required="required">
                     </div><br>
@@ -60,6 +59,7 @@
                         </div>
                         <input type="password" name="" class="form-control" placeholder="Konfirmasi Password Anda" required="required">
                     </div>
+           
                     <button type="submit" class="btn" onclick="window.location.href='index.php'">REGISTRASI</button>
                 </div>
 

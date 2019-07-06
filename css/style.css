@@ -1,17 +1,6 @@
 /*Navbar*/
 
-.kepala{
-    background-color: #ecf0f1;
-  }
-
-.kepala ul li .login{
-    list-style: none;
-}
-
-.kepala .rute{
-    width: 100px;
-    position: absolute;
-}
+/*header menu*/
 
   /* adds some margin below the link sets  */
 .navbar .dropdown-menu div[class*="col"] {
