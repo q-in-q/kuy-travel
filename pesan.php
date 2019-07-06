@@ -48,7 +48,7 @@
 								 onblur="this.placeholder = 'Child'">
 							</div>
 							<div class="col-lg-12 text-center">
-								<button class="primary-btn text-uppercase">Submit</button>
+								<button class="primary-btn text-uppercase">Book Now</button>
 							</div>
 						</form>
 					</div>

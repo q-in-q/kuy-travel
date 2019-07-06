@@ -1,0 +1,109 @@
+
+  
+  .introweb {
+    text-align: center;
+    padding-right: 40px;
+    padding-left: 40px;
+  }
+  
+  .card-deck {
+    padding-top: 50px;
+    padding-right: 190px;
+    padding-left: 190px;
+    text-align: center;
+  }
+  
+  .card-deck img {
+    border-radius: 50%;
+    width: 75%;
+    height: 95%;
+  }
+  
+  .row img {
+    border-radius: 50%;
+    width: 75%;
+    height: 95%;
+  }
+ /* 
+  .row {
+    padding-top: 100px;
+    padding-left: 340px;
+    padding-right: 340px;
+    text-align: center;
+  }*/
+  
+  .menu-utama {
+    height: 600px;
+    width: 70%;
+    position: relative;
+    top: 40px;
+    font-family: Georgia, "Times New Roman", Times, serif;
+  }
+  .atas {
+    text-align: center;
+  }
+  .list {
+    height: 80%;
+  }
+  
+  .list h5 {
+    position: relative;
+    top: 10%;
+  }
+  .kotak {
+    height: 50%;
+    float: left;
+    text-align: center;
+    position: relative;
+    top: 50px;
+  }
+  .kotak img {
+    width: 20%;
+  }
+  
+  .slider {
+    text-align: center;
+    height: 500px;
+    font-family: Georgia, "Times New Roman", Times, serif;
+    background-color: #f2f8ff;
+  }
+  .kontenslide {
+    height: 250px;
+    display: flex;
+    justify-content: center;
+    position: relative;
+    margin-left: 12px;
+  }
+  .kontenslide div {
+    height: 80%;
+    position: relative;
+    float: left;
+    top: 10%;
+  }
+  .foto {
+    width: 70%;
+    background: red;
+    position: relative;
+    left: -55%;
+    margin-top: 5%;
+    border-radius: 50%;
+    overflow: hidden;
+    display: flex;
+    align-items: flex-start;
+    justify-content: center;
+  }
+  .foto img {
+    width: 150%;
+  }
+  .kontenslide .card .col-lg-11 {
+    position: relative;
+    margin-top: -30%;
+    left: 10%;
+  }
+  
+  .carousel-indicators li {
+    background: black;
+    border-radius: 50%;
+    width: 20px;
+  }
+  

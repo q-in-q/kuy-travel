@@ -74,7 +74,7 @@
 					<ul class="list-unstyled">
 						<li>
 							<a  class="text-dark"
-							data-toggle="tooltip" title="Any Problem?" onclick="window.location.href='contactus.php'">Contact US</a>
+							data-toggle="tooltip" title="Any Problem?" href="#" onclick="window.location.href='contactus.php'">Contact US</a>
 						</li>
 						<li>
 							<a href="#" class="text-dark">Pricing</a>
