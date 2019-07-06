@@ -1,69 +1,271 @@
 
+body {
+  line-height: 24px;
+  font-size: 14px;
+  font-family: "Roboto", sans-serif;
+  font-weight: 300;
+  color: #777777; }
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-family: "Playfair Display", serif;
+  font-weight: 700;
+  color: #000000; }
+
+/* End CTA Area css
+============================================================================================ */
+/* Start Testimonials Area css
+============================================================================================ */
+
+
+/* End Testimonials Area css
+============================================================================================ */
+/* Start Blog Area css
+============================================================================================ */
+.home-blog-area {
+  padding-bottom: 90px; }
+  @media (max-width: 1199px) {
+    .home-blog-area {
+      padding-bottom: 50px; } }
+
+.single-blog {
+  border: 1px solid #eeeeee;
+  padding: 20px;
+  margin-bottom: 30px;
+  -webkit-transition: all 0.3s ease 0s;
+  -moz-transition: all 0.3s ease 0s;
+  -o-transition: all 0.3s ease 0s;
+  transition: all 0.3s ease 0s; }
+  .single-blog .blog-thumb {
+    position: relative;
+    overflow: hidden; }
+  .single-blog .blog-details {
+    padding: 25px 0px; }
+    .single-blog .blog-details p {
+      margin-bottom: 0; }
+    .single-blog .blog-details .blog-meta p {
+      font-size: 13px;
+      margin-right: 20px; }
+      .single-blog .blog-details .blog-meta p a {
+        color: #777777; }
+    .single-blog .blog-details .blog-meta span {
+      padding-right: 5px; }
+    .single-blog .blog-details h5 {
+      margin: 15px 0px; }
+      .single-blog .blog-details h5 a {
+        color: #000000;
+        font-size: 21px;
+        -webkit-transition: all 0.3s ease 0s;
+        -moz-transition: all 0.3s ease 0s;
+        -o-transition: all 0.3s ease 0s;
+        transition: all 0.3s ease 0s; }
+        .single-blog .blog-details h5 a:hover {
+          color: #ff2f8b; }
+  .single-blog:hover {
+    box-shadow: 0 10px 30px rgba(0, 0, 0, 0.1); }
 
 /* End Blog Area css
 ============================================================================================ */
 /* Start Trip Form Area css
 ============================================================================================ */
 .trip-form-section {
-    background: linear-gradient(0deg, rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(../image/tugu.jpg);
-    background-size: cover;
-    text-align: center;
-    padding: 70px 50px;
-    box-shadow: 0 20px 50px rgba(0, 0, 0, 0.1); }
-    @media (max-width: 767px) {
-      .trip-form-section {
-        padding: 70px 00px; } }
-    .trip-form-section h1 {
-      font-size: 36px;
-      margin-bottom: 50px;
-      color: #ffffff; }
-    .trip-form-section .trip-form-area .form-control {
-      border: 0;
-      padding: 0px 20px;
-      font-size: 13px;
-      background: rgba(119, 135, 146, 0.8);
-     
-      height: 40px;
-      line-height: 40px;
-      border-radius: 0px; }
- /*     .trip-form-section .trip-form-area .form-control:focus {
-        outline: none;
-        box-shadow: none; }
-      .trip-form-section .trip-form-area .form-control.placeholder {
-        color: #ffffff;
-        font-weight: 300;
-        font-size: 13px; }
-      .trip-form-section .trip-form-area .form-control:-moz-placeholder {
-        color: #ffffff;
-        font-weight: 300;
-        font-size: 13px; }
-      .trip-form-section .trip-form-area .form-control::-moz-placeholder {
-        color: #ffffff;
-        font-weight: 300;
-        font-size: 13px; }
-      .trip-form-section .trip-form-area .form-control::-webkit-input-placeholder {
-        color: #ffffff;
-        font-weight: 300;
-        font-size: 13px; } */
-    .trip-form-section .primary-btn {
-      margin-top: 20px;
-      border: 0;
-      padding: 8px 30px;
-      color: #fff;
-      letter-spacing: 1px;
-      -webkit-transition: all 0.3s ease 0s;
-      -moz-transition: all 0.3s ease 0s;
-      -o-transition: all 0.3s ease 0s;
-      transition: all 0.3s ease 0s; }
-      .trip-form-section .primary-btn:hover {
-        background: #777777; }
+  background: linear-gradient(0deg, rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(../image/tugu.jpg);
+  background-size: cover;
+  text-align: center;
+  padding: 70px 50px;
+  box-shadow: 0 20px 50px rgba(0, 0, 0, 0.1); }
+  @media (max-width: 767px) {
+    .trip-form-section {
+      padding: 70px 00px; } }
+  .trip-form-section h1 {
+    font-size: 36px;
+    margin-bottom: 50px;
+    color: #ffffff; }
+  .trip-form-section .trip-form-area .form-control {
+    border: 0;
+    padding: 0px 20px;
+    font-size: 13px;
+    background: rgba(119, 135, 146, 0.8);
+    color: #ffffff;
+    height: 40px;
+    line-height: 40px;
+    border-radius: 0px; }
+    .trip-form-section .trip-form-area .form-control:focus {
+      outline: none;
+      box-shadow: none; }
+    .trip-form-section .trip-form-area .form-control.placeholder {
+      color: #ffffff;
+      font-weight: 300;
+      font-size: 13px; }
+    .trip-form-section .trip-form-area .form-control:-moz-placeholder {
+      color: #ffffff;
+      font-weight: 300;
+      font-size: 13px; }
+    .trip-form-section .trip-form-area .form-control::-moz-placeholder {
+      color: #ffffff;
+      font-weight: 300;
+      font-size: 13px; }
+    .trip-form-section .trip-form-area .form-control::-webkit-input-placeholder {
+      color: #ffffff;
+      font-weight: 300;
+      font-size: 13px; }
+  .trip-form-section .primary-btn {
+    margin-top: 20px;
+    border: 0;
+    padding: 8px 30px;
+    color: #fff;
+    letter-spacing: 1px;
+    -webkit-transition: all 0.3s ease 0s;
+    -moz-transition: all 0.3s ease 0s;
+    -o-transition: all 0.3s ease 0s;
+    transition: all 0.3s ease 0s; }
+    .trip-form-section .primary-btn:hover {
+      background: #777777; }
+  .trip-form-section .form-select .nice-select {
+    padding: 0px;
+    background: rgba(119, 135, 146, 0.8) !important;
+    padding-left: 20px;
+    font-size: 13px;
+    height: 40px;
+    color: #ffffff; }
+    .trip-form-section .form-select .nice-select .list .option {
+      color: #000000; }
+      .trip-form-section .form-select .nice-select .list .option.selected {
+        color: #ff2f8b; }
+      .trip-form-section .form-select .nice-select .list .option:hover {
+        color: #ff2f8b; }
+
+/* End Trip Form Area css
+============================================================================================ */
+
+/*---------- Start Elements Page -------------*/
 
 
- .lebar{
-     background: transparent;
- }
-
-          
 
 
-  
+
+.disabled-radio input:disabled {
+  cursor: not-allowed;
+  z-index: 3; }
+
+.unordered-list {
+  list-style: none;
+  padding: 0px;
+  margin: 0px; }
+
+.ordered-list {
+  list-style: none;
+  padding: 0px; }
+
+.disabled-radio input:checked + label {
+  background: url(../img/elements/disabled-radio.png) no-repeat center center/cover;
+  border: none; }
+
+.default-select {
+  height: 40px; }
+
+.default-select .nice-select {
+  border: none;
+  border-radius: 0px;
+  height: 40px;
+  background: #fff;
+  padding-left: 20px;
+  padding-right: 40px; }
+
+.default-select .nice-select .list {
+  margin-top: 0;
+  border: none;
+  border-radius: 0px;
+  box-shadow: none;
+  width: 100%;
+  padding: 10px 0 10px 0px; }
+
+.default-select .nice-select .list .option {
+  font-weight: 300;
+  -webkit-transition: all 0.3s ease 0s;
+  -moz-transition: all 0.3s ease 0s;
+  -o-transition: all 0.3s ease 0s;
+  transition: all 0.3s ease 0s;
+  line-height: 28px;
+  min-height: 28px;
+  font-size: 12px;
+  padding-left: 20px; }
+
+.default-select .nice-select .list .option.selected {
+  color: #f8b600;
+  background: transparent; }
+
+.default-select .nice-select .list .option:hover {
+  color: #f8b600;
+  background: transparent; }
+
+.default-select .current {
+  margin-right: 50px;
+  font-weight: 300; }
+
+.default-select .nice-select::after {
+  right: 20px; }
+
+@media (max-width: 991px) {
+  .left-align-p p {
+    margin-top: 20px; } }
+.form-select {
+  height: 40px;
+  width: 100%; }
+
+.form-select .nice-select {
+  border: none;
+  border-radius: 0px;
+  height: 40px;
+  background: #f9f9ff !important;
+  padding-left: 45px;
+  padding-right: 40px;
+  width: 100%; }
+
+.form-select .nice-select .list {
+  margin-top: 0;
+  border: none;
+  border-radius: 0px;
+  box-shadow: none;
+  width: 100%;
+  padding: 10px 0 10px 0px; }
+
+.mt-10 {
+  margin-top: 10px; }
+
+.form-select .nice-select .list .option {
+  font-weight: 300;
+  -webkit-transition: all 0.3s ease 0s;
+  -moz-transition: all 0.3s ease 0s;
+  -o-transition: all 0.3s ease 0s;
+  transition: all 0.3s ease 0s;
+  line-height: 28px;
+  min-height: 28px;
+  font-size: 12px;
+  padding-left: 45px; }
+
+.form-select .nice-select .list .option.selected {
+  color: #f8b600;
+  background: transparent; }
+
+.form-select .nice-select .list .option:hover {
+  color: #f8b600;
+  background: transparent; }
+
+.form-select .current {
+  margin-right: 50px;
+  font-weight: 300; }
+
+.form-select .nice-select::after {
+  right: 20px; }
+
+/*---------------------------------------------------- */
+
+
+
+
+

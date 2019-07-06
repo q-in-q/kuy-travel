@@ -1,20 +1,6 @@
 <?php include("header.php");?>
 <br><br><br>
-<!--================Home Banner Area =================-->
-	<!--<section class="banner_area ">
-		<div class="banner_inner overlay d-flex align-items-center">
-			<div class="container">
-				<div class="banner_content">
-					<div class="page_link">
-						<a href="index.html">Home</a>
-						<a href="book-trip.html">Book a Trip</a>
-					</div>
-					<h2>Book a Trip</h2>
-				</div>
-			</div>
-		</div>
-	</section>-->
-	<!--================End Home Banner Area =================-->
+
 
 	<!--================ Start Book a Trip Area =================-->
 	<section class="trip-area section_gap">
@@ -24,20 +10,18 @@
 					<div class="trip-form-section">
 						<h1>Book a Trip <br>
 							for your next Tour</h1>
-						<form class="trip-form-area trip-page-form trip-form text-right" id="myForm"  method="post">
-                            
-                            <div class="form-group col-md-12"  >
-								<div class="form-control">      
-                                        <select class="lebar wide">
-                                            <option data-display="Select">Nothing</option>
-                                            <option value="1">Some option</option>
-                                            <option value="2">Another option</option>
-                                            <option value="3" disabled>A disabled option</option>
-                                            <option value="4">Potato</option>
-                                        </select> 
+						<form class="trip-form-area trip-page-form trip-form text-right" id="myForm" action="mail.html" method="post">
+							<div class="form-group col-md-12">
+								<div class="form-select">
+									<select>
+										<option value="1">Select Packages</option>
+										<option value="1">Package 01</option>
+										<option value="1">Package 02</option>
+										<option value="1">Package 03</option>
+										<option value="1">Package 04</option>
+									</select>
 								</div>
-                            </div>
-                            
+							</div>
 							<div class="form-group col-md-12">
 								<input type="text" class="form-control" id="name" name="name" placeholder="To" onfocus="this.placeholder = ''"
 								 onblur="this.placeholder = 'To'">
@@ -66,32 +50,13 @@
 				</div>
 			</div>
 		</div>	
-	</section>
-    <!--================ End Book a Trip Area =================-->
+    </section>
     
-    <script src="js/jquery-3.2.1.min.js"></script>
-	<script src="js/popper.js"></script>
-	<script src="js/bootstrap.min.js"></script>
-	<script src="js/stellar.js"></script>
-	<script src="js/jquery.magnific-popup.min.js"></script>
-	<script src="vendors/nice-select/js/jquery.nice-select.min.js"></script>
-	<script src="vendors/owl-carousel/owl.carousel.min.js"></script>
-	<script src="js/owl-carousel-thumb.min.js"></script>
-	<script src="js/jquery.ajaxchimp.min.js"></script>
-	<script src="js/mail-script.js"></script>
-	<!--gmaps Js-->
-	<script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyCjCGmQ0Uq4exrzdcL6rvxywDDOvfAu6eE"></script>
-	<script src="js/gmaps.min.js"></script>
-    <script src="js/theme.js"></script>
-
-    <!--niceselect-->
-
     <script src="js/jquery.js"></script>
   <script src="js/jquery.nice-select.min.js"></script>
   <script src="js/fastclick.js"></script>
   <script src="js/prism.js"></script>
-  <link rel="stylesheet" href="css/nice-select.css">
-
+  
   <script>
     $(document).ready(function() {
       $('select:not(.ignore)').niceSelect();      

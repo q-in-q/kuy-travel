@@ -45,7 +45,7 @@
                         <div class="input-group-prepend">
                             <div class="input-group-text"><i class="fas fa-envelope-open"></i></div>
                         </div>
-                        <input type="email" name="" class="form-control" placeholder="Masukkan Email Anda" required="required">
+                        <input type="email"  name="" class="form-control" placeholder="Masukkan Email Anda" required="required">
                     </div><br>
                     <div class="input-group">
                         <div class="input-group-prepend">
