@@ -15,19 +15,24 @@
 								<div class="form-select">
 									<select>
 										<option value="1">Select Packages</option>
-										<option value="1">Package 01</option>
-										<option value="1">Package 02</option>
-										<option value="1">Package 03</option>
-										<option value="1">Package 04</option>
+										<option value="1">Prambanan</option>
+										<option value="1">Museum Merapi</option>
+										<option value="1">Monajali</option>
+                                        <option value="1">Goa Pindul</option>
+                                        <option value="1">Air Terjun Sri Gethuk</option>
+										<option value="1">Taman Pintar</option>
+                                        <option value="1">Pantai Indrayanti</option>
+                                        <option value="1">Tebing Breksi</option>
+                                        <option value="1">Kraton Jogja</option>
 									</select>
 								</div>
 							</div>
 							<div class="form-group col-md-12">
-								<input type="text" class="form-control" id="name" name="name" placeholder="To" onfocus="this.placeholder = ''"
+								<input type="text" class="form-control"      placeholder="To" onfocus="this.placeholder = ''"
 								 onblur="this.placeholder = 'To'">
 							</div>
 							<div class="form-group col-md-12">
-								<input type="email" class="form-control" id="email" name="email" placeholder="From" onfocus="this.placeholder = ''"
+								<input  class="form-control"   placeholder="From" onfocus="this.placeholder = ''"
 								 onblur="this.placeholder = 'From'">
 							</div>
 							<div class="form-group col-md-12">
@@ -43,7 +48,7 @@
 								 onblur="this.placeholder = 'Child'">
 							</div>
 							<div class="col-lg-12 text-center">
-								<button class="primary-btn text-uppercase">Search Flights</button>
+								<button class="primary-btn text-uppercase">Submit</button>
 							</div>
 						</form>
 					</div>
