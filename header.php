@@ -16,12 +16,7 @@
     <link rel="stylesheet" href="./css/bootstrap.min.css">
     <link rel="stylesheet" href="fontawesome-free-5.9.0-web/css/all.css">
     <link rel="stylesheet" href="css/style.css">
-    
-    
-    
-    
-
-
+  
     
     <script src="js/countdown.js" type="text/javascript"></script>
 
