@@ -16,10 +16,9 @@
     <link rel="stylesheet" href="./css/bootstrap.min.css">
     <link rel="stylesheet" href="fontawesome-free-5.9.0-web/css/all.css">
     <link rel="stylesheet" href="css/style.css">
-    <link rel="stylesheet" href="css/stylecountdown.css">
-    <link rel="stylesheet" href="css/stylepaket.css">
-    <link rel="stylesheet" href="css/stylepesan.css">
-    <link rel="stylesheet" href="css/nice-select.css">
+    
+    
+    
     
 
 
