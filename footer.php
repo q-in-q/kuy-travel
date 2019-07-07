@@ -1,4 +1,6 @@
-<footer class="position-relative" style="background : #f8f9fa !important;padding-top: 80px; padding-bottom: 50px;">
+<footer class="position-relative" style="background : #f8f9fa !important;
+padding-top: 80px; 
+padding-bottom: 50px;">
 	<div class="py-6 bg-gray-200 text-muted">
 		<div class="container" style="padding-top: 20px;">
 			<div class="row">
@@ -43,6 +45,13 @@
 								</i>
 							</a>
 						</li>
+            <li class="list-inline-item">
+              <a href="#" target="_blank" title="whatsapp"
+              class="text-muted text-hover-primary">
+                <i class="fab fa-whatsapp">
+                </i>
+              </a>
+            </li>
 					</ul>
 				</div>
 				<div class="col-lg-2 col-md-6 mb-5 mb-lg-0">
@@ -73,8 +82,8 @@
 					<h6 class="font-weight-bold textt-uppercase text-dark mb-3">Pages</h6>
 					<ul class="list-unstyled">
 						<li>
-							<a  class="text-dark"
-							data-toggle="tooltip" title="Any Problem?" onclick="window.location.href='contactus.php'">Contact US</a>
+							<a href="Three.html" class="text-dark"
+							data-toggle="tooltip" title="Any Problem?">Contact US</a>
 						</li>
 						<li>
 							<a href="#" class="text-dark">Pricing</a>
@@ -124,12 +133,10 @@
 </footer>
 
 <div style="width: 100%; 
-height: 120px; 
-padding-bottom: 10px;
+height: 90px; 
 background: #343a40 !important; 
 padding-top: 40px;
-padding-left: 20px;
-">
+padding-left: 20px;">
 		<div class="container-fluid" >
 			<div class="row align-items-center">
 				<div class="col-md-6 text-center text-md-left">
@@ -158,5 +165,3 @@ padding-left: 20px;
 			</div>
 		</div>
 	</div>
- </body>
-</html>

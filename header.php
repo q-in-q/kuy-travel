@@ -71,49 +71,8 @@
           <li class="nav-item">
             <a class="nav-link" href="#" onclick="window.location.href='.php'" style="color:#ffffff">About Us</a>
           </li>
-
-        
-          
-         <!--<li class="nav-item dropdown" >
-                    <a style="color:#ffffff" class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-                      Information
-                    </a>
-                    <div class="dropdown-menu" aria-labelledby="navbarDropdown" style="background:#343a40;">
-
-
-                      <div class="container" >
-                        <div class="row">
-                          <div class="col-md-3">
-                            <span class="text-uppercase">Tentang Kami</span><br><br>
-                          
-                            <button type="button" class="btn btn-light">Baca Selengkapnya</button>
-                          </div>
-                       
-                          <div class="col-md-3">
-                            <span class="text-uppercase">FAQ</span><br><br>
-                            
-                            <button type="button" class="btn btn-light">Baca Selengkapnya</button>
-                          </div>
-                          
-                          <div class="col-md-3">
-                            <span class="text-uppercase">Syarat dan Ketentuan</span><br><br>
-                            
-                            <button type="button" class="btn btn-light">Baca Selengkapnya</button>
-                          </ul>
-                          </div>
-                         
-                        </div>
-                      </div>
-                     
-
-
-                    </div>
-                    
-        </li>-->
-
-
-      </ul>
-      <ul class="navbar-nav mr-auto">
+        </ul>
+        <ul class="navbar-nav mr-auto">
         <li class="nav-item ">
         <button type="button" class="btn btn-light" onclick="window.location.href='login.php'">LOGIN</button>
         <button type="button" class="btn btn-light">PROFIL</button>
