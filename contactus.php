@@ -1,7 +1,7 @@
 <?php include("header.php"); ?>
 
 <style>
-      .contact-section .form-control{
+    .contact-section .form-control{
   border: 1px solid  #2fbfbc;
     border-top: none;
     border-left: none;
