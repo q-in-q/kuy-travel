@@ -121,7 +121,7 @@
       <ul class="navbar-nav mr-auto">
         <li class="nav-item ">
         <button type="button" class="btn btn-light" onclick="window.location.href='login.php'">LOGIN</button>
-        <button type="button" class="btn btn-light">PROFIL</button>
+        <button type="button" class="btn btn-light" onclick="window.location.href='profil.php'">PROFIL</button>
         </li>
       </ul>
 
