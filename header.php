@@ -40,33 +40,34 @@
 </head>
 <body>
 
-<nav class="kepala navbar navbar-expand-lg navbar-light fixed-top" style="background:#343a40;">
+<nav class="kepala navbar navbar-expand-lg navbar-light fixed-top" style="background:white;">
 
-    <a class="navbar-brand" href="#" style="color:#ffffff" onclick="window.location.href='index.php'">KuyTravel</a>
+    <a class="navbar-brand" href="#" style="color:black;" onclick="window.location.href='index.php'"><img src="image/logo2.png" alt="" style="width:100px; height:50px;"></a>
     <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
       <span class="navbar-toggler-icon"></span>
     </button>
 
     <div class="collapse navbar-collapse" id="navbarSupportedContent">
       <form class="col-md-4 form-inline my-2 my-lg-0">
-        <input style="background:#bdc3c7;" class="form-control" type="search" placeholder="Search" data-toggle="modal" data-target="#centralModallg" aria-label="Search" data-target="#centralModalSm">
+        <input style="background:#ecf0f1;" class="form-control" type="search" placeholder="Search" data-toggle="modal" data-target="#centralModallg" aria-label="Search" data-target="#centralModalSm">
       </form>
       <ul class="navbar-nav mr-auto">
           <li class="nav-item active">
-            <a class="nav-link" href="#" onclick="window.location.href='index.php'" style="color:#ffffff">Beranda <span class="sr-only">(current)</span></a>
+            <a class="nav-link" href="#" onclick="window.location.href='index.php'" style="color:black;"
+            >Beranda </a>
           </li>
           <li class="nav-item">
-           <a class="nav-link" href="#" onclick="window.location.href='rekomendasi.php'"  style="color:#ffffff">Rekomedasi</a>
+           <a class="nav-link" href="#" onclick="window.location.href='rekomendasi.php'"  style="color:black;">Rekomedasi</a>
          </li>
           <li class="nav-item">
-           <a class="nav-link" href="#" onclick="window.location.href='paket.php'"  style="color:#ffffff">Paket</a>
+           <a class="nav-link" href="#" onclick="window.location.href='paket.php'"  style="color:black;">Paket</a>
          </li>
         
          <li class="nav-item">
-           <a class="nav-link" href="#" style="color:#ffffff" onclick="window.location.href='pesan.php'">Pesan</a>
+           <a class="nav-link" href="#" style="color:black" ;onclick="window.location.href='pesan.php'">Pesan</a>
          </li>
           <li class="nav-item">
-            <a class="nav-link" href="#" onclick="window.location.href='promo.php'" style="color:#ffffff">Diskon</a>
+            <a class="nav-link" href="#" onclick="window.location.href='promo.php'" style="color:black;">Diskon</a>
           </li>
           <!--<li class="nav-item">
             <a class="nav-link" href="#" onclick="window.location.href='ourteam.php'" style="color:#ffffff">Tentang Kami</a>
