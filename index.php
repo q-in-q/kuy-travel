@@ -2,6 +2,23 @@
 include ("header.php");
 ?>
 
+
+  <style type="text/css">
+    html {
+      scroll-behavior: smooth;
+      height: 100%;
+    }
+    .display-1, .display-2, .display-3, .display-4 {
+      text-align: center;
+    }
+    body {
+      width: 100%;
+      font-family: 'Montserrat', sans-serif;
+      height: 100%;
+    }
+    </style>
+</head>
+<body>
   <br>
   <br>
   <br>
