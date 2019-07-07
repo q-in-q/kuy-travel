@@ -60,21 +60,21 @@ padding-bottom: 50px;">
 					</h6>
 					<ul class="list-unstyled">
 						<li>
-							<a href="#" class="text-dark">
+							<a href="#" class="text-muted">
 								Rooms
 							</a>
 						</li>
 						<li>
-							<a href="#" class="text-dark">Map on top</a>
+							<a href="#" class="text-muted">Map on top</a>
 						</li>
 						<li>
-							<a href="#" class="text-dark">Side Map</a>
+							<a href="#" class="text-muted">Side Map</a>
 						</li>
 						<li>
-							<a href="#" class="text-dark">No map</a>
+							<a href="#" class="text-muted">No map</a>
 						</li>
   						<li>
-							<a href="#" class="text-dark">Room detail</a>
+							<a href="#" class="text-muted">Room detail</a>
 						</li>
 					</ul>
 				</div>
@@ -82,22 +82,22 @@ padding-bottom: 50px;">
 					<h6 class="font-weight-bold textt-uppercase text-dark mb-3">Pages</h6>
 					<ul class="list-unstyled">
 						<li>
-							<a  class="text-dark"
+							<a  class="text-muted"
 							data-toggle="tooltip" title="Any Problem?" href="#" onclick="window.location.href='contactus.php'">Contact US</a>
 
 						</li>
 						<li>
-							<a href="#" class="text-dark">Pricing</a>
+							<a href="#" class="text-muted">Pricing</a>
 						</li>
 						<li>
-							<a href="#" class="text-dark">Text page</a>
+							<a href="#" class="text-muted">Text page</a>
 						</li>
 						<li>
-							<a href="#" class="text-dark">F.A.Q.s
+							<a href="#" class="text-muted">F.A.Q.s
 								<span class="badge badge-info ml-1">New</span></a>
 						</li>
 						<li>
-							<a href="#" class="text-dark">Coming Soon</a>
+							<a href="#" class="text-muted">Coming Soon</a>
 						</li>
 					</ul>
 				</div>
