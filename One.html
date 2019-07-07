@@ -1,25 +1,36 @@
-<?php 
-include ("header.php");
-?>
-
-
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<title>Bootsrap Example</title>
+	  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+  <link rel="stylesheet" href="fontawesome/css/all.css">
+  <link href="https://fonts.googleapis.com/css?family=Montserrat:400,400i,500,600,600i,700,800,900|Poiret+One&display=swap" rel="stylesheet">
+  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+  <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.0/jquery.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"></script>
+  <link href="https://fonts.googleapis.com/css?family=DM+Serif+Display:400,400i|Poppins:300,400,500,600,600i,700,800,800i,900&display=swap&subset=latin-ext" rel="stylesheet">
   <style type="text/css">
     html {
       scroll-behavior: smooth;
       height: 100%;
     }
-    .display-1, .display-2, .display-3, .display-4 {
-      text-align: center;
-    }
-    body {
+  	.display-1, .display-2, .display-3, .display-4 {
+  		text-align: center;
+  	}
+  	body {
       width: 100%;
-      font-family: 'Montserrat', sans-serif;
+  		font-family: 'Montserrat', sans-serif;
       height: 100%;
-    }
-    header{
-      height: 100px;
-    }
-    .header {
+  	}
+  	header{
+  		height: 100px;
+  	}
+  	.header {
   overflow: hidden;
   background-color: #f1f1f1;
   padding: 13px;
@@ -69,23 +80,23 @@ include ("header.php");
   </style>
 </head>
 <body>
-  <header class="header">
-  <div class="header">
-    <a href="#default" class="logo">CompanyLogo</a>
-     <div class="header-right">
-      <a class="active" href="#home">Home</a>
-      <a href="#contact">Contact
-      </a>
-      <a href="#about">About</a>
-    </div>
-  </div>
-  </header>
-  <style type="text/css">
-    .nav-item {
-      margin-left: 50px;
-    }
-  </style>
-  <div class="bd-example">
+	<header class="header">
+	<div class="header">
+		<a href="#default" class="logo">CompanyLogo</a>
+		 <div class="header-right">
+		 	<a class="active" href="#home">Home</a>
+		 	<a href="#contact">Contact
+		 	</a>
+		 	<a href="#about">About</a>
+ 		</div>
+	</div>
+	</header>
+	<style type="text/css">
+		.nav-item {
+			margin-left: 50px;
+		}
+	</style>
+	<div class="bd-example">
   <div id="carouselExampleCaptions" class="carousel slide" data-ride="carousel">
     <ol class="carousel-indicators">
       <li data-target="#carouselExampleCaptions" data-slide-to="0" class="active"></li>
@@ -96,60 +107,60 @@ include ("header.php");
       <div class="carousel-item active">
         <img src="D:\bukan project\blonde-girl-4k-t7-1366x768.JPG" class="d-block w-100" alt="" style=" z-index: -1;">
         <div class="carousel-caption d-none d-md-block">
-          <div class="text-center text-lg-left">
-          <h6 align="left">The best holiday experience</h6>
-          <h1 class="display-3 font-weight-bold text-shadow" align="left">
-            Stay like a local
-          </h1>
-          </div>
-          <div class="search-bar" style="background: white; border-radius: 30px; border: 1px black; height: 50px;">
-            <form action="#" style="border-radius: 20px;">
-              <div class="row">
-                <div class="d-flex align-items-center form-group"
-                style="margin-left: 50px; margin-bottom: 22px;
-                width: 260px;
-                margin-top: 7px;
+        	<div class="text-center text-lg-left">
+        	<h6 align="left">The best holiday experience</h6>
+        	<h1 class="display-3 font-weight-bold text-shadow" align="left">
+        		Stay like a local
+        	</h1>
+        	</div>
+        	<div class="search-bar" style="background: white; border-radius: 30px; border: 1px black; height: 50px;">
+        		<form action="#" style="border-radius: 20px;">
+        			<div class="row">
+        				<div class="d-flex align-items-center form-group"
+        				style="margin-left: 50px; margin-bottom: 22px;
+        				width: 260px;
+        				margin-top: 7px;
 
-                ">
-                  <input type="text" name="search" placeholder=" what are you searching for ?     "class="form-control border-0 shadow-0"
-                  align="center"
-                  style="border: transparent;">
-                </div>
-                <div class=""
-                align="center" style="padding-left: 10px;
-                padding-right: 10px; margin-top: 7px;" align="center">
-                  <form action="#" id="newsletter-form">
-              <div class="input-group mb-3">
-              <input type="email" placeholder="Location" 
-              aria-label="Your Email Address" class="form-control 
-              bg-grey border-0 border-right-0"
-              style="border: transparent;
-              ">
-              <div class="input-group-append">
-                <button type="submit" class="btn btn-outline-dark
-                border-left-1 border-0" >
-                <i class="fas fa-crosshairs text-lg"></i>
-                 
-                </button>
-              </div>
-            </div>
-          </form>
-                </div>
-                 <div class="dropdown show" style="margin-top: 6px;">
-              <a class="btn btn-secondary dropdown-toggle" href="#" role="button" id="dropdownMenuLink" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+        				">
+        					<input type="text" name="search" placeholder=" what are you searching for ?     "class="form-control border-0 shadow-0"
+        					align="center"
+        					style="border: transparent;">
+        				</div>
+        				<div class=""
+        				align="center" style="padding-left: 10px;
+        				padding-right: 10px; margin-top: 7px;" align="center">
+        					<form action="#" id="newsletter-form">
+							<div class="input-group mb-3">
+							<input type="email" placeholder="Location" 
+							aria-label="Your Email Address" class="form-control 
+							bg-grey border-0 border-right-0"
+							style="border: transparent;
+							">
+							<div class="input-group-append">
+								<button type="submit" class="btn btn-outline-dark
+								border-left-1 border-0" >
+								<i class="fas fa-crosshairs text-lg"></i>
+								 
+								</button>
+							</div>
+						</div>
+					</form>
+        				</div>
+        				 <div class="dropdown show" style="margin-top: 6px;">
+  						<a class="btn btn-secondary dropdown-toggle" href="#" role="button" id="dropdownMenuLink" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
     Categories
-             </a>
+ 						 </a>
 
-       <div class="dropdown-menu" aria-labelledby="dropdownMenuLink">
-         <a class="dropdown-item" href="#">Action</a>
-          <a class="dropdown-item" href="#">Another action</a>
-          <a class="dropdown-item" href="#">Something else here</a>
-        </div>
-      </div>
-              </div>
-            </form>
-          </div>
-          <br>
+ 			 <div class="dropdown-menu" aria-labelledby="dropdownMenuLink">
+   			 <a class="dropdown-item" href="#">Action</a>
+    			<a class="dropdown-item" href="#">Another action</a>
+    			<a class="dropdown-item" href="#">Something else here</a>
+  			</div>
+			</div>
+        			</div>
+        		</form>
+        	</div>
+        	<br>
           <h5>First slide label</h5>
           <p>Nulla vitae elit libero, a pharetra augue mollis interdum.</p>
         </div>
@@ -180,9 +191,9 @@ include ("header.php");
   </div>
   </div>
   <!-- End Carousel -->
-  <div class="container-fluid">
-    <div class="row">
-      <section id="examples" class="text-center"
+	<div class="container-fluid">
+		<div class="row">
+			<section id="examples" class="text-center"
       style="
       background:  #f8f9fa !important;
       height: 600px;
@@ -254,41 +265,41 @@ include ("header.php");
 
                 </div>
               </section>
-    </div>
-  </div>
+		</div>
+	</div>
   <section class="bg-white shadow">
-  <div class="class-content-inner"style="height: 740px; width: 100%; margin-left: 50px; 
+	<div class="class-content-inner"style="height: 740px; width: 100%; margin-left: 50px; 
   padding: 100px 20px 20px 20px;">
-    <h5 align="left">
+		<h5 align="left">
     <B style="margin-left: 21px;
     margin-top: 40px;
     color: lightblue;">STAY AND EAT LIKE A LOCAL</B>
     </h5>
-    <h1 style="margin-left: 20px;"><p align="left"><b>Our Guides</b></p>
-    </h1>
+		<h1 style="margin-left: 20px;"><p align="left"><b>Our Guides</b></p>
+		</h1>
     <h6 align="right" style="padding-right: 120px;"><a href="" class="text-muted">see all guides</a></h6>
     <div class="row" style=" width:100%; padding-top: 40px; margin-left: 0px;">
-      <div align="center" style="background: url(Anime-Minimalism-4e-Wallpaper-640-x-960-380x570.jpg);
-      color: white;
-      width: 212px;
-      height: 350px;
-      border-radius: 10px;
-      margin-left: 20px;
-      padding-top: 100px;
-      padding-left: 20px;
-      padding-right: 20px;">
-      <p style=" 
-      color: white;
-      " align="left">
-        <div align="left" style="margin-top: 150px;">
+			<div align="center" style="background: url(Anime-Minimalism-4e-Wallpaper-640-x-960-380x570.jpg);
+			color: white;
+			width: 212px;
+			height: 350px;
+			border-radius: 10px;
+			margin-left: 20px;
+			padding-top: 100px;
+			padding-left: 20px;
+			padding-right: 20px;">
+			<p style=" 
+			color: white;
+			" align="left">
+				<div align="left" style="margin-top: 150px;">
         <b>Yogyakarta</b>
         <p>Lorem ipsum dolor sit amet,</p>
         </div> 
-      </p>
-    </div>
-      <div align="center" style="
-      background-image: url(Anime-Minimalism-4e-Wallpaper-640-x-960-380x570.jpg);
-      color: white;
+			</p>
+		</div>
+			<div align="center" style="
+			background-image: url(Anime-Minimalism-4e-Wallpaper-640-x-960-380x570.jpg);
+			color: white;
       width: 212px;
       height: 350px;
       border-radius: 10px;
@@ -296,33 +307,33 @@ include ("header.php");
       padding-top: 100px;
       padding-left: 20px;
       padding-right: 20px;"
-      align="center">
+			align="center">
       <div align="left" style="margin-top: 150px; color: white; padding-left: 20px
         padding-right:20px;">
         <b>Yogyakarta</b>
         <p>Lorem ipsum dolor sit amet,</p>
-        </div>        
+        </div>				
       </div>
-      <div align="center"
-      style="background: url(Anime-Minimalism-4e-Wallpaper-640-x-960-380x570.jpg);
-      color: white;
-      width: 212px;
-      height: 350px;
-      padding-top: 100px;
-      padding-left: 20px;
-      padding-right: 20px;
-      border-radius: 10px;
-      margin-right: 30px;
+			<div align="center"
+			style="background: url(Anime-Minimalism-4e-Wallpaper-640-x-960-380x570.jpg);
+			color: white;
+			width: 212px;
+			height: 350px;
+			padding-top: 100px;
+			padding-left: 20px;
+			padding-right: 20px;
+			border-radius: 10px;
+			margin-right: 30px;
       margin-left: 30px;
-      " align="center">
+			" align="center">
       <div align="left" style="margin-top: 150px; color: white; padding-left: 20px
         padding-right:20px;">
         <b>Yogyakarta</b>
         <p>Lorem ipsum dolor sit amet,</p>
         </div>
-    </div>
-    <div style="background-image: url(Anime-Minimalism-4e-Wallpaper-640-x-960-380x570.jpg);
-      color: white;
+		</div>
+		<div style="background-image: url(Anime-Minimalism-4e-Wallpaper-640-x-960-380x570.jpg);
+			color: white;
       width: 212px;
       height: 350px;
       padding-top: 100px;
@@ -335,9 +346,9 @@ include ("header.php");
         <b>Yogyakarta</b>
         <p>Lorem ipsum dolor sit amet,</p>
         </div>
-        <div> 
-      </div>
-    </div>
+				<div>	
+			</div>
+		</div>
     <div style="background-image: url(Anime-Minimalism-4e-Wallpaper-640-x-960-380x570.jpg);
       color: white;
       width: 212px;
@@ -657,7 +668,7 @@ include ("header.php");
                           </section>
 
                           <br>
-                          <div class="container-fluid" style="
+                        	<div class="container-fluid" style="
                           width: 100%;
                           padding:10px 10px 10px 10px;
                           margin-left: -5px;
@@ -857,7 +868,7 @@ include ("header.php");
 </div>
     </div>
     </section>
-  <div class="container">
+	<div class="container">
   <h1>Blockquotes</h1>
   <p>The blockquote element is used to present content from another source:</p>
   <blockquote class="blockquote">
@@ -867,9 +878,173 @@ include ("header.php");
 </div>
 <br>
 <br>
+<footer class="position-relative" style="background : #f8f9fa !important;
+padding-top: 80px; 
+padding-bottom: 50px;">
+	<div class="py-6 bg-gray-200 text-muted">
+		<div class="container" style="padding-top: 20px;">
+			<div class="row">
+				<div class="col-lg-4 mb-5 mb-lg-0">
+					<div class="font-weight-bold textt-uppercase text-dark mb-3">
+						Directory
+					</div>
+					<p>lorem ispsum dolor sit amet, consectetur adipisicing</p>
+					<ul class="list-inline">
+						<li class="list-inline-item">
+							<a href="#" target="_blank" title="twitter"
+							class="text-muted text-hover-primary">
+								<i class="fab fa-twitter">
+								</i>
+							</a>
+						</li>
+						<li class="list-inline-item">
+							<a href="#" target="_blank" title="facebook"
+							class="text-muted text-hover-primary">
+								<i class="fab fa-facebook-f">
+								</i>
+							</a>
+						</li>
+						<li class="list-inline-item">
+							<a href="#" target="_blank" title="instagram"
+							class="text-muted text-hover-primary">
+								<i class="fab fa-instagram">
+								</i>
+							</a>
+						</li>
+						<li class="list-inline-item">
+							<a href="#" target="_blank" title="pinterest"
+							class="text-muted text-hover-primary">
+								<i class="fab fa-pinterest">
+								</i>
+							</a>
+						</li>
+						<li class="list-inline-item">
+							<a href="#" target="_blank" title="vimeo"
+							class="text-muted text-hover-primary">
+								<i class="fab fa-vimeo">
+								</i>
+							</a>
+						</li>
+            <li class="list-inline-item">
+              <a href="#" target="_blank" title="whatsapp"
+              class="text-muted text-hover-primary">
+                <i class="fab fa-whatsapp">
+                </i>
+              </a>
+            </li>
+					</ul>
+				</div>
+				<div class="col-lg-2 col-md-6 mb-5 mb-lg-0">
+					<h6 class="font-weight-bold textt-uppercase text-dark mb-3">
+						Rentals
+					</h6>
+					<ul class="list-unstyled">
+						<li>
+							<a href="#" class="text-dark">
+								Rooms
+							</a>
+						</li>
+						<li>
+							<a href="#" class="text-dark">Map on top</a>
+						</li>
+						<li>
+							<a href="#" class="text-dark">Side Map</a>
+						</li>
+						<li>
+							<a href="#" class="text-dark">No map</a>
+						</li>
+  						<li>
+							<a href="#" class="text-dark">Room detail</a>
+						</li>
+					</ul>
+				</div>
+				<div class="col-lg-2 col-md-6 mb-5 mb-lg-0">
+					<h6 class="font-weight-bold textt-uppercase text-dark mb-3">Pages</h6>
+					<ul class="list-unstyled">
+						<li>
+							<a href="Three.html" class="text-dark"
+							data-toggle="tooltip" title="Any Problem?">Contact US</a>
+						</li>
+						<li>
+							<a href="#" class="text-dark">Pricing</a>
+						</li>
+						<li>
+							<a href="#" class="text-dark">Text page</a>
+						</li>
+						<li>
+							<a href="#" class="text-dark">F.A.Q.s
+								<span class="badge badge-info ml-1">New</span></a>
+						</li>
+						<li>
+							<a href="#" class="text-dark">Coming Soon</a>
+						</li>
+					</ul>
+				</div>
+				<script>
+					$(document).ready(function(){
+						$('[data-toggle="tooltip"]').tooltip();
+					});
+				</script>
+				<div class="col-lg-4">
+					<h6 class="font-weight-bold textt-uppercase text-dark mb-3">
+						Daily Offers & Discounts
+					</h6>
+					<p class="mb-3">
+						Lorem ipsum dolor sitamet, consectetur adipisicing elit. At itaque temporibus.
+					</p>
+					<form action="#" id="newsletter-form">
+						<div class="input-group mb-3">
+							<input type="email" placeholder="Your Email Address" 
+							aria-label="Your Email Address" class="form-control 
+							bg-transparent border-dark border-right-0">
+							<div class="input-group-append">
+								<button type="submit" class="btn btn-outline-dark
+								border-left-0">
+								<i class="fas fa-paper-plane text-lg"></i>
+								
+								</button>
+							</div>
+						</div>
+					</form>
+				</div>
+			</div>
+		</div>
+	</div>
+</footer>
 
+<div style="width: 100%; 
+height: 90px; 
+background: #343a40 !important; 
+padding-top: 40px;
+padding-left: 20px;">
+		<div class="container-fluid" >
+			<div class="row align-items-center">
+				<div class="col-md-6 text-center text-md-left">
+					<p class="text-md-left" style="color: white;">Copyright 2019 Your Company. All Rights reserved</p>
+				</div>
+				<div class="col-md-6 text-center text-md-right">
+					<ul class="list-inline-item">
+						<li class="list-inline-item">
+							<img src="https://d19m59y37dris4.cloudfront.net/directory/1-2/img/visa.svg" alt="..."
+							style="margin-top:0px; width: 30px; height: 30px;">
+						</li>
+						<li class="list-inline-item">
+							<img src="https://d19m59y37dris4.cloudfront.net/directory/1-2/img/paypal.svg" alt="..."
+							style="margin-top: 0px; width: 30px; height: 30px;">
+						</li>
+						<li class="list-inline-item">
+							<img src="https://d19m59y37dris4.cloudfront.net/directory/1-2/img/western-union.svg" alt="..."
+							style="width: 30px; height: 30px; margin-top: 0px;">
+						</li>
+						<li class="list-inline-item">
+							<img src="https://d19m59y37dris4.cloudfront.net/directory/1-2/img/mastercard.svg" alt="..."
+							style="margin-right:20px; margin-top:0px; width: 30px; height: 30px;">
+						</li>
+					</ul>
+				</div>
+			</div>
+		</div>
+	</div>
 
-<?php 
-include ("footer.php");
-
-?>
+</body>
+</html>
