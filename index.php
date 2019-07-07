@@ -13,7 +13,6 @@ include ("header.php");
     }
     body {
       width: 100%;
-      font-family: 'Montserrat', sans-serif;
       height: 100%;
     }
     </style>
@@ -124,6 +123,7 @@ include ("header.php");
       background:  #f8f9fa !important;
       height: 600px;
       padding:120px 20px 20px 20px;
+      font-family: 'Montserrat', sans-serif;
       ">
 
                 <!-- Heading -->
@@ -198,7 +198,8 @@ include ("header.php");
   height: 640px; 
   width: 100%; 
   margin-left: 50px; 
-  padding: 40px 20px 20px 20px;">
+  padding: 40px 20px 20px 20px;
+  font-family: 'Montserrat',sans-serif;">
     <h5 align="left">
     <B style="margin-left: 21px;
     margin-top: 40px;
@@ -305,6 +306,7 @@ include ("header.php");
   padding: 80px 40px 20px 40px;
   width: 100%;
   height: 100%;
+  font-family: 'Montserrat', sans-serif;
   ">
     <h5 align="left">
     <B style="margin-left: 21px;
@@ -611,7 +613,7 @@ include ("header.php");
                           margin-left: 140px;
                           padding-top: 250px;
                           font-size: 75px;
-                          font-family: 'Poppins', sans-serif;">
+                          font-family: 'Montserrat', sans-serif;">
                         Lorem ipsum dolor sit amet, consectetur adipisicing
                         </h1>
                         <button class="btn btn-light" style="
@@ -638,6 +640,7 @@ include ("header.php");
                     margin-left: 5px;
                     margin-top: 80px;
                     height: 800px;
+                    font-family: 'Montserrat', sans-serif;
                     background-color: white;">
                       <div class="container-fluid" style="width: 100%;">
                         <div class="text-center" style="text-align: center !important;">
@@ -799,7 +802,8 @@ include ("header.php");
 </div>
     </div>
     </section>
-  <div class="container">
+  <div class="container" style="
+  font-family: 'Montserrat', sans-serif;">
   <h1>Blockquotes</h1>
   <p>The blockquote element is used to present content from another source:</p>
   <blockquote class="blockquote">

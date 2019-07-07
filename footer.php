@@ -1,6 +1,7 @@
 <footer class="position-relative" style="background : #f8f9fa !important;
 padding-top: 80px; 
-padding-bottom: 50px;">
+padding-bottom: 50px;
+font-family: 'Montserrat', sans-serif;">
 	<div class="py-6 bg-gray-200 text-muted">
 		<div class="container" style="padding-top: 20px;">
 			<div class="row">
