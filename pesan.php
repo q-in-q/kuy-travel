@@ -31,27 +31,30 @@
 									</select>
 								</div>
 							</div>
+
 							<div class="form-group col-md-12">
-								<input type="text" class="form-control"      placeholder="To" onfocus="this.placeholder = ''"
-								 onblur="this.placeholder = 'To'">
-							</div>
-							<div class="form-group col-md-12">
-								<input  class="form-control"   placeholder="From" onfocus="this.placeholder = ''"
-								 onblur="this.placeholder = 'From'">
-							</div>
-							<div class="form-group col-md-12">
-								<input type="text" class="form-control" id="subject" name="subject" placeholder="Return" onfocus="this.placeholder = ''"
-								 onblur="this.placeholder = 'Return'">
-							</div>
-							<div class="form-group col-md-12">
-								 <div class="col-md-6" style="text-align:-webkit-left">
+							<div class="col-md-6" style="text-align:-webkit-left">
 									<label for="form-select" style="color:#fff; ">Dewasa</label>
 								</div>
 								
-								<input type="number" class="form-control" id="number" name="number" placeholder="0" onfocus="this.placeholder = ''"
-								 onblur="this.placeholder = '0'">
-								 
+								<div class="form-select">
+									<select>
+										
+										<option value="1">0</option>
+										<option value="1">1</option>
+										<option value="1">2</option>
+                                        <option value="1">3</option>
+                                        <option value="1">4</option>
+										<option value="1">5</option>
+                                        <option value="1">6</option>
+                                        <option value="1">7</option>
+                                        <option value="1">8</option>
+										<option value="1">9</option>
+										<option value="1">10</option>
+									</select>
+								</div>
 							</div>
+
 							<div class="form-group col-md-12">
 							<div class="col-md-6" style="text-align:-webkit-left">
 									<label for="form-select" style="color:#fff; ">Anak-anak</label>
@@ -74,6 +77,22 @@
 									</select>
 								</div>
 							</div>
+
+
+							<div class="form-group col-md-12">
+								<input type="text" class="form-control"      placeholder="To" onfocus="this.placeholder = ''"
+								 onblur="this.placeholder = 'To'">
+							</div>
+							<div class="form-group col-md-12">
+								<input  class="form-control"   placeholder="From" onfocus="this.placeholder = ''"
+								 onblur="this.placeholder = 'From'">
+							</div>
+							<div class="form-group col-md-12">
+								<input type="text" class="form-control" id="subject" name="subject" placeholder="Return" onfocus="this.placeholder = ''"
+								 onblur="this.placeholder = 'Return'">
+							</div>
+						
+							
 							<div class="col-lg-12 text-center">
 								<button class="primary-btn text-uppercase">Pesan Sekarang</button>
 							</div>
