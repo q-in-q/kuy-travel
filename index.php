@@ -2,12 +2,6 @@
 include ("header.php");
 ?>
 
-<style>
-  body {
-    font-family: 'Montserrat', sans-serif;
-  }
-</style>
-
   <style type="text/css">
     html {
       scroll-behavior: smooth;
