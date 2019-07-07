@@ -82,10 +82,6 @@ padding-bottom: 50px;">
 					<h6 class="font-weight-bold textt-uppercase text-dark mb-3">Pages</h6>
 					<ul class="list-unstyled">
 						<li>
-
-							<a href="Three.html" class="text-dark"
-							data-toggle="tooltip" title="Any Problem?">Contact US</a>
-
 							<a  class="text-dark"
 							data-toggle="tooltip" title="Any Problem?" href="#" onclick="window.location.href='contactus.php'">Contact US</a>
 
@@ -138,7 +134,7 @@ padding-bottom: 50px;">
 </footer>
 
 <div style="width: 100%; 
-height: 90px; 
+height: 120px; 
 background: #343a40 !important; 
 padding-top: 40px;
 padding-left: 20px;">
