@@ -82,13 +82,13 @@ padding-bottom: 50px;">
 					<h6 class="font-weight-bold textt-uppercase text-dark mb-3">Pages</h6>
 					<ul class="list-unstyled">
 						<li>
-<<<<<<< HEAD
+
 							<a href="Three.html" class="text-dark"
 							data-toggle="tooltip" title="Any Problem?">Contact US</a>
-=======
+
 							<a  class="text-dark"
 							data-toggle="tooltip" title="Any Problem?" href="#" onclick="window.location.href='contactus.php'">Contact US</a>
->>>>>>> 9e596cfb2f2653fedf47f0a558c796ddb67ddc1a
+
 						</li>
 						<li>
 							<a href="#" class="text-dark">Pricing</a>
