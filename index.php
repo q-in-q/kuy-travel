@@ -69,22 +69,9 @@ include ("header.php");
   </style>
 </head>
 <body>
-  <header class="header">
-  <div class="header">
-    <a href="#default" class="logo">CompanyLogo</a>
-     <div class="header-right">
-      <a class="active" href="#home">Home</a>
-      <a href="#contact">Contact
-      </a>
-      <a href="#about">About</a>
-    </div>
-  </div>
-  </header>
-  <style type="text/css">
-    .nav-item {
-      margin-left: 50px;
-    }
-  </style>
+  <br>
+  <br>
+  <br>
   <div class="bd-example">
   <div id="carouselExampleCaptions" class="carousel slide" data-ride="carousel">
     <ol class="carousel-indicators">
@@ -94,7 +81,7 @@ include ("header.php");
     </ol>
     <div class="carousel-inner">
       <div class="carousel-item active">
-        <img src="D:\bukan project\blonde-girl-4k-t7-1366x768.JPG" class="d-block w-100" alt="" style=" z-index: -1;">
+        <img src="blonde-girl-4k-t7-1366x768.JPG" class="d-block w-100" alt="" style=" z-index: -1;">
         <div class="carousel-caption d-none d-md-block">
           <div class="text-center text-lg-left">
           <h6 align="left">The best holiday experience</h6>
@@ -155,14 +142,14 @@ include ("header.php");
         </div>
       </div>
       <div class="carousel-item">
-        <img src="D:\bukan project\cute-girl-with-camera-smiling-8m-1366x768.jpg" class="d-block w-100" alt="...">
+        <img src="cute-girl-with-camera-smiling-8m-1366x768.jpg" class="d-block w-100" alt="...">
         <div class="carousel-caption d-none d-md-block">
           <h5>Second slide label</h5>
           <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
         </div>
       </div>
       <div class="carousel-item">
-        <img src="D:\bukan project\marie-grippon-hd-1v-1366x768.jpg" class="d-block w-100" alt="...">
+        <img src="marie-grippon-hd-1v-1366x768.jpg" class="d-block w-100" alt="...">
         <div class="carousel-caption d-none d-md-block">
           <h5>Third slide label</h5>
           <p>Praesent commodo cursus magna, vel scelerisque nisl consectetur.</p>
@@ -257,8 +244,11 @@ include ("header.php");
     </div>
   </div>
   <section class="bg-white shadow">
-  <div class="class-content-inner"style="height: 740px; width: 100%; margin-left: 50px; 
-  padding: 100px 20px 20px 20px;">
+  <div class="class-content-inner"style="
+  height: 640px; 
+  width: 100%; 
+  margin-left: 50px; 
+  padding: 40px 20px 20px 20px;">
     <h5 align="left">
     <B style="margin-left: 21px;
     margin-top: 40px;
@@ -267,7 +257,9 @@ include ("header.php");
     <h1 style="margin-left: 20px;"><p align="left"><b>Our Guides</b></p>
     </h1>
     <h6 align="right" style="padding-right: 120px;"><a href="" class="text-muted">see all guides</a></h6>
-    <div class="row" style=" width:100%; padding-top: 40px; margin-left: 0px;">
+    <div class="row" style=" width:100%; 
+    padding-top: 40px; 
+    margin-left: 0px;">
       <div align="center" style="background: url(Anime-Minimalism-4e-Wallpaper-640-x-960-380x570.jpg);
       color: white;
       width: 212px;
@@ -367,7 +359,7 @@ include ("header.php");
     <h5 align="left">
     <B style="margin-left: 21px;
     margin-top: 40px;
-    color: pink;">HURRY UP, THESE ARE EXPIRING SOONL</B>
+    color: pink;">HURRY UP, THESE ARE EXPIRING SOON</B>
     </h5>
     <div class="d-flex">
     <h1 style="margin-left: 20px;"><p align="left"><b>Last minute deals</b></p>
