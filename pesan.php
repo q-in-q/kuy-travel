@@ -12,12 +12,16 @@
 							for your next Tour</h1>
 						<form class="trip-form-area trip-page-form trip-form text-right" id="myForm" action="mail.html" method="post">
 							<div class="form-group col-md-12">
+								<div class="col-md-6" style="text-align:-webkit-left">
+									<label for="form-select" style="color:#fff; ">Select Packages</label>
+								</div>
+								
 								<div class="form-select">
 									<select>
-										<option value="1">Select Packages</option>
+										
 										<option value="1">Prambanan</option>
 										<option value="1">Museum Merapi</option>
-										<option value="1">Monajali</option>
+										<option value="1">Monjali</option>
                                         <option value="1">Goa Pindul</option>
                                         <option value="1">Air Terjun Sri Gethuk</option>
 										<option value="1">Taman Pintar</option>
@@ -40,12 +44,35 @@
 								 onblur="this.placeholder = 'Return'">
 							</div>
 							<div class="form-group col-md-12">
-								<input type="text" class="form-control" id="subject" name="subject" placeholder="Adults" onfocus="this.placeholder = ''"
-								 onblur="this.placeholder = 'Adults'">
+								 <div class="col-md-6" style="text-align:-webkit-left">
+									<label for="form-select" style="color:#fff; ">Adults</label>
+								</div>
+								
+								<input type="number" class="form-control" id="number" name="number" placeholder="0" onfocus="this.placeholder = ''"
+								 onblur="this.placeholder = '0'">
+								 
 							</div>
 							<div class="form-group col-md-12">
-								<input type="text" class="form-control" id="subject" name="subject" placeholder="Child" onfocus="this.placeholder = ''"
-								 onblur="this.placeholder = 'Child'">
+							<div class="col-md-6" style="text-align:-webkit-left">
+									<label for="form-select" style="color:#fff; ">Child</label>
+								</div>
+								
+								<div class="form-select">
+									<select>
+										
+										<option value="1">0</option>
+										<option value="1">1</option>
+										<option value="1">2</option>
+                                        <option value="1">3</option>
+                                        <option value="1">4</option>
+										<option value="1">5</option>
+                                        <option value="1">6</option>
+                                        <option value="1">7</option>
+                                        <option value="1">8</option>
+										<option value="1">9</option>
+										<option value="1">10</option>
+									</select>
+								</div>
 							</div>
 							<div class="col-lg-12 text-center">
 								<button class="primary-btn text-uppercase">Book Now</button>

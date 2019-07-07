@@ -267,8 +267,8 @@ a {
                     Suite 1000 </br>
                     Orlando, FL 32803
                     <br>
-                    <a class="btn btn-accent" href="" target="_blank"
-                    id="googleMap"><img src="https://www.solodev.com/assets/contact-us-page/map-marker.png" alt="Map Marker">Google Maps</a>
+                    <a class="btn btn-accent" href="tesmap.html" target="_blank"
+                    id="googleMap">Google Maps</a>
                 </p>
             </div>
             </div>
