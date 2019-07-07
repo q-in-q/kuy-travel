@@ -15,7 +15,6 @@
     <link rel="stylesheet" href="./css/bootstrap.min.css">
     <link rel="stylesheet" href="fontawesome-free-5.9.0-web/css/all.css">
     <link rel="stylesheet" href="css/style.css">
-    
   
     
     <script src="js/countdown.js" type="text/javascript"></script>
@@ -40,7 +39,9 @@
 </head>
 <body>
 
-<nav class="kepala navbar navbar-expand-lg navbar-light fixed-top" style="background:white;">
+<nav class="kepala navbar navbar-expand-lg navbar-light fixed-top" style="
+background:white;
+font-family: 'Montserrat', sans-serif;">
 
     <a class="navbar-brand" href="#" style="color:black;" onclick="window.location.href='index.php'"><img src="image/logo2.png" alt="" style="width:100px; height:50px;"></a>
     <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
