@@ -43,6 +43,11 @@
    /* shows the dropdown menu on hover */
  .navbar .dropdown:hover .dropdown-menu, .navbar .dropdown .dropdown-menu:hover {
    display:block!important;
+  
+ }
+
+ .collapse ul li a:hover{
+   color: #0098d8;
  }
    
    .navbar .dropdown-menu {
