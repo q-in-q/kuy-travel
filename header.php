@@ -16,6 +16,7 @@
     <link rel="stylesheet" href="./css/bootstrap.min.css">
     <link rel="stylesheet" href="fontawesome-free-5.9.0-web/css/all.css">
     <link rel="stylesheet" href="css/style.css">
+    
   
     
     <script src="js/countdown.js" type="text/javascript"></script>
@@ -64,7 +65,7 @@
          </li>
         
          <li class="nav-item">
-           <a class="nav-link" href="#" style="color:black" ;onclick="window.location.href='pesan.php'">Pesan</a>
+           <a class="nav-link" href="#" style="color:black" onclick="window.location.href='pesan.php'">Pesan</a>
          </li>
           <li class="nav-item">
             <a class="nav-link" href="#" onclick="window.location.href='promo.php'" style="color:black;">Diskon</a>
@@ -81,3 +82,4 @@
       </ul>
     </div>
 </nav>
+
