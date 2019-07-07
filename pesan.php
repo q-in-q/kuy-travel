@@ -8,12 +8,12 @@
 			<div class="row justify-content-center">
 				<div class="col-lg-7 col-md-10">
 					<div class="trip-form-section">
-						<h1>Book a Trip <br>
-							for your next Tour</h1>
+						<h1>Pesan Untuk Liburan <br>
+							Hanya di KuyTravel</h1>
 						<form class="trip-form-area trip-page-form trip-form text-right" id="myForm" action="mail.html" method="post">
 							<div class="form-group col-md-12">
 								<div class="col-md-6" style="text-align:-webkit-left">
-									<label for="form-select" style="color:#fff; ">Select Packages</label>
+									<label for="form-select" style="color:#fff; ">Pilih Paket</label>
 								</div>
 								
 								<div class="form-select">
@@ -45,7 +45,7 @@
 							</div>
 							<div class="form-group col-md-12">
 								 <div class="col-md-6" style="text-align:-webkit-left">
-									<label for="form-select" style="color:#fff; ">Adults</label>
+									<label for="form-select" style="color:#fff; ">Dewasa</label>
 								</div>
 								
 								<input type="number" class="form-control" id="number" name="number" placeholder="0" onfocus="this.placeholder = ''"
@@ -54,7 +54,7 @@
 							</div>
 							<div class="form-group col-md-12">
 							<div class="col-md-6" style="text-align:-webkit-left">
-									<label for="form-select" style="color:#fff; ">Child</label>
+									<label for="form-select" style="color:#fff; ">Anak-anak</label>
 								</div>
 								
 								<div class="form-select">
@@ -75,7 +75,7 @@
 								</div>
 							</div>
 							<div class="col-lg-12 text-center">
-								<button class="primary-btn text-uppercase">Book Now</button>
+								<button class="primary-btn text-uppercase">Pesan Sekarang</button>
 							</div>
 						</form>
 					</div>

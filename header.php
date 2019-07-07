@@ -58,23 +58,23 @@
       </form>
       <ul class="navbar-nav mr-auto">
           <li class="nav-item active">
-            <a class="nav-link" href="#" onclick="window.location.href='index.php'" style="color:#ffffff">Home <span class="sr-only">(current)</span></a>
+            <a class="nav-link" href="#" onclick="window.location.href='index.php'" style="color:#ffffff">Beranda <span class="sr-only">(current)</span></a>
           </li>
           <li class="nav-item">
-           <a class="nav-link" href="#" onclick="window.location.href='rekomendasi.php'"  style="color:#ffffff">Recomendation</a>
+           <a class="nav-link" href="#" onclick="window.location.href='rekomendasi.php'"  style="color:#ffffff">Rekomedasi</a>
          </li>
           <li class="nav-item">
-           <a class="nav-link" href="#" onclick="window.location.href='paket.php'"  style="color:#ffffff">Package</a>
+           <a class="nav-link" href="#" onclick="window.location.href='paket.php'"  style="color:#ffffff">Paket</a>
          </li>
         
          <li class="nav-item">
-           <a class="nav-link" href="#" style="color:#ffffff" onclick="window.location.href='pesan.php'">Booking</a>
+           <a class="nav-link" href="#" style="color:#ffffff" onclick="window.location.href='pesan.php'">Pesan</a>
          </li>
           <li class="nav-item">
-            <a class="nav-link" href="#" onclick="window.location.href='promo.php'" style="color:#ffffff">Discount</a>
+            <a class="nav-link" href="#" onclick="window.location.href='promo.php'" style="color:#ffffff">Diskon</a>
           </li>
           <li class="nav-item">
-            <a class="nav-link" href="#" onclick="window.location.href='ourteam.php'" style="color:#ffffff">About Us</a>
+            <a class="nav-link" href="#" onclick="window.location.href='ourteam.php'" style="color:#ffffff">Tentang Kami</a>
           </li>
 
         

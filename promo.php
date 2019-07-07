@@ -3,7 +3,7 @@
 <br><br><br><br>
 <!-- destinasi -->
 <div class="home">
-        <h2>DISCOUNT</h2>
+        <h2>DISKON</h2>
         <div class="underline"></div>
     </div>
 
@@ -25,15 +25,15 @@
                       </div>
 
                       <div class="carousel-caption">
-                        <h1>Discount 1 day in Pantai Timang</h1>
+                        <h1>Diskon Paket Travel 1 hari di Pantai Timang</h1>
                         <div class="container text-transparent">
                             <ul class="countdown">
                                 
                                 <h4 >Berlaku hingga</h4>
-                                <li><span id="days"></span>days</li>
-                                <li><span id="hours"></span>Hours</li>
-                                <li><span id="minutes"></span>Minutes</li>
-                                <li><span id="seconds"></span>Seconds</li>
+                                <li><span id="days"></span>Hari</li>
+                                <li><span id="hours"></span>Jam</li>
+                                <li><span id="minutes"></span>Menit</li>
+                                <li><span id="seconds"></span>Detik</li>
                             </ul>
                          </div>
                          <button type="button" class="btn btn-primary">Detail</button><br>
@@ -53,15 +53,15 @@
                       </div>
 
                       <div class="carousel-caption">
-                        <h1>Discount 50% Full Service in Pantai Nglombor</h1>
+                        <h1>Diskon 50% biaya travel di Pantai Nglombor</h1>
                         <div class="container text-transparent">
                             <ul class="countdown">
                                 
                                 <h4 class="berakhir">Promo berakhir</h4>
-                                <li><span id="days"></span>days</li>
-                                <li><span id="hours"></span>Hours</li>
-                                <li><span id="minutes"></span>Minutes</li>
-                                <li><span id="seconds"></span>Seconds</li>
+                                <li><span id="days"></span>Hari</li>
+                                <li><span id="hours"></span>Jam</li>
+                                <li><span id="minutes"></span>Menit</li>
+                                <li><span id="seconds"></span>Detik</li>
                             </ul>
                          </div>
                         <button type="button" class="btn btn-primary">Detail</button>
@@ -80,15 +80,15 @@
                       </div>
 
                       <div class="carousel-caption">
-                        <h1>Free Tour Guide in Goa Pindul</h1>
+                        <h1>Gratis Pemandu Wisata di Goa Pindul </h1>
                         <div class="container text-transparent">
                             <ul class="countdown">
                                 
                                 <h4 class="berakhir">Promo berakhir</h4>
-                                <li><span id="days"></span>days</li>
-                                <li><span id="hours"></span>Hours</li>
-                                <li><span id="minutes"></span>Minutes</li>
-                                <li><span id="seconds"></span>Seconds</li>
+                                <li><span id="days"></span>Hari</li>
+                                <li><span id="hours"></span>Jam</li>
+                                <li><span id="minutes"></span>Menit</li>
+                                <li><span id="seconds"></span>Detik</li>
                             </ul>
                          </div>
                         <button type="button" class="btn btn-primary">Detail</button>
