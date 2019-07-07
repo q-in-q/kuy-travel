@@ -68,9 +68,9 @@
           <li class="nav-item">
             <a class="nav-link" href="#" onclick="window.location.href='promo.php'" style="color:#ffffff">Diskon</a>
           </li>
-          <li class="nav-item">
+          <!--<li class="nav-item">
             <a class="nav-link" href="#" onclick="window.location.href='ourteam.php'" style="color:#ffffff">Tentang Kami</a>
-          </li>
+          </li>-->
         </ul>
         <ul class="navbar-nav mr-auto">
         <li class="nav-item ">
