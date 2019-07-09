@@ -82,7 +82,7 @@
 							<div class="form-group col-md-12">
 								<input   type="text" id="date-picker-example" class="form-control datepicker" placeholder="Pilih Tanggal Travel" onfocus="this.placeholder = ''"
 								 onblur="this.placeholder = 'Pilih Tanggal Travel'">
-							</div>
+							<!--</div>
 							<div class="form-group col-md-12">
 								<input  class="form-control"   placeholder="From" onfocus="this.placeholder = ''"
 								 onblur="this.placeholder = 'From'">
@@ -90,7 +90,7 @@
 							<div class="form-group col-md-12">
 								<input type="text" class="form-control" id="subject" name="subject" placeholder="Return" onfocus="this.placeholder = ''"
 								 onblur="this.placeholder = 'Return'">
-							</div>
+							</div>-->
 						
 							
 							<div class="col-lg-12 text-center">

@@ -71,15 +71,17 @@ font-family: 'Montserrat', sans-serif;">
           <!--<li class="nav-item">
             <a class="nav-link" href="#" onclick="window.location.href='ourteam.php'" style="color:#ffffff">Tentang Kami</a>
           </li>-->
-          <form class="col-md-4 form-inline my-2 my-lg-0">
-            <input style="background:#ecf0f1;" class="form-control" type="search" placeholder="Search" data-toggle="modal" data-target="#centralModallg" aria-label="Search" data-target="#centralModalSm">
-          </form>
+        
         </ul>
         <ul class="navbar-nav mr-auto">
+          <li class="nav-item">
+            <form class="col-md-4 form-inline my-2 my-lg-0">
+              <input style="background:#ecf0f1;" class="form-control" type="search" placeholder="Search" data-toggle="modal" data-target="#centralModallg" aria-label="Search" data-target="#centralModalSm">
+            </form>
+          </li>
         <li class="nav-item ">
-        
-        <button type="button" class="btn btn-light" onclick="window.location.href='login.php'">LOGIN</button>
-        <button type="button" class="btn btn-light" onclick="window.location.href='profil.php'">PROFIL</button>
+          <button type="button" class="btn btn-light" onclick="window.location.href='login.php'">LOGIN</button>
+          <button type="button" class="btn btn-light" onclick="window.location.href='profil.php'">PROFIL</button>
         </li>
       </ul>
     </div>
