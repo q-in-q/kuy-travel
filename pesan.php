@@ -12,7 +12,7 @@
 							Hanya di KuyTravel</h1>
 						<form class="trip-form-area trip-page-form trip-form text-right" id="myForm" action="mail.html" method="post">
 							<div class="form-group col-md-12">
-								<div class="col-md-6" style="text-align:-webkit-left">
+								<div class="col-md-12" style="text-align:-webkit-left">
 									<label for="form-select" style="color:#fff; ">Pilih Paket</label>
 								</div>
 								
@@ -32,58 +32,67 @@
 								</div>
 							</div>
 
-							<div class="form-group col-md-12">
-							<div class="col-md-6" style="text-align:-webkit-left">
+							<div class="form-group col-md-6">
+								<div class="col-md-6" style="text-align:-webkit-left">
 									<label for="form-select" style="color:#fff; ">Dewasa</label>
 								</div>
 								
-								<div class="form-select">
-									<select>
-										
-										<option value="1">0</option>
-										<option value="1">1</option>
-										<option value="1">2</option>
-                                        <option value="1">3</option>
-                                        <option value="1">4</option>
-										<option value="1">5</option>
-                                        <option value="1">6</option>
-                                        <option value="1">7</option>
-                                        <option value="1">8</option>
-										<option value="1">9</option>
-										<option value="1">10</option>
-									</select>
-								</div>
+								
+									<div class="form-select">
+										<select>
+											
+											<option value="1">0</option>
+											<option value="1">1</option>
+											<option value="1">2</option>
+											<option value="1">3</option>
+											<option value="1">4</option>
+											<option value="1">5</option>
+											<option value="1">6</option>
+											<option value="1">7</option>
+											<option value="1">8</option>
+											<option value="1">9</option>
+											<option value="1">10</option>
+										</select>
+									</div>
+								
 							</div>
 
-							<div class="form-group col-md-12">
-							<div class="col-md-6" style="text-align:-webkit-left">
+							<div class="form-group col-md-6">
+								<div class="col-md-6" style="text-align:-webkit-left">
 									<label for="form-select" style="color:#fff; ">Anak-anak</label>
 								</div>
 								
-								<div class="form-select">
-									<select>
-										
-										<option value="1">0</option>
-										<option value="1">1</option>
-										<option value="1">2</option>
-                                        <option value="1">3</option>
-                                        <option value="1">4</option>
-										<option value="1">5</option>
-                                        <option value="1">6</option>
-                                        <option value="1">7</option>
-                                        <option value="1">8</option>
-										<option value="1">9</option>
-										<option value="1">10</option>
-									</select>
-								</div>
+									<div class="form-select">
+										<select>
+											
+											<option value="1">0</option>
+											<option value="1">1</option>
+											<option value="1">2</option>
+											<option value="1">3</option>
+											<option value="1">4</option>
+											<option value="1">5</option>
+											<option value="1">6</option>
+											<option value="1">7</option>
+											<option value="1">8</option>
+											<option value="1">9</option>
+											<option value="1">10</option>
+										</select>
+									</div>
+								
 							</div>
 
 
-							<div class="form-group col-md-12">
-								<input   type="text" id="date-picker-example" class="form-control datepicker" placeholder="Pilih Tanggal Travel" onfocus="this.placeholder = ''"
+							<div class="form-group col-md-6">
+							<div class="col-md-6" style="text-align:-webkit-left">
+									<label for="form-select" style="color:#fff; ">Pilih Tanggal</label>
+								</div>
+
+								<input   type="text" id="datepicker" class="form-control datepicker" placeholder="Pilih Tanggal Travel" onfocus="this.placeholder = ''"
 								 onblur="this.placeholder = 'Pilih Tanggal Travel'">
-							<!--</div>
-							<div class="form-group col-md-12">
+
+	
+							</div>
+							<!--<div class="form-group col-md-12">
 								<input  class="form-control"   placeholder="From" onfocus="this.placeholder = ''"
 								 onblur="this.placeholder = 'From'">
 							</div>
@@ -116,14 +125,22 @@
     });    
   </script>
   
-  <script>
-    
+  
 
-	// Data Picker Initialization
-	$('.datepicker').pickadate();
-  </script>
+	<link rel="stylesheet" href="css/stylepesan.css">
+	<link rel="stylesheet" href="css/nice-select.css">
 
-<link rel="stylesheet" href="css/stylepesan.css">
-    <link rel="stylesheet" href="css/nice-select.css">
+	<link rel="stylesheet" href="//code.jquery.com/ui/1.12.1/themes/base/jquery-ui.css">
+	<link rel="stylesheet" href="/resources/demos/style.css">
+	<script src="https://code.jquery.com/ui/1.12.1/jquery-ui.js"></script>
+	<script>
+	$( function() {
+		$( "#datepicker" ).datepicker();
+	} );
+	</script>
+
+
+	
+
     
     <?php include("footer.php"); ?>
