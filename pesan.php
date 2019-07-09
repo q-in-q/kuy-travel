@@ -80,8 +80,8 @@
 
 
 							<div class="form-group col-md-12">
-								<input type="text" class="form-control"      placeholder="To" onfocus="this.placeholder = ''"
-								 onblur="this.placeholder = 'To'">
+								<input   type="text" id="date-picker-example" class="form-control datepicker" placeholder="Pilih Tanggal Travel" onfocus="this.placeholder = ''"
+								 onblur="this.placeholder = 'Pilih Tanggal Travel'">
 							</div>
 							<div class="form-group col-md-12">
 								<input  class="form-control"   placeholder="From" onfocus="this.placeholder = ''"
@@ -108,6 +108,7 @@
   <script src="js/fastclick.js"></script>
   <script src="js/prism.js"></script>
   
+   
   <script>
     $(document).ready(function() {
       $('select:not(.ignore)').niceSelect();      
@@ -116,13 +117,10 @@
   </script>
   
   <script>
-    (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
-    (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
-    m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
-    })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+    
 
-    ga('create', 'UA-64633646-1', 'auto');
-    ga('send', 'pageview');
+	// Data Picker Initialization
+	$('.datepicker').pickadate();
   </script>
 
 <link rel="stylesheet" href="css/stylepesan.css">
