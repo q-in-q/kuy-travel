@@ -103,7 +103,7 @@
 						
 							
 							<div class="col-lg-12 text-center">
-								<button class="primary-btn text-uppercase">Pesan Sekarang</button>
+								<button type="button" class="primary-btn text-uppercase" onclick="window.location.href='pesan2.php'">  Pesan Sekarang</button>
 							</div>
 						</form>
 					</div>
