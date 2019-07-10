@@ -2,7 +2,7 @@
 
 <style>
     .contact-section .form-control{
-  border: 1px solid  #2fbfbc;
+    border: 1px solid  #2fbfbc;
     border-top: none;
     border-left: none;
     border-right: none;
@@ -220,7 +220,7 @@ a {
 }
   </style>
 
-<div class="container">
+<div class="container-fluid">
 <div class="contact-section">
     <h2 class="ct-section-head">
                         CONTACT US

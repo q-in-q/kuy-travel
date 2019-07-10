@@ -88,7 +88,8 @@ font-family: 'Montserrat', sans-serif;">
 
 						</li>
 						<li>
-							<a href="#" class="text-muted">Pricing</a>
+							<a  class="text-muted"
+							data-toggle="tooltip" href="#" onclick="window.location.href='ourteam.php'">Tentang Kami</a>
 						</li>
 						<li>
 							<a href="#" class="text-muted">Text page</a>
@@ -138,7 +139,8 @@ font-family: 'Montserrat', sans-serif;">
 height: 120px; 
 background: #343a40 !important; 
 padding-top: 40px;
-padding-left: 20px;">
+padding-left: 20px;
+font-family: 'Montserrat', sans-serif;">
 		<div class="container-fluid" >
 			<div class="row align-items-center">
 				<div class="col-md-6 text-center text-md-left">

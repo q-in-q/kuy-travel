@@ -8,7 +8,7 @@ include ("header.php");
       scroll-behavior: smooth;
       height: 100%;
     }
-    .display-1, .display-2, .display-3, .display-4 {
+    .display-1, .display-2, .display-4 {
       text-align: center;
     }
     body {
@@ -21,10 +21,12 @@ include ("header.php");
   <br>
   <br>
   <br>
-  <div class="bd-example">
-  <div id="carouselExampleCaptions" class="carousel slide" data-ride="carousel">
+  <div class="bd-example"
+  style="
+  font-family: 'Montserrat', sans-serif;">
+  <div id="carouselExampleCaptions" class="carousel slide carousel-fade" data-ride="carousel">
     <ol class="carousel-indicators">
-      <li data-target="#carouselExampleCaptions" data-slide-to="0" class="active"></li>
+      <li data-target="#carouselExampleCaptions" data-slide-to="0"></li>
       <li data-target="#carouselExampleCaptions" data-slide-to="1"></li>
       <li data-target="#carouselExampleCaptions" data-slide-to="2"></li>
     </ol>
@@ -33,73 +35,322 @@ include ("header.php");
         <img src="blonde-girl-4k-t7-1366x768.JPG" class="d-block w-100" alt="" style=" z-index: -1;">
         <div class="carousel-caption d-none d-md-block">
           <div class="text-center text-lg-left">
-          <h6 align="left">The best holiday experience</h6>
-          <h1 class="display-3 font-weight-bold text-shadow" align="left">
-            Stay like a local
+          <h5 align="left"
+          style="font-family: 'Poppins', sans-serif;
+          padding-bottom: 10px;
+          letter-spacing: .2rem;
+          color: #e83e8c !important;
+          margin-left: 60px;
+          "><b>The best holiday experience
+          </b>
+        </h5>
+          <h1 class="text-shadow" style="
+          margin-left: 70px;
+          font-size: 85px;">
+            <b>Stay like a local
+            </b>
           </h1>
           </div>
-          <div class="search-bar" style="background: white; border-radius: 30px; border: 1px black; height: 50px;">
+          <br>
+          <div class="search-bar" style="
+          background: white; 
+          border-radius: 30px;
+           border: 1px black;
+            height: 50px;
+            width: 857px;
+            margin-left: 60px;">
             <form action="#" style="border-radius: 20px;">
               <div class="row">
                 <div class="d-flex align-items-center form-group"
-                style="margin-left: 50px; margin-bottom: 22px;
+                style="margin-left: 50px; 
+                margin-bottom: 22px;
                 width: 260px;
                 margin-top: 7px;
 
                 ">
-                  <input type="text" name="search" placeholder=" what are you searching for ?     "class="form-control border-0 shadow-0"
+                <div style="
+                width: 800px;
+                ">
+                  <input type="text" name="search" placeholder="what are you searching for ?     "
+                  class="form-control"
                   align="center"
                   style="border: transparent;">
                 </div>
+                </div>
                 <div class=""
-                align="center" style="padding-left: 10px;
-                padding-right: 10px; margin-top: 7px;" align="center">
+                align="center" style="
+                padding-left: 10px;
+                padding-right: 10px; 
+                margin-top: 7px;" align="center">
                   <form action="#" id="newsletter-form">
-              <div class="input-group mb-3">
-              <input type="email" placeholder="Location" 
-              aria-label="Your Email Address" class="form-control 
-              bg-grey border-0 border-right-0"
-              style="border: transparent;
-              ">
-              <div class="input-group-append">
-                <button type="submit" class="btn btn-outline-dark
-                border-left-1 border-0" >
-                <i class="fas fa-crosshairs text-lg"></i>
-                 
-                </button>
+                  <div class="input-group mb-3">
+                  <input type="email" placeholder="Location" 
+                  aria-label="Your Email Address" class="form-control 
+                  bg-grey border-0 border-right-0"
+                  style="
+                  border: transparent;
+                  ">
+                  <div class="input-group-append">
+                    <button type="submit" class="btn btn-outline-dark
+                    border-left-1 border-0" >
+                    <i class="fas fa-crosshairs text-lg"></i>
+                     
+                    </button>
+                  </div>
+                </div>
+               </form>
+                </div>
+                 <div class="dropdown show" style="
+                 margin-top: 6px;
+                 margin-right: 13px;">
+                <a class="btn dropdown-toggle" href="#" role="button" id="dropdownMenuLink" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false"
+              style="background: transparent;">
+              Categories
+              </a>
+            
+             <div class="dropdown-menu" aria-labelledby="dropdownMenuLink">
+               <a class="dropdown-item" href="#">Action</a>
+                <a class="dropdown-item" href="#">Another action</a>
+                <a class="dropdown-item" href="#">Something else here</a>
+              </div>
+              </div>
+              <div>
+                <button class="btn btn-primary btn-block rounded-x1" type="submit" 
+                style="
+                border-radius: 50px;
+                text-align: center;
+                text-transform: uppercase;
+                font-family: 'Poppins', sans-serif;
+                letter-spacing: .4rem;
+                margin-top: 5px;
+                width: 120px;
+                ">
+                <b>
+                Search
+              </b>
+              </button>
               </div>
             </div>
-          </form>
-                </div>
-                 <div class="dropdown show" style="margin-top: 6px;">
-              <a class="btn btn-secondary dropdown-toggle" href="#" role="button" id="dropdownMenuLink" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-    Categories
-             </a>
-
-       <div class="dropdown-menu" aria-labelledby="dropdownMenuLink">
-         <a class="dropdown-item" href="#">Action</a>
-          <a class="dropdown-item" href="#">Another action</a>
-          <a class="dropdown-item" href="#">Something else here</a>
-        </div>
-      </div>
-              </div>
-            </form>
           </div>
+          <br>
+          <br>
           <br>
           <h5>First slide label</h5>
           <p>Nulla vitae elit libero, a pharetra augue mollis interdum.</p>
         </div>
       </div>
       <div class="carousel-item">
-        <img src="cute-girl-with-camera-smiling-8m-1366x768.jpg" class="d-block w-100" alt="...">
+        <img src="cute-girl-with-camera-smiling-8m-1366x768.jpg" class="d-block w-100" style="z-index: -1;">
         <div class="carousel-caption d-none d-md-block">
+          <div class="text-center text-lg-left">
+          <h5 align="left"
+          style="font-family: 'Poppins', sans-serif;
+          padding-bottom: 10px;
+          letter-spacing: .2rem;
+          color: #e83e8c !important;
+          margin-left: 60px;
+          "><b>The best holiday experience
+          </b>
+        </h5>
+          <h1 class="text-shadow" style="
+          margin-left: 70px;
+          font-size: 85px;">
+            <b>Stay like a local
+            </b>
+          </h1>
+          </div>
+          <br>
+          <div class="search-bar" style="
+          background: white; 
+          border-radius: 30px;
+           border: 1px black;
+            height: 50px;
+            width: 857px;
+            margin-left: 60px;">
+            <form action="#" style="border-radius: 20px;">
+              <div class="row">
+                <div class="d-flex align-items-center form-group"
+                style="margin-left: 50px; 
+                margin-bottom: 22px;
+                width: 260px;
+                margin-top: 7px;
+
+                ">
+                <div style="
+                width: 800px;
+                ">
+                  <input type="text" name="search" placeholder="what are you searching for ?     "
+                  class="form-control"
+                  align="center"
+                  style="border: transparent;">
+                </div>
+                </div>
+                <div class=""
+                align="center" style="
+                padding-left: 10px;
+                padding-right: 10px; 
+                margin-top: 7px;" align="center">
+                  <form action="#" id="newsletter-form">
+                  <div class="input-group mb-3">
+                  <input type="email" placeholder="Location" 
+                  aria-label="Your Email Address" class="form-control 
+                  bg-grey border-0 border-right-0"
+                  style="
+                  border: transparent;
+                  ">
+                  <div class="input-group-append">
+                    <button type="submit" class="btn btn-outline-dark
+                    border-left-1 border-0" >
+                    <i class="fas fa-crosshairs text-lg"></i>
+                     
+                    </button>
+                  </div>
+                </div>
+               </form>
+                </div>
+                 <div class="dropdown show" style="
+                 margin-top: 6px;
+                 margin-right: 13px;">
+                <a class="btn dropdown-toggle" href="#" role="button" id="dropdownMenuLink" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false"
+              style="background: transparent;">
+              Categories
+              </a>
+            
+             <div class="dropdown-menu" aria-labelledby="dropdownMenuLink">
+               <a class="dropdown-item" href="#">Action</a>
+                <a class="dropdown-item" href="#">Another action</a>
+                <a class="dropdown-item" href="#">Something else here</a>
+              </div>
+              </div>
+              <div>
+                <button class="btn btn-primary btn-block rounded-x1" type="submit" 
+                style="
+                border-radius: 50px;
+                text-align: center;
+                text-transform: uppercase;
+                font-family: 'Poppins', sans-serif;
+                letter-spacing: .4rem;
+                margin-top: 5px;
+                width: 120px;
+                ">
+                <b>
+                Search
+              </b>
+              </button>
+              </div>
+            </div>
+          </div>
+          <br>
+          <br>
+          <br>
           <h5>Second slide label</h5>
           <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
         </div>
       </div>
       <div class="carousel-item">
-        <img src="marie-grippon-hd-1v-1366x768.jpg" class="d-block w-100" alt="...">
+        <img src="marie-grippon-hd-1v-1366x768.jpg" class="d-block w-100" style="z">
         <div class="carousel-caption d-none d-md-block">
+          <div class="text-center text-lg-left">
+          <h5 align="left"
+          style="font-family: 'Poppins', sans-serif;
+          padding-bottom: 10px;
+          letter-spacing: .2rem;
+          color: #e83e8c !important;
+          margin-left: 60px;
+          "><b>The best holiday experience
+          </b>
+        </h5>
+          <h1 class="text-shadow" style="
+          margin-left: 70px;
+          font-size: 85px;">
+            <b>Stay like a local
+            </b>
+          </h1>
+          </div>
+          <br>
+          <div class="search-bar" style="
+          background: white; 
+          border-radius: 30px;
+           border: 1px black;
+            height: 50px;
+            width: 857px;
+            margin-left: 60px;">
+            <form action="#" style="border-radius: 20px;">
+              <div class="row">
+                <div class="d-flex align-items-center form-group"
+                style="margin-left: 50px; 
+                margin-bottom: 22px;
+                width: 260px;
+                margin-top: 7px;
+
+                ">
+                <div style="
+                width: 800px;
+                ">
+                  <input type="text" name="search" placeholder="what are you searching for ?     "
+                  class="form-control"
+                  align="center"
+                  style="border: transparent;">
+                </div>
+                </div>
+                <div class=""
+                align="center" style="
+                padding-left: 10px;
+                padding-right: 10px; 
+                margin-top: 7px;" align="center">
+                  <form action="#" id="newsletter-form">
+                  <div class="input-group mb-3">
+                  <input type="email" placeholder="Location" 
+                  aria-label="Your Email Address" class="form-control 
+                  bg-grey border-0 border-right-0"
+                  style="
+                  border: transparent;
+                  ">
+                  <div class="input-group-append">
+                    <button type="submit" class="btn btn-outline-dark
+                    border-left-1 border-0" >
+                    <i class="fas fa-crosshairs text-lg"></i>
+                     
+                    </button>
+                  </div>
+                </div>
+               </form>
+                </div>
+                 <div class="dropdown show" style="
+                 margin-top: 6px;
+                 margin-right: 13px;">
+                <a class="btn dropdown-toggle" href="#" role="button" id="dropdownMenuLink" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false"
+              style="background: transparent;">
+              Categories
+              </a>
+            
+             <div class="dropdown-menu" aria-labelledby="dropdownMenuLink">
+               <a class="dropdown-item" href="#">Action</a>
+                <a class="dropdown-item" href="#">Another action</a>
+                <a class="dropdown-item" href="#">Something else here</a>
+              </div>
+              </div>
+              <div>
+                <button class="btn btn-primary btn-block rounded-x1" type="submit" 
+                style="
+                border-radius: 50px;
+                text-align: center;
+                text-transform: uppercase;
+                font-family: 'Poppins', sans-serif;
+                letter-spacing: .4rem;
+                margin-top: 5px;
+                width: 120px;
+                ">
+                <b>
+                Search
+              </b>
+              </button>
+              </div>
+            </div>
+          </div>
+          <br>
+          <br>
+          <br>
           <h5>Third slide label</h5>
           <p>Praesent commodo cursus magna, vel scelerisque nisl consectetur.</p>
         </div>
@@ -120,14 +371,18 @@ include ("header.php");
     <div class="row">
       <section id="examples" class="text-center"
       style="
+      margin-top: -9px;
       background:  #f8f9fa !important;
       height: 600px;
-      padding:120px 20px 20px 20px;
+      padding:100px 20px 20px 20px;
       font-family: 'Montserrat', sans-serif;
       ">
-
                 <!-- Heading -->
-                <h2 class="mb-5 font-weight-bold">ONE-OF-KIND VACATION RENTALS</h2>
+                <h2 class="mb-5 font-weight-bold"
+                style="
+                padding-bottom: 60px;
+                "
+                >Pilih Armada kami Untuk menemani Wisata Anda</h2>
 
                 <!--Grid row-->
                 <div class="row">
@@ -137,16 +392,15 @@ include ("header.php");
 
                         <div class="">
                           
-                            <div class="mask rgba-white-slight"></div>
+                            <div class="slight"></div>
                         </div>
                         <i><img class="text-center" src="002-bus-3.png"
                           style="width: 80px;
-                          height: 80px;"></i>
-                        <h4 class="my-4 font-weight-bold">Column 1</h4>
-                        <p class="grey-text">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Reprehenderit
-                            maiores nam,
-                            aperiam minima
-                            assumenda deleniti hic.</p>
+                          height: 80px;
+                          "></i>
+                        <h4 class="my-4 font-weight-bold" align="center">Daihatsu Luxio</h4>
+                        <p class="text-muted" align="center" style="
+                        font-size: 18px;">Varian dari mobil tersebut antara lain adalah mobil Elf yang dapat menampung 16 orang, sedangkan dua mobil Elf lainnya dapat menampung hingga dua puluh orang penumpang.</p>
 
                     </div>
                     <!--Grid column-->
@@ -161,11 +415,8 @@ include ("header.php");
                         <i><img class="text-center" src="010-train-2.png"
                           style="width: 80px;
                           height: 80px;"></i>
-                        <h4 class="my-4 font-weight-bold">Column 2</h4>
-                        <p class="grey-text">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Reprehenderit
-                            maiores nam,
-                            aperiam minima
-                            assumenda deleniti hic.</p>
+                        <h4 class="my-4 font-weight-bold">Elf Minibus</h4>
+                        <p class="text-muted" align="center" style="font-size: 18px;">Hiace merupakan salah satu merk mobil yang dikeluarkan oleh  Toyota  dengan harga sekitar  413 juta. Salah satu kelebihan mobil ini adalah dapat menampung sekitar dua belas 9orang. </p>
 
                     </div>
                     <!--Grid column-->
@@ -180,11 +431,8 @@ include ("header.php");
                         <i><img class="text-center" src="014-car.PNG"
                           style="width: 80px;
                           height: 80px;"></i>
-                        <h4 class="my-4 font-weight-bold">Column 3</h4>
-                        <p class="grey-text">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Reprehenderit
-                            maiores nam,
-                            aperiam minima
-                            assumenda deleniti hic.</p>
+                        <h4 class="my-4 font-weight-bold">Toyota Hiace</h4>
+                        <p class="text-muted" style="font-size: 18px;">Mobil ini di desain sedemikian rupa dengan hingga ia terlihat menarik. Salah satunya adalah pintu geser. Lain dari pada mobil lainnya yang pintunya tidak digeser. Hal ini menambah nilai eksotis pada mobil in</p>
 
                     </div>
                     <!--Grid column-->
@@ -193,12 +441,12 @@ include ("header.php");
               </section>
     </div>
   </div>
-  <section class="bg-white shadow">
+  <section class="bg-white">
   <div class="class-content-inner"style="
-  height: 640px; 
+  height: 680px; 
   width: 100%; 
   margin-left: 50px; 
-  padding: 40px 20px 20px 20px;
+  padding: 100px 20px 20px 10px;
   font-family: 'Montserrat',sans-serif;">
     <h5 align="left">
     <B style="margin-left: 21px;
@@ -336,12 +584,13 @@ include ("header.php");
     <!--Grid column-->
                     <div class="col-md-3">
                         <div class="card border-0 shadow"
-                        style="height: 360px;">
+                        style="
+                        height: 360px;">
                             <img src="https://d19m59y37dris4.cloudfront.net/directory/1-2/img/photo/photo-1484154218962-a197022b5858.jpg" class="img-fluid" alt="">
                             <div class="card-img-overlay"
                             style=" z-index: 20;
-                            padding-left: 40px;
-                            padding-top: 130px;">
+                            padding-left: 20px;
+                            padding-top: 150px;">
                               <div class="media text-white text-sm align-items-center" style="
                               font-size: .875rem;
                               align-items: center !important;
@@ -406,8 +655,8 @@ include ("header.php");
                             <img src="https://d19m59y37dris4.cloudfront.net/directory/1-2/img/photo/photo-1426122402199-be02db90eb90.jpg" class="img-fluid" alt="">
                             <div class="card-img-overlay"
                             style=" z-index: 20;
-                            padding-left: 40px;
-                            padding-top: 130px;">
+                            padding-left: 20px;
+                            padding-top: 150px;">
                               <div class="media text-white text-sm align-items-center" style="
                               font-size: .875rem;
                               align-items: center !important;
@@ -470,8 +719,8 @@ include ("header.php");
                             <img src="https://d19m59y37dris4.cloudfront.net/directory/1-2/img/photo/photo-1512917774080-9991f1c4c750.jpg" class="img-fluid" alt="">
                             <div class="card-img-overlay"
                             style=" z-index: 20;
-                            padding-left: 40px;
-                            padding-top: 130px;">
+                            padding-left: 20px;
+                            padding-top: 150px;">
                               <div class="media text-white text-sm align-items-center" style="
                               font-size: .875rem;
                               align-items: center !important;
@@ -501,6 +750,7 @@ include ("header.php");
                                     <b>Modern Apt - Vibrant Neighborhood!</b>
                                   </a>
                                 </h6>
+
                                 <div class="d-flex card-subtitle mb-3">
                                 <div class="flex-grow-1 text-muted"
                                 style="font-size: .875rem">
@@ -534,8 +784,8 @@ include ("header.php");
                             <img src="https://d19m59y37dris4.cloudfront.net/directory/1-2/img/photo/photo-1488805990569-3c9e1d76d51c.jpg" class="img-fluid" alt="">
                             <div class="card-img-overlay"
                             style=" z-index: 20;
-                            padding-left: 40px;
-                            padding-top: 130px;">
+                            padding-left: 20px;
+                            padding-top: 150px;">
                               <div class="media text-white text-sm align-items-center" style="
                               font-size: .875rem;
                               align-items: center !important;
@@ -590,38 +840,37 @@ include ("header.php");
                             </div>
                       </div>
                     </div>
-                <!--Grid row-->
-
-                <!--Grid row-->
-                <div class="row">
-
-                    <!--Grid column-->
-                       
-                          </div>
-                          </section>
-
-                          <br>
-                          <div class="container-fluid" style="
+                  </div>
+                </section>
+                <div class="container-fluid" style="
                           width: 100%;
-                          padding:10px 10px 10px 10px;
+                          padding:0px 0px 0px 10px;
                           margin-left: -5px;
                           height: 100%;">
-                          <div class="img-fluid" style="width: 100%;  background-image: url(https://d19m59y37dris4.cloudfront.net/directory/1-2/img/photo/photo-1497436072909-60f360e1d4b1.jpg);
+                          <div class="display-3" style="width: 100%;  
+                          background-image: url(https://d19m59y37dris4.cloudfront.net/directory/1-2/img/photo/photo-1497436072909-60f360e1d4b1.jpg);
                           height: 700px;
-                          margin-left: 5px;">
-                          <h1 style="color: white;
-                          margin-left: 140px;
+                          width: 100%;">
+                          <h1 style="
+                          color: white;                          
                           padding-top: 250px;
                           font-size: 75px;
-                          font-family: 'Montserrat', sans-serif;">
-                        Lorem ipsum dolor sit amet, consectetur adipisicing
+                          font-family: 'Playfair Display', serif;
+                          margin-left: 150px;">
+                        <b>Ready for your next Holidays?
+                        </b>
                         </h1>
-                        <button class="btn btn-light" style="
-                          margin-left:200px;
-                          margin-top:100px;
+                    </div>
+                    <div>
+                      <button class="btn btn-light" style="
                           text-transform: uppercase;
                           font-family: 'Montserrat',sans-serif;
-                          color: black;">
+                          color: black;
+                          text-align: left;
+                          z-index: 20;
+                          margin-top: -550px;
+                          margin-left: 155px;
+                          ">
                           <b class="HI">Get Started</b>
                           <style>
                           .HI {
@@ -630,18 +879,19 @@ include ("header.php");
                             letter-spacing: .3em;
                             text-transform: uppercase;
                             font-weight: bold;
+
                           }
                         </style>
                       </button>
                     </div>
                   </div>
                   <section class="container-fluid"
-                    style="padding-top: 8rem !important;
+                    style="padding-top: 4rem !important;
                     margin-left: 5px;
-                    margin-top: 80px;
                     height: 800px;
                     font-family: 'Montserrat', sans-serif;
-                    background-color: white;">
+                    background-color: white;
+                    ">
                       <div class="container-fluid" style="width: 100%;">
                         <div class="text-center" style="text-align: center !important;">
                           <p class="subtitle text-primary" style="margin-bottom: 0;
@@ -667,7 +917,8 @@ include ("header.php");
                     <div class="carousel-inner">
                       <div class="carousel-item active">
                         <div class="row">
-                            <div class="col-sm-6" style="background: #f8f9fa !important;
+                            <div class="col-sm-6" style="
+                            background: white !important;
                             width: 500px;
                             height: 400px;
                             padding: 20px 20px 20px 20px;
@@ -690,7 +941,8 @@ include ("header.php");
                           </p>
                             </div> 
                             
-                            <div class="col-sm-6" style="background: #f8f9fa !important;
+                            <div class="col-sm-6" style="
+                            background: white !important;
                             width: 500px;
                             height: 400px;
                             border-color: black;
@@ -705,15 +957,19 @@ include ("header.php");
                             box-shadow: 10px;
                             border: 2px solid white;
                             border-radius: 50%;"></p>
-                            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
-                            tempor incididunt ut labore et dolore magna aliqua.</p>
+                            <p align="center" class="text-muted"><i>" Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+                            tempor incididunt ut labore et dolore magna aliqua. "</i>
+                            <br>
+                            <br>
+                            <strong>John</strong></p>
                             </div> 
                           </div>
                       </div>
                       <div class="carousel-item">
                         <div class="container-fluid">
                           <div class="row">
-                            <div class="col-sm-6" style="background: #f8f9fa !important;
+                            <div class="col-sm-6" style="
+                            background: white !important;
                             width: 500px;
                             height: 400px;
                             padding: 20px 20px 20px 20px;
@@ -727,10 +983,15 @@ include ("header.php");
                             border: 2px solid white;
                             border-radius: 50%;
                             "></p>
-                            <p align="center" class="text-muted">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
-                            tempor incididunt ut labore et dolore magna aliqua.</p>
+                            <p align="center" class="text-muted"><i>" Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+                            tempor incididunt ut labore et dolore magna aliqua. "
+                          </i>
+                          <br>
+                          <br>
+                          <strong>Julie</strong></p>
                             </div>
-                            <div class="col-sm-6" style="background: #f8f9fa !important;
+                            <div class="col-sm-6" style="
+                            background: white !important;
                             width: 500px;
                             height: 400px;
                             padding: 20px 20px 20px 20px;
@@ -744,8 +1005,12 @@ include ("header.php");
                             border: 2px solid white;
                             border-radius: 50%;
                             "></p>
-                            <p align="center" class="text-muted">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
-                            tempor incididunt ut labore et dolore magna aliqua.</p>
+                            <p align="center" class="text-muted"><i>" Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+                            tempor incididunt ut labore et dolore magna aliqua. "
+                          </i>
+                          <br>
+                          <br>
+                          <strong>Barbora</strong></p>
                             </div>
                           </div>
                         </div>
@@ -753,7 +1018,8 @@ include ("header.php");
                       <div class="carousel-item">
                         <div class="container-fluid">
                           <div class="row">
-                            <div class="col-sm-6" style="background: #f8f9fa !important;
+                            <div class="col-sm-6" style="
+                            background: white !important;
                             width: 500px;
                             height: 400px;
                             padding: 20px 20px 20px 20px;
@@ -767,10 +1033,15 @@ include ("header.php");
                             border: 2px solid white;
                             border-radius: 50%;
                             "></p>
-                            <p align="center" class="text-muted">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
-                            tempor incididunt ut labore et dolore magna aliqua. </p>
+                            <p align="center" class="text-muted"><i>" Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+                            tempor incididunt ut labore et dolore magna aliqua. "
+                          </i>
+                          <br>
+                          <br>
+                          <strong>Jack</strong></p>
                             </div>
-                            <div class="col-sm-6" style="background: #f8f9fa !important;
+                            <div class="col-sm-6" style="
+                            background: white !important;
                             width: 500px;
                             height: 400px;
                             padding: 20px 20px 20px 20px;
@@ -784,31 +1055,222 @@ include ("header.php");
                             border: 2px solid white;
                             border-radius: 50%;
                             "></p>
-                            <p align="center" class="text-muted">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
-                            tempor incididunt ut labore et dolore magna aliqua.</p>
+                            <p align="center" class="text-muted"><i>" Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+                            tempor incididunt ut labore et dolore magna aliqua. "
+                          </i>
+                          <br>
+                          <br>
+                          <strong>Struart</strong>
+                        </p>
                             </div>
                           </div>
                         </div>
                       </div> 
                     </div>
-  <a class="carousel-control-prev" href="#carouselExampleIndicators" role="button" data-slide="prev">
-    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-    <span class="sr-only">Previous</span>
-  </a>
-  <a class="carousel-control-next" href="#carouselExampleIndicators" role="button" data-slide="next">
-    <span class="carousel-control-next-icon" aria-hidden="true"></span>
-    <span class="sr-only">Next</span>
-  </a>
-</div>
-    </div>
-    </section>
+                    <a class="carousel-control-prev" href="#carouselExampleIndicators" role="button" data-slide="prev">
+                      <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                      <span class="sr-only">Previous</span>
+                    </a>
+                    <a class="carousel-control-next" href="#carouselExampleIndicators" role="button" data-slide="next">
+                      <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                      <span class="sr-only">Next</span>
+                    </a>
+                  </div>
+                      </div>
+                      </section>
+                      <section class="container-fluid" style="
+                    background: #f8f9fa !important;
+                    padding: 80px 40px 20px 40px;
+                    width: 100%;
+                    height: 1000px;
+                    margin-top: -220px;
+                    font-family: 'Poppins', sans-serif;
+                    ">
+                      <h5 align="left">
+                      <B style="margin-left: 21px;
+                      margin-top: 40px;
+                      color: pink;
+                      letter-spacing: .3rem;">STORIES FROM AROUND THE GLOBE</B>
+                      </h5>
+                      <div class="d-flex">
+                      <h1 style="margin-left: 20px;"><p align="left"><b>From our travel blog</b ></p>
+                      </h1>
+                      <div class="flex-grow-1" style="
+                      text-align: right !important;
+                      padding-top: 22px;
+                      padding-right: 40px;">
+                      <h6><a href="#" class="text-muted">See all articles
+                        <i class="fas fa-angle-double-right"
+                        style="
+                        padding-left: 2px; 
+                        line-height: 1;
+                        display: inline-block;">    
+                        </i>
+                      </a>
+                    </h6>
+                    </div>
+                    </div>
+
+
+                  <div class="row" style="
+                   margin-top: 40px;
+                   ">
+                     <!--Grid column-->
+                    <div class="col-lg-4 col-md-4">
+                        <div class="card border-0 shadow"
+                        style="
+                        height: 100%;">
+                            <img src="https://d19m59y37dris4.cloudfront.net/directory/1-2/img/photo/photo-1484154218962-a197022b5858.jpg" class="img-fluid" alt="">
+                            <div class="card-img-overlay"
+                            style=" z-index: 20;
+                            padding-left: 20px;
+                            padding-top: 150px;">
+                            </div>
+                            <div class="card-body"
+                            style="">
+                              <a href="#" class="text-uppercase text-muted text-sm letter-spacing-2"
+                              style="letter-spacing: .3rem;
+                              ">
+                                Travel
+                              </a>
+                              <h5 class="my-2">
+                                <a href="#" class="text-dark"
+                                style="
+                                background-color: transparent;">
+                                  Autumn fashion tips and tricks
+                                </a>
+                              </h5>
+                              <p class="text-muted text-sm my-3">
+                                <i class="far fa-clock mr-2 text-muted"></i>
+                                January 16, 2016
+                              </p>
+                              <p class="my-2 text-muted text-sm"
+                              style="font-family: 'Poppins',sans-serif;">
+                                Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+                                tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+                                quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+                                consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
+                                cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
+                                proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+                              </p>
+                              <a href="#" class="btn btn-link"
+                              style=" letter-spacing: .3rem;
+                              margin-left: -13px;">
+                                <b>Read more
+                                <i class="fa fa-long-arrow-alt-right"></i>
+                              </b>
+                              </a>
+                            </div>
+                          </div>
+                        </div>
+
+                    <!--Grid column-->
+                    <div class="col-md-4">
+                        <div class="card border-0 shadow"
+                        style="height: 100%;">
+                            <img src="https://d19m59y37dris4.cloudfront.net/directory/1-2/img/photo/photo-1426122402199-be02db90eb90.jpg" class="img-fluid" alt="">
+                            <div class="card-img-overlay"
+                            style=" z-index: 20;
+                            padding-left: 20px;
+                            padding-top: 150px;">
+                            </div>
+                            <div class="card-body"
+                            style="">
+                              <a href="#" class="text-uppercase text-muted text-sm letter-spacing-2"
+                              style="letter-spacing: .3rem;
+                              ">
+                                Travel
+                              </a>
+                              <h5 class="my-2">
+                                <a href="#" class="text-dark"
+                                style="
+                                background-color: transparent;">
+                                  Autumn fashion tips and tricks
+                                </a>
+                              </h5>
+                              <p class="text-muted text-sm my-3">
+                                <i class="far fa-clock mr-2 text-muted"></i>
+                                January 16, 2016
+                              </p>
+                              <p class="my-2 text-muted text-sm"
+                              style="font-family: 'Poppins',sans-serif;">
+                                Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+                                tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+                                quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+                                consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
+                                cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
+                                proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+                              </p>
+                              <a href="#" class="btn btn-link"
+                              style=" letter-spacing: .3rem;
+                              margin-left: -13px;">
+                                <b>Read more
+                                <i class="fa fa-long-arrow-alt-right"></i>
+                              </b>
+                              </a>
+                            </div>
+                          </div>
+                      </div>
+
+                    <!--Grid column-->
+                    <div class="col-md-4">
+                        <div class="card border-0 shadow"
+                        style="height: 100%;">
+                            <img src="https://d19m59y37dris4.cloudfront.net/directory/1-2/img/photo/photo-1512917774080-9991f1c4c750.jpg" class="img-fluid" alt="">
+                            <div class="card-img-overlay"
+                            style=" z-index: 20;
+                            padding-left: 20px;
+                            padding-top: 150px;">
+                            </div>
+                            <div class="card-body"
+                            style="">
+                              <a href="#" class="text-uppercase text-muted text-sm letter-spacing-2"
+                              style="letter-spacing: .3rem;
+                              ">
+                                Travel
+                              </a>
+                              <h5 class="my-2">
+                                <a href="#" class="text-dark"
+                                style="
+                                background-color: transparent;">
+                                  Autumn fashion tips and tricks
+                                </a>
+                              </h5>
+                              <p class="text-muted text-sm my-3">
+                                <i class="far fa-clock mr-2 text-muted"></i>
+                                January 16, 2016
+                              </p>
+                              <p class="my-2 text-muted text-sm"
+                              style="font-family: 'Poppins',sans-serif;">
+                                Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+                                tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+                                quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+                                consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
+                                cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
+                                proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+                              </p>
+                              <a href="#" class="btn btn-link"
+                              style=" letter-spacing: .3rem;
+                              margin-left: -13px;">
+                                <b>Read more
+                                <i class="fa fa-long-arrow-alt-right"></i>
+                              </b>
+                              </a>
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+                </section>
+                <br>
   <div class="container" style="
-  font-family: 'Montserrat', sans-serif;">
-  <h1>Blockquotes</h1>
-  <p>The blockquote element is used to present content from another source:</p>
+  font-family: 'Montserrat', sans-serif;
+  ">
+  <h1>Nikmati Liburan Anda dan Bersenang - senang </h1>
+  <br>
+  <p>Liburan merupakan kegiatan untuk menghilangkan rasa jenuh dan penat untuk kegiatan harian</p>
   <blockquote class="blockquote">
-    <p>For 50 years, WWF has been protecting the future of nature. The world's leading conservation organization, WWF works in 100 countries and is supported by 1.2 million members in the United States and close to 5 million globally.</p>
-    <footer class="blockquote-footer">From WWF's website</footer>
+    <p>“One’s destination is never a place, but a new way of seeing things.”</p>
+    <footer class="blockquote-footer"> Henry Miller</footer>
   </blockquote>
 </div>
 <br>
