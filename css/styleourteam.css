@@ -37,7 +37,7 @@
     width: 70%;
     position: relative;
     top: 40px;
-    font-family: Georgia, "Times New Roman", Times, serif;
+    font-family: 'Montserrat',sans-serif;
   }
   .atas {
     text-align: center;
@@ -64,7 +64,7 @@
   .slider {
     text-align: center;
     height: 500px;
-    font-family: Georgia, "Times New Roman", Times, serif;
+    font-family: 'Montserrat',sans-serif;
     background-color: #f2f8ff;
   }
   .kontenslide {
