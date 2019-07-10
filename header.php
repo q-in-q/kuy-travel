@@ -48,11 +48,12 @@ font-family: 'Montserrat', sans-serif;">
     <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
       <span class="navbar-toggler-icon"></span>
     </button>
+    <form class="col-md-4 form-inline my-2 my-lg-0">
+              <input style="background:#ecf0f1;" class="form-control" type="search" placeholder="Search" data-toggle="modal" data-target="#centralModallg" aria-label="Search" data-target="#centralModalSm">
+            </form>
 
     <div class="collapse navbar-collapse" id="navbarSupportedContent">
-      <form class="col-md-4 form-inline my-2 my-lg-0">
-        <input style="background:#ecf0f1;" class="form-control" type="search" placeholder="Search" data-toggle="modal" data-target="#centralModallg" aria-label="Search" data-target="#centralModalSm">
-      </form>
+      
       <ul class="navbar-nav mr-auto">
           <li class="nav-item active">
             <a class="nav-link" href="#" onclick="window.location.href='index.php'" style="color:black;"
@@ -74,11 +75,13 @@ font-family: 'Montserrat', sans-serif;">
           <!--<li class="nav-item">
             <a class="nav-link" href="#" onclick="window.location.href='ourteam.php'" style="color:#ffffff">Tentang Kami</a>
           </li>-->
+        
         </ul>
         <ul class="navbar-nav mr-auto">
+         
         <li class="nav-item ">
-        <button type="button" class="btn btn-light" onclick="window.location.href='login.php'">LOGIN</button>
-        <button type="button" class="btn btn-light" onclick="window.location.href='profil.php'">PROFIL</button>
+          <button type="button" class="btn btn-light" onclick="window.location.href='login.php'">LOGIN</button>
+          <button type="button" class="btn btn-light" onclick="window.location.href='profil.php'">PROFIL</button>
         </li>
       </ul>
     </div>
