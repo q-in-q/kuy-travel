@@ -38,7 +38,7 @@
     <title>Travel jogja</title>
     
 </head>
-<body>
+<body onload="myFunction()" style="margin:0;">
 
 <nav class="kepala navbar navbar-expand-lg navbar-light fixed-top" style="
 background:white;
