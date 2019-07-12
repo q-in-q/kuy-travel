@@ -36,10 +36,16 @@
     <!--countdown-->
     
     <title>Travel jogja</title>
+
+  
+    
+    
     
 </head>
 <body onload="myFunction()" style="margin:0;">
 
+
+<!--
 <nav class="kepala navbar navbar-expand-lg navbar-light fixed-top" style="
 background:white;
 font-family: 'Montserrat', sans-serif;">
@@ -74,7 +80,7 @@ font-family: 'Montserrat', sans-serif;">
           </li>
           <!--<li class="nav-item">
             <a class="nav-link" href="#" onclick="window.location.href='ourteam.php'" style="color:#ffffff">Tentang Kami</a>
-          </li>-->
+          </li>
         
         </ul>
         <ul class="navbar-nav mr-auto">
@@ -85,5 +91,5 @@ font-family: 'Montserrat', sans-serif;">
         </li>
       </ul>
     </div>
-</nav>
+</nav>-->
 

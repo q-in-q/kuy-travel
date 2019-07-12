@@ -32,7 +32,7 @@ include ("header.php");
     </ol>
     <div class="carousel-inner">
       <div class="carousel-item active">
-        <img src="blonde-girl-4k-t7-1366x768.JPG" class="d-block w-100" alt="" style=" z-index: -1;">
+        <img src="image/cr1.jpg" class="d-block w-100" alt="" style=" z-index: -1;">
         <div class="carousel-caption d-none d-md-block">
           <div class="text-center text-lg-left">
           <h5 align="left"
@@ -41,13 +41,13 @@ include ("header.php");
           letter-spacing: .2rem;
           color: #e83e8c !important;
           margin-left: 60px;
-          "><b>The best holiday experience
+          "><b>Pengalaman terbaik akan Kami suguhkan
           </b>
         </h5>
           <h1 class="text-shadow" style="
           margin-left: 70px;
           font-size: 85px;">
-            <b>Stay like a local
+            <b>Menyatu Dengan Kebudayaan Lokal Jogja
             </b>
           </h1>
           </div>
@@ -140,7 +140,7 @@ include ("header.php");
         </div>
       </div>
       <div class="carousel-item">
-        <img src="cute-girl-with-camera-smiling-8m-1366x768.jpg" class="d-block w-100" style="z-index: -1;">
+        <img src="image/cr2.jpg" class="d-block w-100" style="z-index: -1;">
         <div class="carousel-caption d-none d-md-block">
           <div class="text-center text-lg-left">
           <h5 align="left"
@@ -149,13 +149,13 @@ include ("header.php");
           letter-spacing: .2rem;
           color: #e83e8c !important;
           margin-left: 60px;
-          "><b>The best holiday experience
+          "><b>Pengalaman terbaik akan Kami suguhkan
           </b>
         </h5>
           <h1 class="text-shadow" style="
           margin-left: 70px;
           font-size: 85px;">
-            <b>Stay like a local
+            <b>Menyatu Dengan Kebudayaan Lokal Jogja
             </b>
           </h1>
           </div>
@@ -248,7 +248,7 @@ include ("header.php");
         </div>
       </div>
       <div class="carousel-item">
-        <img src="marie-grippon-hd-1v-1366x768.jpg" class="d-block w-100" style="z">
+        <img src="image/cr3.jpg" class="d-block w-100" style="z">
         <div class="carousel-caption d-none d-md-block">
           <div class="text-center text-lg-left">
           <h5 align="left"
@@ -257,13 +257,13 @@ include ("header.php");
           letter-spacing: .2rem;
           color: #e83e8c !important;
           margin-left: 60px;
-          "><b>The best holiday experience
+          "><b>Pengalaman terbaik akan Kami suguhkan
           </b>
         </h5>
           <h1 class="text-shadow" style="
           margin-left: 70px;
           font-size: 85px;">
-            <b>Stay like a local
+            <b>Menyatu Dengan Kebudayaan Lokal Jogja
             </b>
           </h1>
           </div>
