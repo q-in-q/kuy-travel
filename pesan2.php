@@ -13,7 +13,7 @@
 			<div class="col-md-7">
 				
 				<div class="col-md-12" style="background:#ffffff; height:75%;">
-						<h4>Detail Traveler</h4><hr>
+						<h3>Detail Traveler</h3><hr>
 						<div class="form-group">
 										<div class="col-md-6" style="text-align:-webkit-left; padding-top:10px;">
 											<label for="form-select">Nama Traveler 1</label>
@@ -27,14 +27,14 @@
 										</div>
 								
 										<div class="form-select col-md-4">
-										<select>
-											
-											<option value="1">--Titel--</option>
-											<option value="1">Tuan</option>
-											<option value="1">Nyonya</option>
-											<option value="1">Nona</option>
-											
-										</select>
+											<select>
+												
+												<option value="1">--Titel--</option>
+												<option value="1">Tuan</option>
+												<option value="1">Nyonya</option>
+												<option value="1">Nona</option>
+												
+											</select>
 										</div>
 						</div>
 					
@@ -75,7 +75,7 @@
 										onblur="this.placeholder = 'Isikan Titik Penjemputan'">
 
 										<div class="col-lg-12 text-center" style="margin-top:50px;">
-											<button type="button" class="primary-btn text-uppercase"  onclick="window.location.href='bayar.php'">Lakukan Pembayaran</button>
+											<button type="button" class="btn btn-light" onclick="window.location.href='bayar.php'">Lakukan Pembayaran</button>
 										</div>
 
 
