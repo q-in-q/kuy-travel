@@ -27,7 +27,7 @@
 										</div>
 								
 										<div class="form-select col-md-4">
-											<select>
+										<select>
 											
 											<option value="1">--Titel--</option>
 											<option value="1">Tuan</option>
@@ -73,6 +73,10 @@
 									
 										<input   type="text"class="form-control col-md-12" placeholder="Isikan Titik Penjemputan" onfocus="this.placeholder = ''"
 										onblur="this.placeholder = 'Isikan Titik Penjemputan'">
+
+										<div class="col-lg-12 text-center" style="margin-top:50px;">
+											<button type="button" class="primary-btn text-uppercase"  onclick="window.location.href='bayar.php'">Lakukan Pembayaran</button>
+										</div>
 
 
 						</div>
