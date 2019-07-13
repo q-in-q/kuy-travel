@@ -451,15 +451,15 @@ include ("header.php");
     <h5 align="left">
     <B style="margin-left: 21px;
     margin-top: 40px;
-    color: lightblue;">STAY AND EAT LIKE A LOCAL</B>
+    color: lightblue;"></B>
     </h5>
-    <h1 style="margin-left: 20px;"><p align="left"><b>Our Guides</b></p>
+    <h1 style="margin-left: 20px;"><p align="left"><b>Wisata Kuliner Jogja </b></p>
     </h1>
     <h6 align="right" style="padding-right: 120px;"><a href="" class="text-muted">see all guides</a></h6>
     <div class="row" style=" width:100%; 
     padding-top: 40px; 
     margin-left: 0px;">
-      <div align="center" style="background: url(Anime-Minimalism-4e-Wallpaper-640-x-960-380x570.jpg);
+      <div align="center" style="background: url('kuliner1.jpg');
       color: white;
       width: 212px;
       height: 350px;
@@ -472,13 +472,13 @@ include ("header.php");
       color: white;
       " align="left">
         <div align="left" style="margin-top: 150px;">
-        <b>Yogyakarta</b>
-        <p>Lorem ipsum dolor sit amet,</p>
+        <b>Gudeg Yu Djum</b>
+        <p>Restoran Ternama yang menyuguhkan Gudek Asli Jogja</p>
         </div> 
       </p>
     </div>
       <div align="center" style="
-      background-image: url(Anime-Minimalism-4e-Wallpaper-640-x-960-380x570.jpg);
+      background-image: url('kuliner2.jpg');
       color: white;
       width: 212px;
       height: 350px;
@@ -490,12 +490,12 @@ include ("header.php");
       align="center">
       <div align="left" style="margin-top: 150px; color: white; padding-left: 20px
         padding-right:20px;">
-        <b>Yogyakarta</b>
-        <p>Lorem ipsum dolor sit amet,</p>
+        <b>Oseng Mercon Bu Narti</b>
+        <p>Menyajikan makanan yang super pedas</p>
         </div>        
       </div>
       <div align="center"
-      style="background: url(Anime-Minimalism-4e-Wallpaper-640-x-960-380x570.jpg);
+      style="background: url('kuliner3.jpg');
       color: white;
       width: 212px;
       height: 350px;
@@ -508,11 +508,11 @@ include ("header.php");
       " align="center">
       <div align="left" style="margin-top: 150px; color: white; padding-left: 20px
         padding-right:20px;">
-        <b>Yogyakarta</b>
-        <p>Lorem ipsum dolor sit amet,</p>
+        <b>Jadah Tempe Mbah Carik</b>
+        <p>Menyajikan makanan khas dari ketan dicampur kelapa</p>
         </div>
     </div>
-    <div style="background-image: url(Anime-Minimalism-4e-Wallpaper-640-x-960-380x570.jpg);
+    <div style="background-image: url('kuliner4.jpg');
       color: white;
       width: 212px;
       height: 350px;
@@ -523,13 +523,13 @@ include ("header.php");
       margin-right: 30px;">
         <div align="left" style="margin-top: 150px; color: white; padding-left: 20px
         padding-right:20px;">
-        <b>Yogyakarta</b>
-        <p>Lorem ipsum dolor sit amet,</p>
+        <b>Tengkleng Gajah</b>
+        <p>Tengkleng Berbahan dasar kambing yang di sajikan dalam porsi besar</p>
         </div>
         <div> 
       </div>
     </div>
-    <div style="background-image: url(Anime-Minimalism-4e-Wallpaper-640-x-960-380x570.jpg);
+    <div style="background-image: url('kuliner5.jpg');
       color: white;
       width: 212px;
       height: 350px;
@@ -540,8 +540,8 @@ include ("header.php");
       margin-right: 30px;">
         <div align="left" style="margin-top: 150px; color: white; padding-left: 20px
         padding-right:20px;">
-        <b>Yogyakarta</b>
-        <p>Lorem ipsum dolor sit amet,</p>
+        <b>Mi Ayam Tumini</b>
+        <p>Mi Ayam Fenomenal karna kuah kaldunya</p>
         </div>
     </div>
   </div>
