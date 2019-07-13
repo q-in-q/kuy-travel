@@ -559,10 +559,10 @@ include ("header.php");
     <h5 align="left">
     <B style="margin-left: 21px;
     margin-top: 40px;
-    color: pink;">HURRY UP, THESE ARE EXPIRING SOON</B>
+    color: pink;">Tempat Menginap</B>
     </h5>
     <div class="d-flex">
-    <h1 style="margin-left: 20px;"><p align="left"><b>Last minute deals</b></p>
+    <h1 style="margin-left: 20px;"><p align="left"><b>Tempat Menginap</b></p>
     </h1>
     <div class="flex-grow-1" style="
     text-align: right !important;

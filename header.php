@@ -32,6 +32,8 @@
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"></script>
     <link href="https://fonts.googleapis.com/css?family=DM+Serif+Display:400,400i|Poppins:300,400,500,600,600i,700,800,800i,900&display=swap&subset=latin-ext" rel="stylesheet">
      
+     	
+    <link rel="shortcut icon" href="image/logo.ico">
 
     <!--countdown-->
     
