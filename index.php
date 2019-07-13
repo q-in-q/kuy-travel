@@ -394,11 +394,11 @@ include ("header.php");
                           
                             <div class="slight"></div>
                         </div>
-                        <i><img class="text-center" src="002-bus-3.png"
-                          style="width: 80px;
+                        <i><img class="text-center" src="image/ar4.png"
+                          style="width: 120px;
                           height: 80px;
                           "></i>
-                        <h4 class="my-4 font-weight-bold" align="center">Daihatsu Luxio</h4>
+                        <h4 class="my-4 font-weight-bold" align="center">Elf Minibus</h4>
                         <p class="text-muted" align="center" style="
                         font-size: 18px;">Varian dari mobil tersebut antara lain adalah mobil Elf yang dapat menampung 16 orang, sedangkan dua mobil Elf lainnya dapat menampung hingga dua puluh orang penumpang.</p>
 
@@ -412,10 +412,10 @@ include ("header.php");
                            
                             <div class="mask rgba-white-slight"></div>
                         </div>
-                        <i><img class="text-center" src="010-train-2.png"
-                          style="width: 80px;
+                        <i><img class="text-center" src="image/ar5.png"
+                          style="width: 100px;
                           height: 80px;"></i>
-                        <h4 class="my-4 font-weight-bold">Elf Minibus</h4>
+                        <h4 class="my-4 font-weight-bold">Toyota Hiace</h4>
                         <p class="text-muted" align="center" style="font-size: 18px;">Hiace merupakan salah satu merk mobil yang dikeluarkan oleh  Toyota  dengan harga sekitar  413 juta. Salah satu kelebihan mobil ini adalah dapat menampung sekitar dua belas 9orang. </p>
 
                     </div>
@@ -428,10 +428,10 @@ include ("header.php");
                         
                             <div class="mask rgba-white-slight"></div>
                         </div>
-                        <i><img class="text-center" src="014-car.PNG"
-                          style="width: 80px;
+                        <i><img class="text-center" src="image/ar1.PNG"
+                          style="width: 100px;
                           height: 80px;"></i>
-                        <h4 class="my-4 font-weight-bold">Toyota Hiace</h4>
+                        <h4 class="my-4 font-weight-bold">Daihatsu Luxio</h4>
                         <p class="text-muted" style="font-size: 18px;">Mobil ini di desain sedemikian rupa dengan hingga ia terlihat menarik. Salah satunya adalah pintu geser. Lain dari pada mobil lainnya yang pintunya tidak digeser. Hal ini menambah nilai eksotis pada mobil in</p>
 
                     </div>
