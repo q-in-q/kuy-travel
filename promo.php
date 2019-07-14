@@ -116,6 +116,7 @@
 </div> <!--tutup-->
 
 <link rel="stylesheet" href="css/stylecountdown.css">
+<link rel="stylesheet" href="css/style.css">
 
 
 

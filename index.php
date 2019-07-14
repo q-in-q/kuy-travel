@@ -18,9 +18,7 @@ include ("header.php");
     </style>
 </head>
 <body>
-  <br>
-  <br>
-  <br>
+ 
   <div class="bd-example"
   style="
   font-family: 'Montserrat', sans-serif;">
@@ -900,11 +898,11 @@ include ("header.php");
                           font-weight: bold;
                           color: #4E66F8 !important;
                           ">
-                            Testimonials
+                            Testimoni
                           </p>
                           <h2 class="mb-5" style="font-family: 'Montserrat', sans-serif
                           font-weight:700;
-                          line-height: 1.3;">Our dear customers said about us</h2>
+                          line-height: 1.3;">Apa yang Pelanggan kami katakan Tentang kami</h2>
                         </div>
                       </div>
                       <div>
@@ -932,12 +930,11 @@ include ("header.php");
                             border: 2px solid white;
                             border-radius: 50%;
                             "></p>
-                            <p align="center" class="text-muted"><i>" Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
-                            tempor incididunt ut labore et dolore magna aliqua. "
+                            <p align="center" class="text-muted"><i>"Kuy travel memberikan pelayanaan ternyaman"
                           </i>
                             <br>
                             <br>
-                            <strong>Jeremy Bellamy</strong>
+                            <strong>Jeremy Teti</strong>
                           </p>
                             </div> 
                             
@@ -957,11 +954,10 @@ include ("header.php");
                             box-shadow: 10px;
                             border: 2px solid white;
                             border-radius: 50%;"></p>
-                            <p align="center" class="text-muted"><i>" Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
-                            tempor incididunt ut labore et dolore magna aliqua. "</i>
+                            <p align="center" class="text-muted"><i>" Kuy Tavel adalah perusahaa travel terbaik dengan pelayanan terbaik "</i>
                             <br>
                             <br>
-                            <strong>John</strong></p>
+                            <strong>John Jawir</strong></p>
                             </div> 
                           </div>
                       </div>
@@ -983,12 +979,11 @@ include ("header.php");
                             border: 2px solid white;
                             border-radius: 50%;
                             "></p>
-                            <p align="center" class="text-muted"><i>" Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
-                            tempor incididunt ut labore et dolore magna aliqua. "
+                            <p align="center" class="text-muted"><i>"KuyTravel melayani dengan setulus hati"
                           </i>
                           <br>
                           <br>
-                          <strong>Julie</strong></p>
+                          <strong>Julie estele</strong></p>
                             </div>
                             <div class="col-sm-6" style="
                             background: white !important;
@@ -1005,12 +1000,11 @@ include ("header.php");
                             border: 2px solid white;
                             border-radius: 50%;
                             "></p>
-                            <p align="center" class="text-muted"><i>" Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
-                            tempor incididunt ut labore et dolore magna aliqua. "
+                            <p align="center" class="text-muted"><i>"KuyTravel selalu tepat waktu dalam pelayanan  "
                           </i>
                           <br>
                           <br>
-                          <strong>Barbora</strong></p>
+                          <strong>Barbara</strong></p>
                             </div>
                           </div>
                         </div>
@@ -1033,12 +1027,11 @@ include ("header.php");
                             border: 2px solid white;
                             border-radius: 50%;
                             "></p>
-                            <p align="center" class="text-muted"><i>" Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
-                            tempor incididunt ut labore et dolore magna aliqua. "
+                            <p align="center" class="text-muted"><i>"KuyTravel membuat wisatawan senang dengan pelyanan yang sangat ramah"
                           </i>
                           <br>
                           <br>
-                          <strong>Jack</strong></p>
+                          <strong>Ujang</strong></p>
                             </div>
                             <div class="col-sm-6" style="
                             background: white !important;
@@ -1055,12 +1048,11 @@ include ("header.php");
                             border: 2px solid white;
                             border-radius: 50%;
                             "></p>
-                            <p align="center" class="text-muted"><i>" Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
-                            tempor incididunt ut labore et dolore magna aliqua. "
+                            <p align="center" class="text-muted"><i>" KuyTarvel memberikan fasilitas yang sangat bagus dalam pelayanan travel "
                           </i>
                           <br>
                           <br>
-                          <strong>Struart</strong>
+                          <strong>Asep</strong>
                         </p>
                             </div>
                           </div>
