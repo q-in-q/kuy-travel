@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="en" ng-app="testApp">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
@@ -18,6 +18,10 @@
   
     
     <script src="js/countdown.js" type="text/javascript"></script>
+
+    <!--angularjs-->
+    <script src="angularjs/js/angular-min-js.js"></script>
+    <script src="angularjs/controler/controler.js"></script>
   
 
     <!-- Lnk script -->
@@ -126,7 +130,7 @@ font-family: 'Montserrat', sans-serif;">
       <span class="navbar-toggler-icon"></span>
     </button>
             <form class="col-md-4 form-inline my-2 my-lg-0">
-              <input style="background:#ecf0f1;" class="form-control" type="search" placeholder="Search" data-toggle="modal" data-target="#centralModallg" aria-label="Search" data-target="#centralModalSm">
+              <input style="background:#ecf0f1;" class="form-control" type="search" placeholder="Cari Destinasi wisata" data-toggle="modal" data-target="#centralModallg" aria-label="Search" data-target="#centralModalSm">
             </form>
                     
     <div class="collapse navbar-collapse" id="navbarSupportedContent">
@@ -162,6 +166,48 @@ font-family: 'Montserrat', sans-serif;">
       </ul>
     </div>
 </nav>-->
+
+
+ <!--modal-->
+
+          <!-- Central Modal Small -->
+          <div class="modal fade" id="centralModallg" tabindex="-1" role="dialog" aria-labelledby="myModalLabel"
+            aria-hidden="true">
+
+            <!-- Change class .modal-sm to change the size of the modal -->
+            <div class="modal-dialog modal-lg" role="document">
+
+
+              <div class="modal-content">
+                <div class="modal-header">
+                  <form action="" class="col-md-6">
+                        <input class="form-control" type="search" placeholder="Silahkan cari daftar wista di jogja" ng-model="hasil">
+                  </form>
+                  <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                    <span aria-hidden="true">&times;</span>
+                  </button>
+                </div>
+                <div class="modal-body listdestinasi" >
+                  <div class="col-md-12" ng-controller="namadestinasi">
+                    <ul class="">
+                      <li ng-repeat = "dd in datadestinasi | filter : hasil ">
+                        <h5>
+                          <a href="#">{{dd.destinasi}}</a>
+                        </h5>
+                      </li>
+                    </ul>
+                    <h4 ></h4>
+                  </div>
+                </div>
+                <!--<div class="modal-footer">
+                  <button type="button" class="btn btn-secondary btn-sm" data-dismiss="modal">Close</button>
+                  <button type="button" class="btn btn-primary btn-sm">Save changes</button>
+                </div>-->
+              </div>
+            </div>
+          </div>
+
+          <!--modal serching-->
 
 
 

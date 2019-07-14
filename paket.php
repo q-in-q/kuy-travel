@@ -11,7 +11,7 @@
                 <button type="button" class="close" data-dismiss="modal">&times;</button>
             </div>
             <div class="modal-body">
-                <h6>Candi Prambanan</h6>
+                    <h6>Candi Prambanan</h6>
                     <div class="row">
                             <div class="col-lg-6">
                                 <img src="image/pr1.jpg" class="img-fluid" /> 
@@ -21,7 +21,7 @@
                             </div>
                          </div>
                     </div>
-                    <p>Candi Prambanan merupakan candi Hindu yang terbesar di Indonesia.
+                    <p  style="padding-left:15px; padding-right:15px;">Candi Prambanan merupakan candi Hindu yang terbesar di Indonesia.
                     Candi Prambanan dibangun sekitar pertengahan abad ke-9 oleh raja dari Wangsa Sanjaya, yaitu Raja Balitung Maha Sambu 
                     Denah asli Candi Prambanan berbentuk persegi panjang, terdiri atas halaman luar dan tiga pelataran, 
                     yaitu Jaba (pelataran luar), Tengahan (pelataran tengah) dan Njeron (pelataran dalam).
@@ -40,17 +40,16 @@
         <div class="col-lg-4 bright">
             <a href="#" style="text-decoration: none;">
                 <div class="card mb-3 shadow">
-                    <div class="container" style="margin: 0; padding: 0;">
+                    <div class="container" style="margin: 0; padding: 0;" data-toggle="modal"
+                                data-target="#myModal">
                         <img src="image/P.jpg" class="img-fluid" />
 
                         <p class="title">Prambanan</p>
-                        <div class="overlay"></div>
-                        <div class="button"><a href="#" type="button" data-toggle="modal"
-                                data-target="#myModal">Detail
-                            </a></div>
+                        
+                        
 
                         <div class="card-body">
-                            <p class="card-text text-center">IDR Rp. 40.000/px<br>
+                            <p class="card-text text-center">Rp. 40.000/orang<br>
                             </p>
                         </div>
                     </div>
@@ -78,7 +77,7 @@
                         </div>
                      </div>
                 </div>
-                <p>Museum Gunungapi Merapi merupakan museum bersejarah yang dapat
+                <p style="padding-left:15px; padding-right:15px;">Museum Gunungapi Merapi merupakan museum bersejarah yang dapat
                  dijadikan sebagai sarana pendidikan, penyebarluasan informasi aspek
                 kegunungapian khususnya dan kebencanaan geologi lainnya yang bersifat
                 rekreatif-edukatif untuk masyarakat luas dengan tujuan untuk memberikan
@@ -95,16 +94,14 @@
         <div class="col-lg-4 bright">
             <a href="#" style="text-decoration: none;">
                 <div class="card mb-3 shadow">
-                    <div class="container" style="margin: 0; padding: 0;">
+                    <div class="container" style="margin: 0; padding: 0;" data-toggle="modal"
+                            data-target="#merapi">
                         <img src="image/m.jpg" class="img-fluid" />
 
                         <p class="title">Museum Merapi</p>
-                        <div class="overlay"></div>
-                        <div class="button"><a href="#" type="button" data-toggle="modal"
-                            data-target="#merapi">Detail
-                        </a></div>
+                       
                         <div class="card-body">
-                            <p class="card-text text-center">IDR Rp. 5.000 - 10.000/px</p>
+                            <p class="card-text text-center">Rp. 5.000 - 10.000/orang</p>
                         </div>
                     </div>
                 </div>
@@ -131,7 +128,7 @@
                                     </div>
                                  </div>
                                 </div>
-                            <p>Monumen dengan bentuk kerucut ini terdiri dari 3 lantai dan dilengkapi
+                            <p style="padding-left:15px; padding-right:15px;">Monumen dengan bentuk kerucut ini terdiri dari 3 lantai dan dilengkapi
                             dengan ruang perpustakaan serta ruang serbaguna. Monumen Jogja kembali 
                             beralamat Di jalan raya Ring road Utara Sleman Yogyakarta.</p>
                         
@@ -146,17 +143,15 @@
         <div class="col-lg-4 bright">
             <a href="#" style="text-decoration: none;">
                 <div class="card mb-3 shadow">
-                    <div class="container" style="margin: 0; padding: 0;">
+                    <div class="container" style="margin: 0; padding: 0;" data-toggle="modal"
+                            data-target="#monjali">
                         <img src="image/mj.jpg" class="img-fluid" />
 
                         <p class="title">MONJALI</p>
-                        <div class="overlay"></div>
-                        <div class="button"><a href="#" type="button" data-toggle="modal"
-                            data-target="#monjali">Detail
-                        </a></div>
+                        
                         <div class="card-body">
-                            <p class="card-text text-center">IDR Rp. 15.000/px (anak-anak)<br>
-                                IDR Rp. 20.000/px (Dewasa)</p>
+                            <p class="card-text text-center">Rp. 15.000/orang (anak-anak)<br>
+                                Rp. 20.000/orang (Dewasa)</p>
                         </div>
                     </div>
                 </div>
@@ -185,7 +180,7 @@
                                     </div>
                                  </div>
                             </div>
-                            <p>Gua Pindul adalah objek wisata berupa gua yang terletak di Desa Bejiharjo,
+                            <p style="padding-left:15px; padding-right:15px;">Gua Pindul adalah objek wisata berupa gua yang terletak di Desa Bejiharjo,
                                  Kecamatan Karangmojo, Kabupaten Gunungkidul. Gua Pindul dikenal karena cara menyusuri gua
                                 yang dilakukan dengan menaiki ban pelampung di atas aliran sungai bawah tanah di dalam gua, 
                                 kegiatan ini dikenal dengan istilah cave tubing.</p>
@@ -202,16 +197,14 @@
         <div class="col-lg-4 bright">
             <a href="#" style="text-decoration: none;">
                 <div class="card mb-3 shadow">
-                    <div class="container" style="margin: 0; padding: 0;">
+                    <div class="container" style="margin: 0; padding: 0;" data-toggle="modal"
+                            data-target="#gp">
                         <img src="image/gp.jpg" class="img-fluid" />
 
                         <p class="title">GOA PINDUL</p>
-                        <div class="overlay"></div>
-                        <div class="button"><a href="#" type="button" data-toggle="modal"
-                            data-target="#gp">Detail
-                        </a></div>
+                       
                         <div class="card-body">
-                            <p class="card-text text-center">IDR Rp. 10.000/px</p>
+                            <p class="card-text text-center">Rp. 10.000/orang</p>
                         </div>
                     </div>
                 </div>
@@ -238,7 +231,7 @@
                                         </div>
                                      </div>
                                 </div>
-                                <p>Air Terjun Sri Gethuk merupakan salah satu objek wisata alam yang terletak di Kecamatan Playen,
+                                <p style="padding-left:15px; padding-right:15px;">Air Terjun Sri Gethuk merupakan salah satu objek wisata alam yang terletak di Kecamatan Playen,
                                     Kabupaten Gunungkidul, Yogyakarta. Air terjun ini berada di tepi Sungai Oyo sehingga untuk menikmatiny
                                     harus menyelusuri sungai dengan rakit. Sepanjang perjalanan akan disuguhi pemandangan berupa tebing tebing
                                     kapur dikanan-kiri dan rimbunnya pepohonan. Jika di musim kemarau, air sungai akan sangat jernih berwana 
@@ -255,17 +248,15 @@
         <div class="col-lg-4 bright">
             <a href="#" style="text-decoration: none;">
                 <div class="card mb-3 shadow">
-                    <div class="container" style="margin: 0; padding: 0;">
+                    <div class="container" style="margin: 0; padding: 0;" data-toggle="modal"
+                            data-target="#sri">
                         <img src="image/SG.jpg" class="img-fluid" />
 
                         <p class="title">AIR TERJUN<BR>SRI GETHUK
                         </p>
-                        <div class="overlay"></div>
-                        <div class="button"><a href="#" type="button" data-toggle="modal"
-                            data-target="#sri">Detail
-                        </a></div>
+                       
                         <div class="card-body">
-                            <p class="card-text text-center">IDR Rp. 20.000/px</p>
+                            <p class="card-text text-center">Rp. 20.000/orang</p>
                         </div>
                     </div>
                 </div>
@@ -292,7 +283,7 @@
                                         </div>
                                      </div>
                                 </div>
-                                <p>Taman ini memadukan tempat wisata rekreasi maupun edukasi dalam satu lokasi. Taman Pintar memiliki arena
+                                <p style="padding-left:15px; padding-right:15px;">Taman ini memadukan tempat wisata rekreasi maupun edukasi dalam satu lokasi. Taman Pintar memiliki arena
                                  bermain sekaligus sarana edukasi yang terbagi dalam beberapa zona.Tempat rekreasi ini sangat baik untuk 
                                  anak-anak pada masa perkembangan.</p>
                         <div class="modal-footer">
@@ -307,16 +298,14 @@
         <div class="col-lg-4 bright">
             <a href="#" style="text-decoration: none;">
                 <div class="card mb-3 shadow">
-                    <div class="container" style="margin: 0; padding: 0;">
+                    <div class="container" style="margin: 0; padding: 0;" data-toggle="modal"
+                            data-target="#tp">
                         <img src="image/TP.jpg" class="img-fluid" />
 
                         <p class="title">TAMAN PINTAR</p>
-                        <div class="overlay"></div>
-                        <div class="button"><a href="#" type="button" data-toggle="modal"
-                            data-target="#tp">Detail
-                        </a></div>
+                       
                         <div class="card-body">
-                            <p class="card-text text-center">IDR Rp. 12.000/px (anak-anak)<br>
+                            <p class="card-text text-center">Rp. 12.000/px (anak-anak)<br>
                                 IDR Rp. 20.000/px (Dewasa)
                             </p>
                         </div>
@@ -346,7 +335,7 @@
                                     </div>
                                  </div>
                             </div>
-                            <p>Pantai Indrayanti adalah salah satu tempat wisata pantai di Jogja yang sering
+                            <p style="padding-left:15px; padding-right:15px;">Pantai Indrayanti adalah salah satu tempat wisata pantai di Jogja yang sering
                             direkomendasikan pada wisatawan. Sama seperti tipikal pantai selatan di wilayah gunung kidul,
                             pemandangan disini tidak kalah indahnya. Bentang pantai yang cukup luas, pasir halus, dan laut
                             biru lepas yang bersih.</p>
@@ -363,16 +352,14 @@
         <div class="col-lg-4 bright">
             <a href="#" style="text-decoration: none;">
                 <div class="card mb-3 shadow">
-                    <div class="container" style="margin: 0; padding: 0;">
+                    <div class="container" style="margin: 0; padding: 0;" data-toggle="modal"
+                            data-target="#in">
                         <img src="image/in.jpg" class="img-fluid" />
 
                         <p class="title">INDRAYANTI</p>
-                        <div class="overlay"></div>
-                        <div class="button"><a href="#" type="button" data-toggle="modal"
-                            data-target="#in">Detail
-                        </a></div>
+                      
                         <div class="card-body">
-                            <p class="card-text text-center">IDR Rp. 10.000 - 15.000</p>
+                            <p class="card-text text-center">Rp. 10.000 - 15.000/orang</p>
                         </div>
                     </div>
                 </div>
@@ -399,7 +386,7 @@
                                         </div>
                                      </div>
                                 </div>
-                                <p>Tebing Breksi merupakan tempat wisata yang berada di wilayah Kabupaten Sleman.
+                                <p style="padding-left:15px; padding-right:15px;">Tebing Breksi merupakan tempat wisata yang berada di wilayah Kabupaten Sleman.
                                 Lokasinya berada di sebelah kidul Candi Prambanan dan berdekatan dengan Candi Ijo
                                 serta Kompleks Keraton Boko. Lokasi Wisata Tebing Breksi tepatnya berada di Desa Sambirejo, Prambanan,
                                 Kabupaten Sleman</p>
@@ -415,17 +402,15 @@
         <div class="col-lg-4 bright">
             <a href="#" style="text-decoration: none;">
                 <div class="card mb-3 shadow">
-                    <div class="container" style="margin: 0; padding: 0;">
+                    <div class="container" style="margin: 0; padding: 0;" type="button" data-toggle="modal"
+                            data-target="#br">
                         <img src="image/TB.jpg" class="img-fluid" />
 
                         <p class="title">TEBING BREKSI
                         </p>
-                        <div class="overlay"></div>
-                        <div class="button"><a href="#" type="button" data-toggle="modal"
-                            data-target="#br">Detail
-                        </a></div>
+                        
                         <div class="card-body">
-                            <p class="card-text text-center">IDR Rp. 10.000/px</p>
+                            <p class="card-text text-center">Rp. 10.000/px</p>
                         </div>
                     </div>
                 </div>
@@ -452,7 +437,7 @@
                                         </div>
                                      </div>
                                 </div>
-                                <p>Keraton Ngayogyakarta Hadiningrat atau Keraton Yogyakarta merupakan istana resmi
+                                <p style="padding-left:15px; padding-right:15px;">Keraton Ngayogyakarta Hadiningrat atau Keraton Yogyakarta merupakan istana resmi
                                     Kesultanan Ngayogyakarta Hadiningrat yang kini berlokasi di Kota Yogyakarta, Daerah Istimewa Yogyakarta,
                                     Indonesia.</p>
                         <div class="modal-footer">
@@ -467,16 +452,14 @@
         <div class="col-lg-4 bright">
             <a href="#" style="text-decoration: none;">
                 <div class="card mb-3 shadow">
-                    <div class="container" style="margin: 0; padding: 0;">
+                    <div class="container" style="margin: 0; padding: 0;" data-toggle="modal"
+                            data-target="#kr">
                         <img src="image/KR.jpg" class="img-fluid" />
 
                         <p class="title">KRATON JOGJA</p>
-                        <div class="overlay"></div>
-                        <div class="button"><a href="#" type="button" data-toggle="modal"
-                            data-target="#kr">Detail
-                        </a></div>
+                       
                         <div class="card-body">
-                            <p class="card-text text-center">IDR Rp. 10.000/px</p>
+                            <p class="card-text text-center">Rp. 10.000/px</p>
                         </div>
                     </div>
                 </div>
