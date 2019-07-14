@@ -7,8 +7,9 @@ async defer></script>
 
 <style>
     body  {
-        font-family: 'Montserrat',sans-serif;
+        font-family: 'Poppins',sans-serif;
     }
+
 </style>
 
 <div id="googleMap" style="
@@ -17,12 +18,14 @@ width:100%;
 height:500px;"></div>
 
 <div class="container-fluid"
-style="margin-top: 100px;">
-<div class="contact-section">
-    <h2 class="ct-section-head"> CONTACT US </h2>
+style="margin-top: 50px;
+font-family: 'Poppins', sans-serif;
+margin-bottom: 20px;">
+    <h2 style="margin-left: 200px;
+    margin-bottom: 20px;"> CONTACT US </h2>
     <div class="row">
-      <div class="col-md-8"
-      style="margin-left: 0px;">
+      <div class="col-md-6"
+      style="margin-left: 40px;">
       <form method="post" action="">
 			<div class="form-group">
                 <label class="sr-only" for="fname">First Name *</label>
@@ -47,8 +50,8 @@ style="margin-top: 100px;">
 				<button class="btn btn-info" type="submit">Submit</button>  
             </form>
 			</div>
-            <div class="col-md-4 contact-info"
-            style="padding-left: 40px;">
+            <div class="col-md-3 contact-info"
+            style="padding-left: 60px;">
             <div class="phone">
                 <h2>Call</h2>
                 <a href="tel:+4046872730">tel:+4046872730</a>
@@ -65,10 +68,9 @@ style="margin-top: 100px;">
                     Daerah Istimewa Yogyakarta
                     <br>
                     <br>
-                    <a class="btn btn-info" href="tesmap.html" target="_blank"
-                    id="googleMap">Google Maps</a>
                 </p>
             </div>
+        </div>
             </div>
         </div>
     </div>

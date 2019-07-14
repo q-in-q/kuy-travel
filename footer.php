@@ -1,12 +1,13 @@
 <footer class="position-relative" style="background : #f8f9fa !important;
 padding-top: 80px; 
 padding-bottom: 50px;
-font-family: 'Montserrat', sans-serif;">
+font-family: 'Poppins', sans-serif;">
 	<div class="py-6 bg-gray-200 text-muted">
 		<div class="container" style="padding-top: 20px;">
 			<div class="row">
 				<div class="col-lg-4 mb-5 mb-lg-0">
-					<div class="font-weight-bold textt-uppercase text-dark mb-3">
+					<div class="font-weight-bold text-uppercase text-dark mb-3" style="font-family: 'Poppins', sans-serif;
+					letter-spacing: .2rem;">
 						Directory
 					</div>
 					<p>lorem ispsum dolor sit amet, consectetur adipisicing</p>
@@ -56,7 +57,8 @@ font-family: 'Montserrat', sans-serif;">
 					</ul>
 				</div>
 				<div class="col-lg-2 col-md-6 mb-5 mb-lg-0">
-					<h6 class="font-weight-bold textt-uppercase text-dark mb-3">
+					<h6 class="font-weight-bold text-uppercase text-dark mb-3" style="font-family: 'Poppins',sans-serif;
+					letter-spacing: .2rem;">
 						Rentals
 					</h6>
 					<ul class="list-unstyled">
@@ -80,7 +82,7 @@ font-family: 'Montserrat', sans-serif;">
 					</ul>
 				</div>
 				<div class="col-lg-2 col-md-6 mb-5 mb-lg-0">
-					<h6 class="font-weight-bold textt-uppercase text-dark mb-3">Pages</h6>
+					<h6 class="font-weight-bold text-uppercase text-dark mb-3" style="font-family: 'Poppins', sans-serif; letter-spacing: .2rem;">Pages</h6>
 					<ul class="list-unstyled">
 						<li>
 							<a  class="text-muted"
@@ -109,10 +111,11 @@ font-family: 'Montserrat', sans-serif;">
 					});
 				</script>
 				<div class="col-lg-4">
-					<h6 class="font-weight-bold textt-uppercase text-dark mb-3">
+					<h6 class="font-weight-bold text-uppercase text-dark mb-3" style="font-family: 'Poppins', sans-serif;
+					letter-spacing: .2rem;">
 						Daily Offers & Discounts
 					</h6>
-					<p class="mb-3">
+					<p class="">
 						Lorem ipsum dolor sitamet, consectetur adipisicing elit. At itaque temporibus.
 					</p>
 					<form action="#" id="newsletter-form">
