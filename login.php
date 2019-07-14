@@ -3,7 +3,7 @@
     <head>
 
     <link rel="stylesheet" href="css/bootstrap.min.css">
-	<link rel="stylesheet" href="css/themify-icons.css">
+	
     <link rel="stylesheet" href="login.css">
 	
 	<link rel="stylesheet" type="text/css" href="fontawesome/css/all.css">
@@ -11,9 +11,13 @@
     <script src="jquery-3.4.1.min.js"></script>
     <script src="JQUERYmain.js"></script>
     <title>FormLogin</title>
+
+    <link rel="shortcut icon" href="image/logo.ico">
+
     </head>
 
     <body>
+        
         <div class="box">
             <div class="main"></div>
                 <div class="loginform">
@@ -71,5 +75,6 @@
 
 
         </div>
+        
     </body>
 </html>

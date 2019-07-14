@@ -69,10 +69,11 @@ include ("header.php");
                 <div style="
                 width: 800px;
                 ">
-                  <input type="text" name="search" placeholder="what are you searching for ?     "
+                  <input type="search" name="search" placeholder="cari destinasi anda?     "
                   class="form-control"
                   align="center"
-                  style="border: transparent;">
+                  style="border: transparent;"
+                   data-toggle="modal" data-target="#centralModallg" aria-label="Search" data-target="#centralModalSm">
                 </div>
                 </div>
                 <div class=""
@@ -82,7 +83,7 @@ include ("header.php");
                 margin-top: 7px;" align="center">
                   <form action="#" id="newsletter-form">
                   <div class="input-group mb-3">
-                  <input type="email" placeholder="Location" 
+                  <input type="email" placeholder="Lokasi Kami" 
                   aria-label="Your Email Address" class="form-control 
                   bg-grey border-0 border-right-0"
                   style="
@@ -90,7 +91,7 @@ include ("header.php");
                   ">
                   <div class="input-group-append">
                     <button type="submit" class="btn btn-outline-dark
-                    border-left-1 border-0" >
+                    border-left-1 border-0" onclick="window.location.href='contactus.php'">
                     <i class="fas fa-crosshairs text-lg"></i>
                      
                     </button>
@@ -103,13 +104,13 @@ include ("header.php");
                  margin-right: 13px;">
                 <a class="btn dropdown-toggle" href="#" role="button" id="dropdownMenuLink" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false"
               style="background: transparent;">
-              Categories
+              Kategori
               </a>
             
              <div class="dropdown-menu" aria-labelledby="dropdownMenuLink">
-               <a class="dropdown-item" href="#">Action</a>
-                <a class="dropdown-item" href="#">Another action</a>
-                <a class="dropdown-item" href="#">Something else here</a>
+               <a class="dropdown-item" href="#" onclick="window.location.href='rekomendasi.php'">Rekomendasi</a>
+                <a class="dropdown-item" href="#" onclick="window.location.href='paket.php'">Paket Wisata</a>
+                <a class="dropdown-item" href="#" onclick="window.location.href='pesan.php'">Pesan</a>
               </div>
               </div>
               <div>
@@ -124,7 +125,7 @@ include ("header.php");
                 width: 120px;
                 ">
                 <b>
-                Search
+                Cari
               </b>
               </button>
               </div>
@@ -133,8 +134,8 @@ include ("header.php");
           <br>
           <br>
           <br>
-          <h5>First slide label</h5>
-          <p>Nulla vitae elit libero, a pharetra augue mollis interdum.</p>
+          <h5>Tugu Jogja</h5>
+          <p>Salah satu ikon kota jogja</p>
         </div>
       </div>
       <div class="carousel-item">
@@ -177,10 +178,12 @@ include ("header.php");
                 <div style="
                 width: 800px;
                 ">
-                  <input type="text" name="search" placeholder="what are you searching for ?     "
+                  <input type="search" name="search" placeholder="cari destinasi anda?     "
                   class="form-control"
                   align="center"
-                  style="border: transparent;">
+                  style="border: transparent;"
+                  data-toggle="modal" data-target="#centralModallg" aria-label="Search" data-target="#centralModalSm">
+
                 </div>
                 </div>
                 <div class=""
@@ -190,7 +193,7 @@ include ("header.php");
                 margin-top: 7px;" align="center">
                   <form action="#" id="newsletter-form">
                   <div class="input-group mb-3">
-                  <input type="email" placeholder="Location" 
+                  <input type="email" placeholder="Lokasi kami" 
                   aria-label="Your Email Address" class="form-control 
                   bg-grey border-0 border-right-0"
                   style="
@@ -198,7 +201,8 @@ include ("header.php");
                   ">
                   <div class="input-group-append">
                     <button type="submit" class="btn btn-outline-dark
-                    border-left-1 border-0" >
+                    border-left-1 border-0"
+                    onclick="window.location.href='contactus.php'" >
                     <i class="fas fa-crosshairs text-lg"></i>
                      
                     </button>
@@ -211,13 +215,13 @@ include ("header.php");
                  margin-right: 13px;">
                 <a class="btn dropdown-toggle" href="#" role="button" id="dropdownMenuLink" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false"
               style="background: transparent;">
-              Categories
+              Kategori
               </a>
             
              <div class="dropdown-menu" aria-labelledby="dropdownMenuLink">
-               <a class="dropdown-item" href="#">Action</a>
-                <a class="dropdown-item" href="#">Another action</a>
-                <a class="dropdown-item" href="#">Something else here</a>
+               <a class="dropdown-item" href="#" onclick="window.location.href='rekomendasi.php'">Rekomendasi</a>
+                <a class="dropdown-item" href="#" onclick="window.location.href='paket.php'">Paket Wisata</a>
+                <a class="dropdown-item" href="#" onclick="window.location.href='pesan.php'">Pesan</a>
               </div>
               </div>
               <div>
@@ -232,7 +236,7 @@ include ("header.php");
                 width: 120px;
                 ">
                 <b>
-                Search
+                cari
               </b>
               </button>
               </div>
@@ -241,8 +245,8 @@ include ("header.php");
           <br>
           <br>
           <br>
-          <h5>Second slide label</h5>
-          <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+          <h5>Candi Prambanan</h5>
+          <p>Salah satu candi yang ad di jogja</p>
         </div>
       </div>
       <div class="carousel-item">
@@ -285,10 +289,11 @@ include ("header.php");
                 <div style="
                 width: 800px;
                 ">
-                  <input type="text" name="search" placeholder="what are you searching for ?     "
+                  <input type="search" name="search" placeholder="Cari destinasi anda ?     "
                   class="form-control"
                   align="center"
-                  style="border: transparent;">
+                  style="border: transparent;"
+                  data-toggle="modal" data-target="#centralModallg" aria-label="Search" data-target="#centralModalSm">
                 </div>
                 </div>
                 <div class=""
@@ -298,15 +303,15 @@ include ("header.php");
                 margin-top: 7px;" align="center">
                   <form action="#" id="newsletter-form">
                   <div class="input-group mb-3">
-                  <input type="email" placeholder="Location" 
+                  <input type="email" placeholder="Lokasi kami" 
                   aria-label="Your Email Address" class="form-control 
                   bg-grey border-0 border-right-0"
                   style="
-                  border: transparent;
-                  ">
+                  border: transparent;">
                   <div class="input-group-append">
                     <button type="submit" class="btn btn-outline-dark
-                    border-left-1 border-0" >
+                    border-left-1 border-0" 
+                    onclick="window.location.href='contactus.php'">
                     <i class="fas fa-crosshairs text-lg"></i>
                      
                     </button>
@@ -319,13 +324,13 @@ include ("header.php");
                  margin-right: 13px;">
                 <a class="btn dropdown-toggle" href="#" role="button" id="dropdownMenuLink" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false"
               style="background: transparent;">
-              Categories
+              Kategori
               </a>
             
              <div class="dropdown-menu" aria-labelledby="dropdownMenuLink">
-               <a class="dropdown-item" href="#">Action</a>
-                <a class="dropdown-item" href="#">Another action</a>
-                <a class="dropdown-item" href="#">Something else here</a>
+               <a class="dropdown-item" href="#" onclick="window.location.href='rekomendasi.php'">Rekomendasi</a>
+                <a class="dropdown-item" href="#" onclick="window.location.href='paket.php'">Paket Wisata</a>
+                <a class="dropdown-item" href="#" onclick="window.location.href='pesan.php'">Pesan</a>
               </div>
               </div>
               <div>
@@ -340,7 +345,7 @@ include ("header.php");
                 width: 120px;
                 ">
                 <b>
-                Search
+                cari
               </b>
               </button>
               </div>
@@ -349,8 +354,8 @@ include ("header.php");
           <br>
           <br>
           <br>
-          <h5>Third slide label</h5>
-          <p>Praesent commodo cursus magna, vel scelerisque nisl consectetur.</p>
+          <h5>Pantai Parangtritis</h5>
+          <p>Salah satu pantai terindah di Jogja</p>
         </div>
       </div>
     </div>
@@ -453,7 +458,7 @@ include ("header.php");
     </h5>
     <h1 style="margin-left: 20px;"><p align="left"><b>Wisata Kuliner Jogja </b></p>
     </h1>
-    <h6 align="right" style="padding-right: 120px;"><a href="" class="text-muted">see all guides</a></h6>
+    <h6 align="right" style="padding-right: 120px;"><a href="" class="text-muted">Lihat Lebih</a></h6>
     <div class="row" style=" width:100%; 
     padding-top: 40px; 
     margin-left: 0px;">
@@ -557,16 +562,16 @@ include ("header.php");
     <h5 align="left">
     <B style="margin-left: 21px;
     margin-top: 40px;
-    color: pink;">Tempat Menginap</B>
+    color: pink;">Ulasan Dari Customer Kami</B>
     </h5>
     <div class="d-flex">
-    <h1 style="margin-left: 20px;"><p align="left"><b>Tempat Menginap</b></p>
+    <h1 style="margin-left: 20px;"><p align="left"><b>Destinasi Terbaik</b></p>
     </h1>
     <div class="flex-grow-1" style="
     text-align: right !important;
     padding-top: 22px;
     padding-right: 40px;">
-    <h6><a href="#" class="text-muted">see all guides
+    <h6><a href="#" class="text-muted">Lihat Lebih
       <i class="fas fa-angle-double-right"
       style="
       padding-left: 2px; 
@@ -584,7 +589,7 @@ include ("header.php");
                         <div class="card border-0 shadow"
                         style="
                         height: 360px;">
-                            <img src="https://d19m59y37dris4.cloudfront.net/directory/1-2/img/photo/photo-1484154218962-a197022b5858.jpg" class="img-fluid" alt="">
+                            <img src="image/ul1.jpg" class="img-fluid" alt="">
                             <div class="card-img-overlay"
                             style=" z-index: 20;
                             padding-left: 20px;
@@ -605,7 +610,7 @@ include ("header.php");
                                 line-height: 3rem;">
                                 <div class="flex text-white"
                                 style="padding: 4px 0px 0px 5px;">
-                                  <b>Pamela</b>
+                                  <b>Pamela Safitri</b>
                                 </div>
                               </div>
                             </div>
@@ -615,14 +620,13 @@ include ("header.php");
                                 <h6 style="
                                 margin-bottom: .75rem;">
                                   <a href="#" class="text-decoration-none text-dark">
-                                    <b>Modern, Well-Apointed Room
-                                    nice Kitchen</b>
+                                    <b>Taman Pelangi</b>
                                   </a>
                                 </h6>
                                 <div class="d-flex card-subtitle mb-3">
                                 <div class="flex-grow-1 text-muted"
                                 style="font-size: .875rem">
-                                  Private Room
+                                  Cocok untuk ngobrol
                                 </div>
                                 <div style="font-size: .7rem;
                                 margin-top: 2px;
@@ -637,9 +641,9 @@ include ("header.php");
 
                               <div class="card-text text-muted">
                                 <span class="h4 text-primary">
-                                  <b>$80</b>
+                                  <b>Rp 10.000</b>
                                 </span>
-                                Per night
+                                Per orang
                               </div>
                               </div>
                             </div>
@@ -650,7 +654,7 @@ include ("header.php");
                     <div class="col-md-3">
                         <div class="card border-0 shadow"
                         style="height: 360px;">
-                            <img src="https://d19m59y37dris4.cloudfront.net/directory/1-2/img/photo/photo-1426122402199-be02db90eb90.jpg" class="img-fluid" alt="">
+                            <img src="image/ul2.jpg" class="img-fluid" alt="">
                             <div class="card-img-overlay"
                             style=" z-index: 20;
                             padding-left: 20px;
@@ -671,7 +675,7 @@ include ("header.php");
                                 line-height: 3rem;">
                                 <div class="flex text-white"
                                 style="padding: 4px 0px 0px 5px;">
-                                  <b>John</b>
+                                  <b>Tukijo</b>
                                 </div>
                               </div>
                             </div>
@@ -681,13 +685,13 @@ include ("header.php");
                                 <h6 style="
                                 margin-bottom: .75rem;">
                                   <a href="#" class="text-decoration-none text-dark">
-                                    <b>Cute Quirky GArden apt, NYC adjacent</b>
+                                    <b>Monumen Jogja Kembali</b>
                                   </a>
                                 </h6>
                                 <div class="d-flex card-subtitle mb-3">
                                 <div class="flex-grow-1 text-muted"
-                                style="font-size: .875rem">
-                                  Entire apartment
+                                style="font-size: .800rem">
+                                  Museum tepat untuk anak-anak
                                 </div>
                                 <div style="font-size: .7rem;
                                 margin-top: 2px;
@@ -701,9 +705,9 @@ include ("header.php");
                               </div>
                               <div class="card-text text-muted">
                                 <span class="h4 text-primary">
-                                  <b>$121</b>
+                                  <b>Rp 5.000</b>
                                 </span>
-                                Per night
+                                Per Orang
                               </div>
                               </div>
                             </div>
@@ -714,7 +718,7 @@ include ("header.php");
                     <div class="col-md-3">
                         <div class="card border-0 shadow"
                         style="height: 360px;">
-                            <img src="https://d19m59y37dris4.cloudfront.net/directory/1-2/img/photo/photo-1512917774080-9991f1c4c750.jpg" class="img-fluid" alt="">
+                            <img src="image/ul3.jpg" class="img-fluid" alt="">
                             <div class="card-img-overlay"
                             style=" z-index: 20;
                             padding-left: 20px;
@@ -735,7 +739,7 @@ include ("header.php");
                                 line-height: 3rem;">
                                 <div class="flex text-white"
                                 style="padding: 4px 0px 0px 5px;">
-                                  <b>Julie</b>
+                                  <b>Tukiyem</b>
                                 </div>
                               </div>
                             </div>
@@ -745,14 +749,14 @@ include ("header.php");
                                 <h6 style="
                                 margin-bottom: .75rem;">
                                   <a href="#" class="text-decoration-none text-dark">
-                                    <b>Modern Apt - Vibrant Neighborhood!</b>
+                                    <b>Air Terjun Jogan</b>
                                   </a>
                                 </h6>
 
                                 <div class="d-flex card-subtitle mb-3">
                                 <div class="flex-grow-1 text-muted"
-                                style="font-size: .875rem">
-                                  Entire apartment
+                                style="font-size: .750rem">
+                                  Tempat yang cocok untuk bersantai
                                 </div>
                                 <div style="font-size: .7rem;
                                 margin-top: 2px;
@@ -766,9 +770,9 @@ include ("header.php");
                               </div>
                               <div class="card-text text-muted">
                                 <span class="h4 text-primary">
-                                  <b>$75</b>
+                                  <b>Rp 10.000</b>
                                 </span>
-                                Per night
+                                Per orang
                               </div>
                               </div>
                             </div>
@@ -779,7 +783,7 @@ include ("header.php");
                     <div class="col-md-3">
                         <div class="card border-0 shadow"
                         style="height: 360px;">
-                            <img src="https://d19m59y37dris4.cloudfront.net/directory/1-2/img/photo/photo-1488805990569-3c9e1d76d51c.jpg" class="img-fluid" alt="">
+                            <img src="image/ul4.jpg" class="img-fluid" alt="">
                             <div class="card-img-overlay"
                             style=" z-index: 20;
                             padding-left: 20px;
@@ -800,7 +804,7 @@ include ("header.php");
                                 line-height: 3rem;">
                                 <div class="flex text-white"
                                 style="padding: 4px 0px 0px 5px;">
-                                  <b>Stuart</b>
+                                  <b>Jarwo </b>
                                 </div>
                               </div>
                             </div>
@@ -810,13 +814,13 @@ include ("header.php");
                                 <h6 style="
                                 margin-bottom: .75rem;">
                                   <a href="#" class="text-decoration-none text-dark">
-                                    <b>Brooklyn Life, Easy to Manhattan</b>
+                                    <b>Goa Pindul</b>
                                   </a>
                                 </h6>
                                 <div class="d-flex card-subtitle mb-3">
                                 <div class="flex-grow-1 text-muted"
                                 style="font-size: .875rem">
-                                  Private Room
+                                Goa yang sangat keren
                                 </div>
                                 <div style="font-size: .7rem;
                                 margin-top: 2px;
@@ -830,9 +834,9 @@ include ("header.php");
                               </div>
                               <div class="card-text text-muted">
                                 <span class="h4 text-primary">
-                                  <b>$123</b>
+                                  <b>Rp 30.000</b>
                                 </span>
-                                Per night
+                                Per Orang
                               </div>
                               </div>
                             </div>
@@ -855,7 +859,7 @@ include ("header.php");
                           font-size: 75px;
                           font-family: 'Playfair Display', serif;
                           margin-left: 150px;">
-                        <b>Ready for your next Holidays?
+                        <b>Siap Untuk Libuaranmu
                         </b>
                         </h1>
                     </div>
@@ -868,8 +872,8 @@ include ("header.php");
                           z-index: 20;
                           margin-top: -550px;
                           margin-left: 155px;
-                          ">
-                          <b class="HI">Get Started</b>
+                          " onclick="window.location.href='pesan.php'">
+                          <b class="HI">Pesan Sekarang</b>
                           <style>
                           .HI {
                             font-family: 'Poppins', sans-serif;
@@ -1070,6 +1074,8 @@ include ("header.php");
                   </div>
                       </div>
                       </section>
+
+                      
                       <section class="container-fluid" style="
                     background: #f8f9fa !important;
                     padding: 80px 40px 20px 40px;
@@ -1267,6 +1273,50 @@ include ("header.php");
 </div>
 <br>
 <br>
+
+
+
+ <!--modal-->
+
+          <!-- Central Modal Small -->
+          <div class="modal fade" id="centralModallg" tabindex="-1" role="dialog" aria-labelledby="myModalLabel"
+            aria-hidden="true">
+
+            <!-- Change class .modal-sm to change the size of the modal -->
+            <div class="modal-dialog modal-lg" role="document">
+
+
+              <div class="modal-content">
+                <div class="modal-header">
+                  <form action="" class="col-md-6">
+                        <input class="form-control" type="search" placeholder="search your destination" ng-model="hasil">
+                  </form>
+                  <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                    <span aria-hidden="true">&times;</span>
+                  </button>
+                </div>
+                <div class="modal-body listdestinasi" >
+                  <div class="col-md-12" ng-controller="namadestinasi">
+                    <ul class="">
+                      <li ng-repeat = "dd in datadestinasi | filter : hasil ">
+                        <h5>
+                          <a href="#">{{dd.destinasi}}</a>
+                        </h5>
+                      </li>
+                    </ul>
+                    <h4 ></h4>
+                  </div>
+                </div>
+                <!--<div class="modal-footer">
+                  <button type="button" class="btn btn-secondary btn-sm" data-dismiss="modal">Close</button>
+                  <button type="button" class="btn btn-primary btn-sm">Save changes</button>
+                </div>-->
+              </div>
+            </div>
+          </div>
+
+          <!--modal serching-->
+
 
 
 <?php 
