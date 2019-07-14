@@ -18,9 +18,7 @@ include ("header.php");
     </style>
 </head>
 <body>
-  <br>
-  <br>
-  <br>
+ 
   <div class="bd-example"
   style="
   font-family: 'Montserrat', sans-serif;">
@@ -32,7 +30,7 @@ include ("header.php");
     </ol>
     <div class="carousel-inner">
       <div class="carousel-item active">
-        <img src="blonde-girl-4k-t7-1366x768.JPG" class="d-block w-100" alt="" style=" z-index: -1;">
+        <img src="image/cr1.jpg" class="d-block w-100" alt="" style=" z-index: -1;">
         <div class="carousel-caption d-none d-md-block">
           <div class="text-center text-lg-left">
           <h5 align="left"
@@ -41,13 +39,13 @@ include ("header.php");
           letter-spacing: .2rem;
           color: #e83e8c !important;
           margin-left: 60px;
-          "><b>The best holiday experience
+          "><b>Pengalaman terbaik akan Kami suguhkan
           </b>
         </h5>
           <h1 class="text-shadow" style="
           margin-left: 70px;
           font-size: 85px;">
-            <b>Stay like a local
+            <b>Menyatu Dengan Kebudayaan Lokal Jogja
             </b>
           </h1>
           </div>
@@ -140,7 +138,7 @@ include ("header.php");
         </div>
       </div>
       <div class="carousel-item">
-        <img src="cute-girl-with-camera-smiling-8m-1366x768.jpg" class="d-block w-100" style="z-index: -1;">
+        <img src="image/cr2.jpg" class="d-block w-100" style="z-index: -1;">
         <div class="carousel-caption d-none d-md-block">
           <div class="text-center text-lg-left">
           <h5 align="left"
@@ -149,13 +147,13 @@ include ("header.php");
           letter-spacing: .2rem;
           color: #e83e8c !important;
           margin-left: 60px;
-          "><b>The best holiday experience
+          "><b>Pengalaman terbaik akan Kami suguhkan
           </b>
         </h5>
           <h1 class="text-shadow" style="
           margin-left: 70px;
           font-size: 85px;">
-            <b>Stay like a local
+            <b>Menyatu Dengan Kebudayaan Lokal Jogja
             </b>
           </h1>
           </div>
@@ -248,7 +246,7 @@ include ("header.php");
         </div>
       </div>
       <div class="carousel-item">
-        <img src="marie-grippon-hd-1v-1366x768.jpg" class="d-block w-100" style="z">
+        <img src="image/cr3.jpg" class="d-block w-100" style="z">
         <div class="carousel-caption d-none d-md-block">
           <div class="text-center text-lg-left">
           <h5 align="left"
@@ -257,13 +255,13 @@ include ("header.php");
           letter-spacing: .2rem;
           color: #e83e8c !important;
           margin-left: 60px;
-          "><b>The best holiday experience
+          "><b>Pengalaman terbaik akan Kami suguhkan
           </b>
         </h5>
           <h1 class="text-shadow" style="
           margin-left: 70px;
           font-size: 85px;">
-            <b>Stay like a local
+            <b>Menyatu Dengan Kebudayaan Lokal Jogja
             </b>
           </h1>
           </div>
@@ -394,11 +392,11 @@ include ("header.php");
                           
                             <div class="slight"></div>
                         </div>
-                        <i><img class="text-center" src="002-bus-3.png"
-                          style="width: 80px;
+                        <i><img class="text-center" src="image/ar4.png"
+                          style="width: 120px;
                           height: 80px;
                           "></i>
-                        <h4 class="my-4 font-weight-bold" align="center">Daihatsu Luxio</h4>
+                        <h4 class="my-4 font-weight-bold" align="center">Elf Minibus</h4>
                         <p class="text-muted" align="center" style="
                         font-size: 18px;">Varian dari mobil tersebut antara lain adalah mobil Elf yang dapat menampung 16 orang, sedangkan dua mobil Elf lainnya dapat menampung hingga dua puluh orang penumpang.</p>
 
@@ -412,10 +410,10 @@ include ("header.php");
                            
                             <div class="mask rgba-white-slight"></div>
                         </div>
-                        <i><img class="text-center" src="010-train-2.png"
-                          style="width: 80px;
+                        <i><img class="text-center" src="image/ar5.png"
+                          style="width: 100px;
                           height: 80px;"></i>
-                        <h4 class="my-4 font-weight-bold">Elf Minibus</h4>
+                        <h4 class="my-4 font-weight-bold">Toyota Hiace</h4>
                         <p class="text-muted" align="center" style="font-size: 18px;">Hiace merupakan salah satu merk mobil yang dikeluarkan oleh  Toyota  dengan harga sekitar  413 juta. Salah satu kelebihan mobil ini adalah dapat menampung sekitar dua belas 9orang. </p>
 
                     </div>
@@ -428,10 +426,10 @@ include ("header.php");
                         
                             <div class="mask rgba-white-slight"></div>
                         </div>
-                        <i><img class="text-center" src="014-car.PNG"
-                          style="width: 80px;
+                        <i><img class="text-center" src="image/ar1.PNG"
+                          style="width: 100px;
                           height: 80px;"></i>
-                        <h4 class="my-4 font-weight-bold">Toyota Hiace</h4>
+                        <h4 class="my-4 font-weight-bold">Daihatsu Luxio</h4>
                         <p class="text-muted" style="font-size: 18px;">Mobil ini di desain sedemikian rupa dengan hingga ia terlihat menarik. Salah satunya adalah pintu geser. Lain dari pada mobil lainnya yang pintunya tidak digeser. Hal ini menambah nilai eksotis pada mobil in</p>
 
                     </div>
@@ -451,15 +449,15 @@ include ("header.php");
     <h5 align="left">
     <B style="margin-left: 21px;
     margin-top: 40px;
-    color: lightblue;">STAY AND EAT LIKE A LOCAL</B>
+    color: lightblue;"></B>
     </h5>
-    <h1 style="margin-left: 20px;"><p align="left"><b>Our Guides</b></p>
+    <h1 style="margin-left: 20px;"><p align="left"><b>Wisata Kuliner Jogja </b></p>
     </h1>
     <h6 align="right" style="padding-right: 120px;"><a href="" class="text-muted">see all guides</a></h6>
     <div class="row" style=" width:100%; 
     padding-top: 40px; 
     margin-left: 0px;">
-      <div align="center" style="background: url(Anime-Minimalism-4e-Wallpaper-640-x-960-380x570.jpg);
+      <div align="center" style="background: url('kuliner1.jpg');
       color: white;
       width: 212px;
       height: 350px;
@@ -472,13 +470,13 @@ include ("header.php");
       color: white;
       " align="left">
         <div align="left" style="margin-top: 150px;">
-        <b>Yogyakarta</b>
-        <p>Lorem ipsum dolor sit amet,</p>
+        <b>Gudeg Yu Djum</b>
+        <p>Restoran Ternama yang menyuguhkan Gudek Asli Jogja</p>
         </div> 
       </p>
     </div>
       <div align="center" style="
-      background-image: url(Anime-Minimalism-4e-Wallpaper-640-x-960-380x570.jpg);
+      background-image: url('kuliner2.jpg');
       color: white;
       width: 212px;
       height: 350px;
@@ -490,12 +488,12 @@ include ("header.php");
       align="center">
       <div align="left" style="margin-top: 150px; color: white; padding-left: 20px
         padding-right:20px;">
-        <b>Yogyakarta</b>
-        <p>Lorem ipsum dolor sit amet,</p>
+        <b>Oseng Mercon Bu Narti</b>
+        <p>Menyajikan makanan yang super pedas</p>
         </div>        
       </div>
       <div align="center"
-      style="background: url(Anime-Minimalism-4e-Wallpaper-640-x-960-380x570.jpg);
+      style="background: url('kuliner3.jpg');
       color: white;
       width: 212px;
       height: 350px;
@@ -508,11 +506,11 @@ include ("header.php");
       " align="center">
       <div align="left" style="margin-top: 150px; color: white; padding-left: 20px
         padding-right:20px;">
-        <b>Yogyakarta</b>
-        <p>Lorem ipsum dolor sit amet,</p>
+        <b>Jadah Tempe Mbah Carik</b>
+        <p>Menyajikan makanan khas dari ketan dicampur kelapa</p>
         </div>
     </div>
-    <div style="background-image: url(Anime-Minimalism-4e-Wallpaper-640-x-960-380x570.jpg);
+    <div style="background-image: url('kuliner4.jpg');
       color: white;
       width: 212px;
       height: 350px;
@@ -523,13 +521,13 @@ include ("header.php");
       margin-right: 30px;">
         <div align="left" style="margin-top: 150px; color: white; padding-left: 20px
         padding-right:20px;">
-        <b>Yogyakarta</b>
-        <p>Lorem ipsum dolor sit amet,</p>
+        <b>Tengkleng Gajah</b>
+        <p>Tengkleng Berbahan dasar kambing yang di sajikan dalam porsi besar</p>
         </div>
         <div> 
       </div>
     </div>
-    <div style="background-image: url(Anime-Minimalism-4e-Wallpaper-640-x-960-380x570.jpg);
+    <div style="background-image: url('kuliner5.jpg');
       color: white;
       width: 212px;
       height: 350px;
@@ -540,8 +538,8 @@ include ("header.php");
       margin-right: 30px;">
         <div align="left" style="margin-top: 150px; color: white; padding-left: 20px
         padding-right:20px;">
-        <b>Yogyakarta</b>
-        <p>Lorem ipsum dolor sit amet,</p>
+        <b>Mi Ayam Tumini</b>
+        <p>Mi Ayam Fenomenal karna kuah kaldunya</p>
         </div>
     </div>
   </div>
@@ -559,10 +557,10 @@ include ("header.php");
     <h5 align="left">
     <B style="margin-left: 21px;
     margin-top: 40px;
-    color: pink;">HURRY UP, THESE ARE EXPIRING SOON</B>
+    color: pink;">Tempat Menginap</B>
     </h5>
     <div class="d-flex">
-    <h1 style="margin-left: 20px;"><p align="left"><b>Last minute deals</b></p>
+    <h1 style="margin-left: 20px;"><p align="left"><b>Tempat Menginap</b></p>
     </h1>
     <div class="flex-grow-1" style="
     text-align: right !important;
@@ -900,11 +898,11 @@ include ("header.php");
                           font-weight: bold;
                           color: #4E66F8 !important;
                           ">
-                            Testimonials
+                            Testimoni
                           </p>
                           <h2 class="mb-5" style="font-family: 'Montserrat', sans-serif
                           font-weight:700;
-                          line-height: 1.3;">Our dear customers said about us</h2>
+                          line-height: 1.3;">Apa yang Pelanggan kami katakan Tentang kami</h2>
                         </div>
                       </div>
                       <div>
@@ -932,12 +930,11 @@ include ("header.php");
                             border: 2px solid white;
                             border-radius: 50%;
                             "></p>
-                            <p align="center" class="text-muted"><i>" Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
-                            tempor incididunt ut labore et dolore magna aliqua. "
+                            <p align="center" class="text-muted"><i>"Kuy travel memberikan pelayanaan ternyaman"
                           </i>
                             <br>
                             <br>
-                            <strong>Jeremy Bellamy</strong>
+                            <strong>Jeremy Teti</strong>
                           </p>
                             </div> 
                             
@@ -957,11 +954,10 @@ include ("header.php");
                             box-shadow: 10px;
                             border: 2px solid white;
                             border-radius: 50%;"></p>
-                            <p align="center" class="text-muted"><i>" Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
-                            tempor incididunt ut labore et dolore magna aliqua. "</i>
+                            <p align="center" class="text-muted"><i>" Kuy Tavel adalah perusahaa travel terbaik dengan pelayanan terbaik "</i>
                             <br>
                             <br>
-                            <strong>John</strong></p>
+                            <strong>John Jawir</strong></p>
                             </div> 
                           </div>
                       </div>
@@ -983,12 +979,11 @@ include ("header.php");
                             border: 2px solid white;
                             border-radius: 50%;
                             "></p>
-                            <p align="center" class="text-muted"><i>" Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
-                            tempor incididunt ut labore et dolore magna aliqua. "
+                            <p align="center" class="text-muted"><i>"KuyTravel melayani dengan setulus hati"
                           </i>
                           <br>
                           <br>
-                          <strong>Julie</strong></p>
+                          <strong>Julie estele</strong></p>
                             </div>
                             <div class="col-sm-6" style="
                             background: white !important;
@@ -1005,12 +1000,11 @@ include ("header.php");
                             border: 2px solid white;
                             border-radius: 50%;
                             "></p>
-                            <p align="center" class="text-muted"><i>" Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
-                            tempor incididunt ut labore et dolore magna aliqua. "
+                            <p align="center" class="text-muted"><i>"KuyTravel selalu tepat waktu dalam pelayanan  "
                           </i>
                           <br>
                           <br>
-                          <strong>Barbora</strong></p>
+                          <strong>Barbara</strong></p>
                             </div>
                           </div>
                         </div>
@@ -1033,12 +1027,11 @@ include ("header.php");
                             border: 2px solid white;
                             border-radius: 50%;
                             "></p>
-                            <p align="center" class="text-muted"><i>" Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
-                            tempor incididunt ut labore et dolore magna aliqua. "
+                            <p align="center" class="text-muted"><i>"KuyTravel membuat wisatawan senang dengan pelyanan yang sangat ramah"
                           </i>
                           <br>
                           <br>
-                          <strong>Jack</strong></p>
+                          <strong>Ujang</strong></p>
                             </div>
                             <div class="col-sm-6" style="
                             background: white !important;
@@ -1055,12 +1048,11 @@ include ("header.php");
                             border: 2px solid white;
                             border-radius: 50%;
                             "></p>
-                            <p align="center" class="text-muted"><i>" Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
-                            tempor incididunt ut labore et dolore magna aliqua. "
+                            <p align="center" class="text-muted"><i>" KuyTarvel memberikan fasilitas yang sangat bagus dalam pelayanan travel "
                           </i>
                           <br>
                           <br>
-                          <strong>Struart</strong>
+                          <strong>Asep</strong>
                         </p>
                             </div>
                           </div>

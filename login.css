@@ -1,5 +1,10 @@
+*{
+    background-image: url('tugu.jpg');
+}
+
+
 body{
-    background: url(image/walp.jpg);
+    background-image: url('tugu.jpg');
 }
 .box{
     height: 200px;

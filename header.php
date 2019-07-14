@@ -14,12 +14,14 @@
     <!-- Bootstrap CSS -->
     <link rel="stylesheet" href="./css/bootstrap.min.css">
     <link rel="stylesheet" href="fontawesome-free-5.9.0-web/css/all.css">
-    <link rel="stylesheet" href="css/style.css">
+   <link rel="stylesheet" href="css/style.css">
   
     
     <script src="js/countdown.js" type="text/javascript"></script>
+  
 
     <!-- Lnk script -->
+    <link href='https://fonts.googleapis.com/css?family=Open+Sans' rel='stylesheet' type='text/css'>
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
     <link rel="stylesheet" href="fontawesome/css/all.css">
     <link href="https://fonts.googleapis.com/css?family=Montserrat:400,400i,500,600,600i,700,800,900|Poiret+One&display=swap" rel="stylesheet">
@@ -32,30 +34,106 @@
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"></script>
     <link href="https://fonts.googleapis.com/css?family=DM+Serif+Display:400,400i|Poppins:300,400,500,600,600i,700,800,800i,900&display=swap&subset=latin-ext" rel="stylesheet">
      
+     	
+    <link rel="shortcut icon" href="image/logo.ico">
 
     <!--countdown-->
     
     <title>Travel jogja</title>
+
+
+    <style>
+    
+    /*Navbar*/
+
+.kepala{
+  background-color: transparent;
+}
+
+  /* adds some margin below the link sets  */
+.navbar .dropdown-menu div[class*="col"] {
+    margin-bottom:1rem;
+ }
+ 
+ .navbar .dropdown-menu {
+   border:none;
+   background-color:#f5f6fa!important;
+ }
+ 
+ /* breakpoint and up - mega dropdown styles */
+ @media screen and (min-width: 992px) {
+   
+   /* remove the padding from the navbar so the dropdown hover state is not broken */
+ .navbar {
+   padding-top:0px;
+   padding-bottom:0px;
+ }
+ 
+ /* remove the padding from the nav-item and add some margin to give some breathing room on hovers */
+ .navbar .nav-item {
+   padding:.5rem .5rem;
+   margin:0 .25rem;
+ }
+ 
+ /* makes the dropdown full width  */
+ .navbar .dropdown {position:static;}
+ 
+ .navbar .dropdown-menu {
+   width:100%;
+   left:0;
+   right:0;
+ /*  height of nav-item  */
+   top:45px;
+ }
+   
+   /* shows the dropdown menu on hover */
+ .navbar .dropdown:hover .dropdown-menu, .navbar .dropdown .dropdown-menu:hover {
+   display:block!important;
+   
+  
+ }
+
+ .collapse ul li a:hover{
+    background-color: #bdc3c7;
+    
+
+ }
+   
+   .navbar .dropdown-menu {
+     border: 1px solid rgba(0,0,0,.15);
+     background-color: #fff;
+   }
+ 
+ }
+    
+    
+    </style>
+  
+
     
 </head>
 <body onload="myFunction()" style="margin:0;">
 
+
 <nav class="kepala navbar navbar-expand-lg navbar-light fixed-top" style="
 background:white;
 font-family: 'Montserrat', sans-serif;">
+   
 
+    
     <a class="navbar-brand" href="#" style="color:black;" onclick="window.location.href='index.php'"><img src="image/logo2.png" alt="" style="width:100px; height:50px;"></a>
     <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
       <span class="navbar-toggler-icon"></span>
     </button>
-    <form class="col-md-4 form-inline my-2 my-lg-0">
+            <form class="col-md-4 form-inline my-2 my-lg-0">
               <input style="background:#ecf0f1;" class="form-control" type="search" placeholder="Search" data-toggle="modal" data-target="#centralModallg" aria-label="Search" data-target="#centralModalSm">
             </form>
-
+                    
     <div class="collapse navbar-collapse" id="navbarSupportedContent">
       
       <ul class="navbar-nav mr-auto">
-          <li class="nav-item active">
+    
+          <li class="nav-item red ">
             <a class="nav-link" href="#" onclick="window.location.href='index.php'" style="color:black;"
             >Beranda </a>
           </li>
@@ -72,9 +150,7 @@ font-family: 'Montserrat', sans-serif;">
           <li class="nav-item">
             <a class="nav-link" href="#" onclick="window.location.href='promo.php'" style="color:black;">Diskon</a>
           </li>
-          <!--<li class="nav-item">
-            <a class="nav-link" href="#" onclick="window.location.href='ourteam.php'" style="color:#ffffff">Tentang Kami</a>
-          </li>-->
+          
         
         </ul>
         <ul class="navbar-nav mr-auto">
@@ -85,5 +161,17 @@ font-family: 'Montserrat', sans-serif;">
         </li>
       </ul>
     </div>
-</nav>
+</nav>-->
+
+
+
+     
+  
+
+  
+
+
+
+
+ 
 
