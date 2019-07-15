@@ -188,7 +188,7 @@
                                 <p>4. simpan bukti pembayaran</p><br>
                                 
 
-                                <button class="btn btn-light" style="margin-left:80px;">Bayar Sekarang</button>
+                                <button class="btn btn-light" style="margin-left:80px;" >Bayar Sekarang</button>
                             
                             </div>
                             <div role="tabpanel" class="tab-pane fade" id="alfa"><br>
@@ -239,7 +239,7 @@
 
 <div class="modal-content">
   <div class="modal-header">
-    <h4>Pembayaran Menggunakanan Gopay</h4>
+    <h4>Pembayaran Menggunakan Gopay</h4>
     <button type="button" class="close" data-dismiss="modal" aria-label="Close">
       <span aria-hidden="true">&times;</span>
     </button>
@@ -320,9 +320,6 @@ $(function() {
 
 
 	<link rel="stylesheet" href="css/nice-select.css">
-   
- 
-
     <!--<script src="//code.jquery.com/jquery-1.11.1.min.js"></script>-->
     <link rel="stylesheet" href="css/stylebayar.css">
     

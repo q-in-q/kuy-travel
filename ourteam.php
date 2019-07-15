@@ -74,9 +74,9 @@
               <div class="carousel-item active">
                 <div class="kontenslide">
                   <div class="container col-5 card">
-                          <div class="col-lg-6">
+                          <div class="col-lg-5">
                             <div class="container foto" style="height:80%">
-                              <img src="./image/rofiqah.jpg" alt="" />
+                              <img src="./image/shano.jpg" alt="" />
                             </div>
                           </div>
                           <div class="col-lg-11">
@@ -89,7 +89,7 @@
                           </div>
                         </div>
                         <div class="container col-5 card">
-                          <div class="col-lg-6">
+                          <div class="col-lg-5">
                             <div class="container foto" style="height:80%">
                               <img src="17_11_1168.jpg" alt="" />
                             </div>
@@ -99,7 +99,7 @@
                               
                                 Orang yang ingin gembira harus menyukai kelelahan akibat bekerja
                             </p>
-                            <h5>Aziz</h5>
+                            <h5>Leonurdin Aziz O.L</h5>
                           </div>
                         </div>
                   </div>
@@ -107,7 +107,7 @@
               <div class="carousel-item">
                 <div class="kontenslide">
                   <div class="container col-5 card">
-                          <div class="col-lg-6">
+                          <div class="col-lg-5">
                             <div class="container foto" style="height:80%">
                               <img src="./image/rofiqah.jpg" alt="" />
                             </div>
@@ -120,7 +120,7 @@
                           </div>
                         </div>
                         <div class="container col-5 card">
-                          <div class="col-lg-6">
+                          <div class="col-lg-5">
                             <div class="container foto" style="height:80%">
                               <img src="./image/IMG_20190702_091620.jpeg" alt="" />
                             </div>
@@ -138,7 +138,7 @@
               <div class="carousel-item">
                   <div class="kontenslide">
                     <div class="container col-5 card">
-                            <div class="col-lg-6">
+                            <div class="col-lg-5">
                               <div class="container foto" style="height:80%">
                                 <img src="image/rona.jpeg" alt="" />
                               </div>
@@ -147,7 +147,7 @@
                               <p>
                                 Berhentilah menyalahkan orang lain, cobalah lihat kesalahan pada dirimu.
                               </p>
-                              <h5>M Rona Setyo Wardani</h5>
+                              <h5>M Rona SetyoWardani</h5>
                             </div>
                           </div>
                           

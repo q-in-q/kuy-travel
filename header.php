@@ -15,7 +15,6 @@
     <link rel="stylesheet" href="./css/bootstrap.min.css">
     <link rel="stylesheet" href="fontawesome-free-5.9.0-web/css/all.css">
    <link rel="stylesheet" href="css/style.css">
-  
     
     <script src="js/countdown.js" type="text/javascript"></script>
 
@@ -142,7 +141,7 @@ font-family: 'Montserrat', sans-serif;">
             >Beranda </a>
           </li>
           <li class="nav-item">
-           <a class="nav-link" href="#" onclick="window.location.href='rekomendasi.php'"  style="color:black;">Rekomedasi</a>
+           <a class="nav-link" href="#" onclick="window.location.href='rekomendasi.php'"  style="color:black;">Rekomendasi</a>
          </li>
           <li class="nav-item">
            <a class="nav-link" href="#" onclick="window.location.href='paket.php'"  style="color:black;">Paket</a>
