@@ -24,7 +24,7 @@
           <p id="pr1">RONDANI27</p>
         </div>
         <div class="col-md-3">
-          <button onclick="copyToClipboard('#pr1')" class="btn btn-light" >Copy Kode</button>
+          <button onclick="copyToClipboard('#pr1')" >Copy Kode</button>
         </div>
     </div>
 
