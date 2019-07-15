@@ -859,7 +859,7 @@ include ("header.php");
                           font-size: 75px;
                           font-family: 'Playfair Display', serif;
                           margin-left: 150px;">
-                        <b>Siap Untuk Libuaranmu
+                        <b>Siap Untuk Liburanmu
                         </b>
                         </h1>
                     </div>
