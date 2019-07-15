@@ -589,7 +589,7 @@ include ("header.php");
                         <div class="card border-0 shadow"
                         style="
                         height: 360px;">
-                            <img src="image/ul1.jpg" class="img-fluid" alt="">
+                            <img src="image/ul3.jpg" class="img-fluid" alt="">
                             <div class="card-img-overlay"
                             style=" z-index: 20;
                             padding-left: 20px;
@@ -610,7 +610,7 @@ include ("header.php");
                                 line-height: 3rem;">
                                 <div class="flex text-white"
                                 style="padding: 4px 0px 0px 5px;">
-                                  <b>Pamela Safitri</b>
+                                  <b>Pamela</b>
                                 </div>
                               </div>
                             </div>
@@ -654,7 +654,7 @@ include ("header.php");
                     <div class="col-md-3">
                         <div class="card border-0 shadow"
                         style="height: 360px;">
-                            <img src="image/ul2.jpg" class="img-fluid" alt="">
+                            <img src="image/ul3.jpg" class="img-fluid" alt="">
                             <div class="card-img-overlay"
                             style=" z-index: 20;
                             padding-left: 20px;
@@ -691,7 +691,7 @@ include ("header.php");
                                 <div class="d-flex card-subtitle mb-3">
                                 <div class="flex-grow-1 text-muted"
                                 style="font-size: .800rem">
-                                  Museum tepat untuk anak-anak
+                                  Museum Ceria
                                 </div>
                                 <div style="font-size: .7rem;
                                 margin-top: 2px;
@@ -756,7 +756,7 @@ include ("header.php");
                                 <div class="d-flex card-subtitle mb-3">
                                 <div class="flex-grow-1 text-muted"
                                 style="font-size: .750rem">
-                                  Tempat yang cocok untuk bersantai
+                                  Tempat untuk bersantai
                                 </div>
                                 <div style="font-size: .7rem;
                                 margin-top: 2px;
@@ -1076,13 +1076,14 @@ include ("header.php");
                       </section>
 
                       
-                      <section class="container-fluid" style="
+                      <div class="container-fluid" style="
                     background: #f8f9fa !important;
                     padding: 80px 40px 20px 40px;
                     width: 100%;
-                    height: 1000px;
+                    height: 1050px;
                     margin-top: -220px;
                     font-family: 'Poppins', sans-serif;
+                    margin-bottom: 20px;
                     ">
                       <h5 align="left">
                       <B style="margin-left: 21px;
@@ -1090,14 +1091,17 @@ include ("header.php");
                       color: pink;
                       letter-spacing: .3rem;">STORIES FROM AROUND THE GLOBE</B>
                       </h5>
-                      <div class="d-flex">
-                      <h1 style="margin-left: 20px;"><p align="left"><b>From our travel blog</b ></p>
+                      <div>
+                      <h1 style="margin-left: 20px;">
+                        <p align="left">
+                          <b>From our travel blog</b>
+                        </p>
                       </h1>
                       <div class="flex-grow-1" style="
                       text-align: right !important;
                       padding-top: 22px;
                       padding-right: 40px;">
-                      <h6><a href="#" class="text-muted">See all articles
+                      <h6><a href="PW.html" class="text-muted">See all articles
                         <i class="fas fa-angle-double-right"
                         style="
                         padding-left: 2px; 
@@ -1109,7 +1113,7 @@ include ("header.php");
                     </div>
                     </div>
 
-
+                  <div class="container-fluid">
                   <div class="row" style="
                    margin-top: 40px;
                    ">
@@ -1118,31 +1122,29 @@ include ("header.php");
                         <div class="card border-0 shadow"
                         style="
                         height: 100%;">
-                            <img src="https://d19m59y37dris4.cloudfront.net/directory/1-2/img/photo/photo-1484154218962-a197022b5858.jpg" class="img-fluid" alt="">
-                            <div class="card-img-overlay"
-                            style=" z-index: 20;
-                            padding-left: 20px;
-                            padding-top: 150px;">
-                            </div>
+                        <a href="PW.html">
+                            <img src="https://d19m59y37dris4.cloudfront.net/directory/1-2/img/photo/photo-1484154218962-a197022b5858.jpg" class="img-fluid">
+                            </a>
                             <div class="card-body"
                             style="">
-                              <a href="#" class="text-uppercase text-muted text-sm letter-spacing-2"
+                              <p href="#" class="text-uppercase text-muted"
                               style="letter-spacing: .3rem;
                               ">
                                 Travel
-                              </a>
+                              </p>
                               <h5 class="my-2">
-                                <a href="#" class="text-dark"
+                                <p href="#" class="text-dark"
                                 style="
-                                background-color: transparent;">
+                                background-color: transparent;
+                                margin-top: -10px;">
                                   Autumn fashion tips and tricks
-                                </a>
+                                </p>
                               </h5>
                               <p class="text-muted text-sm my-3">
                                 <i class="far fa-clock mr-2 text-muted"></i>
                                 January 16, 2016
                               </p>
-                              <p class="my-2 text-muted text-sm"
+                              <p class="text-muted"
                               style="font-family: 'Poppins',sans-serif;">
                                 Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
                                 tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
@@ -1155,7 +1157,7 @@ include ("header.php");
                               style=" letter-spacing: .3rem;
                               margin-left: -13px;">
                                 <b>Read more
-                                <i class="fa fa-long-arrow-alt-right"></i>
+                                <i class="fas fa-share"></i>
                               </b>
                               </a>
                             </div>
@@ -1166,25 +1168,21 @@ include ("header.php");
                     <div class="col-md-4">
                         <div class="card border-0 shadow"
                         style="height: 100%;">
-                            <img src="https://d19m59y37dris4.cloudfront.net/directory/1-2/img/photo/photo-1426122402199-be02db90eb90.jpg" class="img-fluid" alt="">
-                            <div class="card-img-overlay"
-                            style=" z-index: 20;
-                            padding-left: 20px;
-                            padding-top: 150px;">
-                            </div>
+                            <img src="https://d19m59y37dris4.cloudfront.net/directory/1-2/img/photo/photo-1426122402199-be02db90eb90.jpg" class="img-fluid">
                             <div class="card-body"
                             style="">
-                              <a href="#" class="text-uppercase text-muted text-sm letter-spacing-2"
+                              <p href="#" class="text-uppercase text-muted text-sm letter-spacing-2"
                               style="letter-spacing: .3rem;
                               ">
                                 Travel
-                              </a>
+                              </p>
                               <h5 class="my-2">
-                                <a href="#" class="text-dark"
+                                <p href="PW.html" class="text-dark"
                                 style="
+                                margin-top: -10px;
                                 background-color: transparent;">
                                   Autumn fashion tips and tricks
-                                </a>
+                                </p>
                               </h5>
                               <p class="text-muted text-sm my-3">
                                 <i class="far fa-clock mr-2 text-muted"></i>
@@ -1203,7 +1201,7 @@ include ("header.php");
                               style=" letter-spacing: .3rem;
                               margin-left: -13px;">
                                 <b>Read more
-                                <i class="fa fa-long-arrow-alt-right"></i>
+                                <i class="fas fa-share"></i>
                               </b>
                               </a>
                             </div>
@@ -1214,25 +1212,21 @@ include ("header.php");
                     <div class="col-md-4">
                         <div class="card border-0 shadow"
                         style="height: 100%;">
-                            <img src="https://d19m59y37dris4.cloudfront.net/directory/1-2/img/photo/photo-1512917774080-9991f1c4c750.jpg" class="img-fluid" alt="">
-                            <div class="card-img-overlay"
-                            style=" z-index: 20;
-                            padding-left: 20px;
-                            padding-top: 150px;">
-                            </div>
+                            <img src="https://d19m59y37dris4.cloudfront.net/directory/1-2/img/photo/photo-1512917774080-9991f1c4c750.jpg" class="img-fluid">
                             <div class="card-body"
                             style="">
-                              <a href="#" class="text-uppercase text-muted text-sm letter-spacing-2"
+                              <p href="#" class="text-uppercase text-muted text-sm letter-spacing-2"
                               style="letter-spacing: .3rem;
                               ">
                                 Travel
-                              </a>
+                              </p>
                               <h5 class="my-2">
-                                <a href="#" class="text-dark"
+                                <p href="#" class="text-dark"
                                 style="
+                                margin-top: -10px;
                                 background-color: transparent;">
                                   Autumn fashion tips and tricks
-                                </a>
+                                </p>
                               </h5>
                               <p class="text-muted text-sm my-3">
                                 <i class="far fa-clock mr-2 text-muted"></i>
@@ -1247,18 +1241,20 @@ include ("header.php");
                                 cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
                                 proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
                               </p>
-                              <a href="#" class="btn btn-link"
+                              <a href="#" onclick="window.location.href='PW.html'" class="btn btn-link"
                               style=" letter-spacing: .3rem;
-                              margin-left: -13px;">
-                                <b>Read more
-                                <i class="fa fa-long-arrow-alt-right"></i>
-                              </b>
+                              margin-left: -13px;
+                              font-weight: bold;">
+                                Read more
+                                <i class="fas fa-share"></i>
                               </a>
                             </div>
                           </div>
                         </div>
                       </div>
-                </section>
+                    </div>
+                </div>
+                <br>
                 <br>
   <div class="container" style="
   font-family: 'Montserrat', sans-serif;
