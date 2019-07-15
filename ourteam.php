@@ -74,7 +74,7 @@
               <div class="carousel-item active">
                 <div class="kontenslide">
                   <div class="container col-5 card">
-                          <div class="col-lg-6">
+                          <div class="col-lg-5">
                             <div class="container foto" style="height:80%">
                               <img src="./image/rofiqah.jpg" alt="" />
                             </div>
@@ -89,7 +89,7 @@
                           </div>
                         </div>
                         <div class="container col-5 card">
-                          <div class="col-lg-6">
+                          <div class="col-lg-5">
                             <div class="container foto" style="height:80%">
                               <img src="17_11_1168.jpg" alt="" />
                             </div>
@@ -107,7 +107,7 @@
               <div class="carousel-item">
                 <div class="kontenslide">
                   <div class="container col-5 card">
-                          <div class="col-lg-6">
+                          <div class="col-lg-5">
                             <div class="container foto" style="height:80%">
                               <img src="./image/rofiqah.jpg" alt="" />
                             </div>
@@ -120,7 +120,7 @@
                           </div>
                         </div>
                         <div class="container col-5 card">
-                          <div class="col-lg-6">
+                          <div class="col-lg-5">
                             <div class="container foto" style="height:80%">
                               <img src="./image/IMG_20190702_091620.jpeg" alt="" />
                             </div>

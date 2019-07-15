@@ -7,7 +7,7 @@
 	
 	 <div class="col-md-12" style="background:#bdc3c7; height:500px;">
 		<div class="traveler">
-				<h2 style="color:#fff;">Isi Data Pemesan Anda</h2>
+				<h2 style="color:#fff;">Isi Data Traveler Anda</h2>
 		</div>
 		<div class="row" style="padding-top:20px; padding-left:20px; padding-right:20px; height:400px;">
 			<div class="col-md-7">
