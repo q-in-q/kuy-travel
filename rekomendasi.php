@@ -1,89 +1,37 @@
 <?php include("header.php") ?>
 
-<div id="carousel-example-1z" class="carousel slide carousel-fade" data-ride="carousel">
-      <!--Slides-->
-      <div class="carousel-inner" role="listbox">
-        <!--First slide-->
-        <div class="carousel-item active">
-          <img
-            class="d-block w-100"
-            src="https://mdbootstrap.com/img/Photos/Slides/img%20(130).jpg"
-            alt="First slide"
-          />
-        </div>
-        <!--/First slide-->
-        <!--Second slide-->
-        <div class="carousel-item">
-          <img
-            class="d-block w-100"
-            src="https://mdbootstrap.com/img/Photos/Slides/img%20(129).jpg"
-            alt="Second slide"
-          />
-        </div>
-        <!--/Second slide-->
-        <!--Third slide-->
-        <div class="carousel-item">
-          <img
-            class="d-block w-100"
-            src="https://mdbootstrap.com/img/Photos/Slides/img%20(70).jpg"
-            alt="Third slide"
-          />
-        </div>
-        <!--/Third slide-->
-      </div>
-      <!--/.Slides-->
-      <!--Controls-->
-      <a
-        class="carousel-control-prev"
-        href="#carousel-example-1z"
-        role="button"
-        data-slide="prev"
-      >
-        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-        <span class="sr-only">Previous</span>
-      </a>
-      <a
-        class="carousel-control-next"
-        href="#carousel-example-1z"
-        role="button"
-        data-slide="next"
-      >
-        <span class="carousel-control-next-icon" aria-hidden="true"></span>
-        <span class="sr-only">Next</span>
-      </a>
-      <!--/.Controls-->
-    </div>
-
-
-
     <!--ISINYA-->
     <!-- foto atas -->
+    <br>
     <section>
       <div class="container">
         <div class="position-relative">
           <div
             class="row position-absolute"
-            style="margin-top: -50px;z-index: 2;"
+            style="margin-top:60px;
+            "
           >
             <div class="col-md-4">
-              <img class="img-fluid" src="image/free-pine-forest-wallpaper-full-hd-windows-10-backgrounds-4k-free-hi-res-quality-images-computer-wallpapers-cool-1920x1200.jpg" alt="" />
+              <img class="img-fluid shadow" src="image/free-pine-forest-wallpaper-full-hd-windows-10-backgrounds-4k-free-hi-res-quality-images-computer-wallpapers-cool-1920x1200.jpg" alt="" />
             </div>
             <div class="col-md-4">
-              <img class="img-fluid" src="image/thumb-1920-82317.jpg" alt="" />
+              <img class="img-fluid shadow" src="image/thumb-1920-82317.jpg" alt="" />
             </div>
             <div class="col-md-4">
-              <img class="img-fluid" src="image/0PXNRtS.jpg" alt="" />
+              <img class="img-fluid shadow" src="image/0PXNRtS.jpg" alt="" />
             </div>
           </div>
         </div>
       </div>
     </section>
-
+    <br>
+    <br>
+    <br>
     <!-- tulisan yogyakarta -->
-    <section class="tulis">
+    <section class="tulis" style="font-family: 'Poppins',sans-serif;">
       <div class="container">
         <h1>TOP 3 REKOMENDASI</h1>
-        <P>
+        <P style="font-family: 'Poppins',sans-serif;">
           Yogyakarta didirikan pada tahun 1756 sebagai ibukota Kesultanan Ngayoyakarta
           Hadiningrat, Yogyakarta menjadi pusat ilmu dan kebudayaan Jawa gingga kini,
           gabungan unsur-unsur mistis Jawa, suasana yang tenang, serta keramahan warga
@@ -121,7 +69,7 @@
                     alt=""
                   />
                 </div>
-                <div class="col-md-6">
+                <div class="col-md-6" style="font-family: 'Poppins',sans-serif;">
                   <div class="card">
                     <div class="card-body">
                       <h4>Gunung Anong</h4>
@@ -174,7 +122,7 @@
                 </div>
                 <div class="col-md-6">
                   <div class="card">
-                    <div class="card-body">
+                    <div class="card-body" style="font-family: 'Poppins',sans-serif;">
                       <h4>Tugu Jogja</h4>
                       <p>
                         Sebuah tugu atau monumen yang sering dipakai sebagai simbol atau lambang dari kota Yogyakarta.
@@ -213,78 +161,11 @@
       </a>
       <!--/.Controls-->
     </div>
-
-    <!-- <section class="foto2">
-      <div class="container">
-        <div class="row">
-          <div class="col-md-5">
-            <img class="img-fluid" src="image/prambanan.jpg" alt="" />
-          </div>
-          <div class="col-md-6">
-            <div class="card">
-              <div class="card-body">
-                <h4>prambanan</h4>
-                <p>
-                  Lorem ipsum dolor, sit amet consectetur adipisicing elit.
-                  Numquam sapiente accusamus fugit tempora ut officiis earum
-                  saepe quasi voluptas sunt. Quasi, illum velit accusamus
-                </p>
-              </div>
-            </div>
-          </div>
-        </div>
-      </div>
-    </section>
-
-    <section class="foto3">
-      <div class="container">
-        <div class="row">
-          <div class="col-md-6">
-            <div class="card">
-              <div class="card-body">
-                <h4>prambanan</h4>
-                <p>
-                  Lorem ipsum dolor, sit amet consectetur adipisicing elit.
-                  Numquam sapiente accusamus fugit tempora ut officiis earum
-                  saepe quasi voluptas sunt. Quasi, illum velit accusamus
-                </p>
-              </div>
-            </div>
-          </div>
-          <div class="col-md-5">
-            <img class="img-fluid" src="image/prambanan.jpg" alt="" />
-          </div>
-        </div>
-      </div>
-    </section>
-
-    <section class="foto4">
-      <div class="container">
-        <div class="row">
-          <div class="col-md-5">
-            <img class="img-fluid" src="image/prambanan.jpg" alt="" />
-          </div>
-          <div class="col-md-6">
-            <div class="card">
-              <div class="card-body">
-                <h4>prambanan</h4>
-                <p>
-                  Lorem ipsum dolor, sit amet consectetur adipisicing elit.
-                  Numquam sapiente accusamus fugit tempora ut officiis earum
-                  saepe quasi voluptas sunt. Quasi, illum velit accusamus
-                </p>
-              </div>
-            </div>
-          </div>
-        </div>
-      </div>
-    </section> -->
-
     <!-- gambar lainnya -->
     <section>
-      <div class="container">
+      <div class="container" style="margin-top: -50px;">
         <div class="fotolain">
-          <h1>Other Rekomendasi</h1>
+          <h1 style="font-family: 'Poppins',sans-serif;">Rekomendasi Wisata lainnya</h1>
         </div>
         <div class="fotonya">
           <div class="card-group">
@@ -295,7 +176,7 @@
                 class="card-img-top"
                 alt="..."
               />
-              <div class="card-body">
+              <div class="card-body" style="font-family: 'Poppins',sans-serif;">
                 <h5 class="card-title">
                   Taman Pelangi
                 </h5>
@@ -318,7 +199,7 @@
                 class="card-img-top"
                 alt="..."
               />
-              <div class="card-body">
+              <div class="card-body" style="font-family: 'Poppins',sans-serif;">
                 <h5 class="card-title">Prambanan</h5>
                 <span class="fa fa-star checked"></span>
                 <span class="fa fa-star checked"></span>
@@ -339,7 +220,7 @@
                 class="card-img-top"
                 alt="..."
               />
-              <div class="card-body">
+              <div class="card-body" style="font-family: 'Poppins',sans-serif;">
                 <h5 class="card-title">Museum Jogja</h5>
                 <span class="fa fa-star checked"></span>
                 <span class="fa fa-star checked"></span>
@@ -369,7 +250,7 @@
                 class="card-img-top"
                 alt="..."
               />
-              <div class="card-body">
+              <div class="card-body" style="font-family: 'Poppins',sans-serif;">
                 <h5 class="card-title">
                   Pantai Indrayanti
                 </h5>
@@ -393,7 +274,7 @@
                 class="card-img-top"
                 alt="..."
               />
-              <div class="card-body">
+              <div class="card-body" style="font-family: 'Poppins',sans-serif;">
                 <h5 class="card-title">Taman Bunga</h5>
                 <span class="fa fa-star checked"></span>
                 <span class="fa fa-star checked"></span>
@@ -415,7 +296,7 @@
                 class="card-img-top"
                 alt="..."
               />
-              <div class="card-body">
+              <div class="card-body" style="font-family: 'Poppins',sans-serif;">
                 <h5 class="card-title">Air Terjun Jogan</h5>
                 <span class="fa fa-star checked"></span>
                 <span class="fa fa-star checked"></span>
@@ -438,7 +319,7 @@
     <!--/-- gambar lainnya -->
 
     <!-- tulisan tips -->
-    <section class="tips">
+    <section class="tips" style="font-family: 'Poppins',sans-serif;">
       <div class="container">
         <div class="tipss">
           <h1>Tips and Articles</h1>
@@ -447,7 +328,7 @@
           <div class="col-md-4">
             <div class="card bg-color-aliceblue">
               <img
-                class="img-fluid rounded mx-auto d-block"
+                class="img-fluid rounded mx-auto"
                 src="./image/in.jpg"
                 alt=""
               />
@@ -472,7 +353,7 @@
           <div class="col-md-4">
             <div class="card bg-color-aliceblue">
               <img
-                class="img-fluid rounded mx-auto d-block"
+                class="img-fluid rounded mx-auto"
                 src="./image/1522934868884.png"
                 alt=""
               />
@@ -496,7 +377,7 @@
           <div class="col-md-4">
             <div class="card bg-color-aliceblue">
               <img
-                class="img-fluid rounded mx-auto d-block"
+                class="img-fluid rounded mx-auto"
                 src="./image/happy-sad-135550-2373941.jpg"
                 alt=""
               />
