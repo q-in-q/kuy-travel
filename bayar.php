@@ -208,7 +208,7 @@
                                 <p>4. Kemudian Scan QR yang telah kami berikan</p>
                                 
 
-                                <button class="btn btn-light" style="margin-left:80px;">Bayar Sekarang</button>
+                                <button class="btn btn-light" style="margin-left:80px;" data-toggle="modal" data-target="#qrgen">Bayar Sekarang</button>
                             </div>
                             
                             </div>
@@ -226,6 +226,80 @@
 
 
 </div>
+
+
+<!--qr genarate-->
+
+<div class="modal fade" id="qrgen" tabindex="-1" role="dialog" aria-labelledby="myModalLabel"
+            aria-hidden="true">
+  
+  <!-- Change class .modal-sm to change the size of the modal -->
+  <div class="modal-dialog modal-lg" role="document">
+
+
+<div class="modal-content">
+  <div class="modal-header">
+    <h4>Pembayaran Menggunakanan Gopay</h4>
+    <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+      <span aria-hidden="true">&times;</span>
+    </button>
+  </div>
+  <div class="modal-body " >
+    <div class="col-md-12" >
+            <div class="text-center">
+            <img src="https://chart.googleapis.com/chart?cht=qr&chl=Hello+World&chs=160x160&chld=L|0"
+                class="qr-code img-thumbnail img-responsive">
+            </div>
+    </div>
+
+    <div class="col-md-12">
+    
+            <div class="form-group">
+            
+            <label class="col-md-6" for="content">Isi Nama Akun Gojek anda :</label>
+            <div class="col-md-4">
+                <input type="text" class="form-control" id="content" placeholder="Isi Nama Akun Gojek anda">
+            </div>  
+            
+            </div>
+
+            <div class="form-group">
+                <div class="col-md-3">
+                <button type="button" class="btn btn-light" id="generate">Generate QR</button>
+                </div>
+            </div>
+
+    
+     </div>
+    </div>
+  </div>
+
+</div>
+</div>
+
+
+
+    
+
+<!--js-->
+
+<script>
+
+function htmlEncode (value){
+  return $('<div/>').text(value).html();
+}
+
+$(function() {
+  $("#generate").click(function() {
+    $(".qr-code").attr("src", "https://chart.googleapis.com/chart?cht=qr&chl=" + htmlEncode($("#content").val()) + "&chs=160x160&chld=L|0");
+  });
+});
+
+</script>
+
+
+
+<!--tutup qr-->
 
 
 

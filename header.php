@@ -130,7 +130,7 @@ font-family: 'Montserrat', sans-serif;">
       <span class="navbar-toggler-icon"></span>
     </button>
             <form class="col-md-4 form-inline my-2 my-lg-0">
-              <input style="background:#ecf0f1;" class="form-control" type="search" placeholder="Cari Destinasi wisata" data-toggle="modal" data-target="#centralModallg" aria-label="Search" data-target="#centralModalSm">
+              <input style="background:#ecf0f1;" class="form-control" type="search" placeholder="Cari Destinasi wisata" data-toggle="modal" data-target="#centralModallg" aria-label="Search">
             </form>
                     
     <div class="collapse navbar-collapse" id="navbarSupportedContent">
