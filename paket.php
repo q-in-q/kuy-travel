@@ -49,7 +49,7 @@
                         
 
                         <div class="card-body">
-                            <p class="card-text text-center">Rp. 40.000/orang<br>
+                            <p class="card-text text-center text-muted">Rp. 40.000/orang<br>
                             </p>
                         </div>
                     </div>
@@ -101,7 +101,7 @@
                         <p class="title">Museum Merapi</p>
                        
                         <div class="card-body">
-                            <p class="card-text text-center">Rp. 5.000 - 10.000/orang</p>
+                            <p class="card-text text-center text-muted">Rp. 5.000 - 10.000/orang</p>
                         </div>
                     </div>
                 </div>
@@ -150,7 +150,7 @@
                         <p class="title">MONJALI</p>
                         
                         <div class="card-body">
-                            <p class="card-text text-center">Rp. 15.000/orang (anak-anak)<br>
+                            <p class="card-text text-center text-muted">Rp. 15.000/orang (anak-anak)<br>
                                 Rp. 20.000/orang (Dewasa)</p>
                         </div>
                     </div>
@@ -204,7 +204,7 @@
                         <p class="title">GOA PINDUL</p>
                        
                         <div class="card-body">
-                            <p class="card-text text-center">Rp. 10.000/orang</p>
+                            <p class="card-text text-center text-muted">Rp. 10.000/orang</p>
                         </div>
                     </div>
                 </div>
@@ -256,7 +256,7 @@
                         </p>
                        
                         <div class="card-body">
-                            <p class="card-text text-center">Rp. 20.000/orang</p>
+                            <p class="card-text text-center text-muted">Rp. 20.000/orang</p>
                         </div>
                     </div>
                 </div>
@@ -305,7 +305,7 @@
                         <p class="title">TAMAN PINTAR</p>
                        
                         <div class="card-body">
-                            <p class="card-text text-center">Rp. 12.000/px (anak-anak)<br>
+                            <p class="card-text text-center text-muted">Rp. 12.000/px (anak-anak)<br>
                                 IDR Rp. 20.000/px (Dewasa)
                             </p>
                         </div>
@@ -359,7 +359,7 @@
                         <p class="title">INDRAYANTI</p>
                       
                         <div class="card-body">
-                            <p class="card-text text-center">Rp. 10.000 - 15.000/orang</p>
+                            <p class="card-text text-center text-muted">Rp. 10.000 - 15.000/orang</p>
                         </div>
                     </div>
                 </div>
@@ -399,7 +399,7 @@
             </div>
 
 
-        <div class="col-lg-4 bright">
+        <div class="col-lg-4 bright" style="border:#fff;">
             <a href="#" style="text-decoration: none;">
                 <div class="card mb-3 shadow">
                     <div class="container" style="margin: 0; padding: 0;" type="button" data-toggle="modal"
@@ -410,7 +410,7 @@
                         </p>
                         
                         <div class="card-body">
-                            <p class="card-text text-center">Rp. 10.000/px</p>
+                            <p class="card-text text-center text-muted">Rp. 10.000/px</p>
                         </div>
                     </div>
                 </div>
@@ -459,7 +459,7 @@
                         <p class="title">KRATON JOGJA</p>
                        
                         <div class="card-body">
-                            <p class="card-text text-center">Rp. 10.000/px</p>
+                            <p class="card-text text-center text-muted">Rp. 10.000/px</p>
                         </div>
                     </div>
                 </div>

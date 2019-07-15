@@ -208,7 +208,7 @@
                                 <p>4. Kemudian Scan QR yang telah kami berikan</p>
                                 
 
-                                <button class="btn btn-light" style="margin-left:80px;" data-toggle="modal" data-target="#qrgen">Bayar Sekarang</button>
+                                <button class="btn btn-light" style="margin-left:80px; " data-toggle="modal" data-target="#qrgen">Bayar Sekarang</button>
                             </div>
                             
                             </div>

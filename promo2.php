@@ -24,7 +24,13 @@
           <p id="pr1">RONDANI27</p>
         </div>
         <div class="col-md-3">
-          <button onclick="copyToClipboard('#pr1')" >Copy Kode</button>
+          <button onclick="copyToClipboard('#pr1')" style= " letter-spacing: .25rem;
+        							 text-transform:  uppercase;
+          								
+          								border-radius: 5px;
+								  transition: color 0.15s ease-in-out, 
+								  background-color 0.15s ease-in-out,
+								   border-color 0.15s ease-in-out, box-shadow 0.15s ease-in-out; ">Copy Kode</button>
         </div>
     </div>
 

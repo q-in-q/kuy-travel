@@ -103,7 +103,13 @@
 						
 							
 							<div class="col-lg-12 text-center">
-								<button type="button" class="primary-btn text-uppercase" onclick="window.location.href='pesan2.php'">  Pesan Sekarang</button>
+								<button type="button" class="primary-btn text-uppercase" onclick="window.location.href='pesan2.php'" style= " letter-spacing: .25rem;
+        							 text-transform:  uppercase;
+          								font-weight: bold;
+          								border-radius: 10px;
+								  transition: color 0.15s ease-in-out, 
+								  background-color 0.15s ease-in-out,
+								   border-color 0.15s ease-in-out, box-shadow 0.15s ease-in-out; ">  Pesan Sekarang</button>
 							</div>
 						</form>
 					</div>

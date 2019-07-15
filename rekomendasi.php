@@ -12,13 +12,13 @@
             "
           >
             <div class="col-md-4">
-              <img class="img-fluid shadow" src="image/free-pine-forest-wallpaper-full-hd-windows-10-backgrounds-4k-free-hi-res-quality-images-computer-wallpapers-cool-1920x1200.jpg" alt="" />
+              <img class="img-fluid shadow" src="image/cr1.jpg" alt="" />
             </div>
             <div class="col-md-4">
-              <img class="img-fluid shadow" src="image/thumb-1920-82317.jpg" alt="" />
+              <img class="img-fluid shadow" src="image/andong.jpg" alt="" />
             </div>
             <div class="col-md-4">
-              <img class="img-fluid shadow" src="image/0PXNRtS.jpg" alt="" />
+              <img class="img-fluid shadow" src="image/gethuk.jpg" alt="" />
             </div>
           </div>
         </div>
@@ -65,14 +65,14 @@
                 <div class="col-md-5">
                   <img
                     class="img-fluid"
-                    src="image/1920x1200/256084.jpg"
+                    src="image/andong.jpg"
                     alt=""
                   />
                 </div>
                 <div class="col-md-6" style="font-family: 'Poppins',sans-serif;">
                   <div class="card">
                     <div class="card-body">
-                      <h4>Gunung Anong</h4>
+                      <h4>Gunung Andong</h4>
                       <p>Sebuah gunung bertipe perisai di Kabupaten Magelang, Jawa Tengah. 
                         Gunung ini belum pernah mempunyai aktivitas meletus.
                         Satu tujuan wisata alam di lereng Gunung Andong yang
@@ -92,7 +92,7 @@
             <div class="container">
               <div class="row">
                 <div class="col-md-5">
-                  <img class="img-fluid" src="image/1920x1200/1920x1200.jpg" alt="" />
+                  <img class="img-fluid" src="image/gethuk.jpg" alt="" />
                 </div>
                 <div class="col-md-6">
                   <div class="card">
@@ -118,7 +118,7 @@
             <div class="container">
               <div class="row">
                 <div class="col-md-5">
-                  <img class="img-fluid" src="image/tugu-jogja.jpg" alt="" />
+                  <img class="img-fluid" src="image/cr1.jpg" alt="" />
                 </div>
                 <div class="col-md-6">
                   <div class="card">
@@ -319,7 +319,7 @@
     <!--/-- gambar lainnya -->
 
     <!-- tulisan tips -->
-    <section class="tips" style="font-family: 'Poppins',sans-serif;">
+   <!-- <section class="tips" style="font-family: 'Poppins',sans-serif;">
       <div class="container">
         <div class="tipss">
           <h1>Tips and Articles</h1>
@@ -396,8 +396,8 @@
               </div>
             </div>
           </div>
-    </section>
-
+    </section>-->
+<br><br>
     <link rel="stylesheet" href="css/rekomen.css">
 
     <?php include("footer.php"); ?>

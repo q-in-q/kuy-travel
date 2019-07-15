@@ -10,7 +10,7 @@
 
     <script src="jquery-3.4.1.min.js"></script>
     <script src="JQUERYmain.js"></script>
-    <title>FormLogin</title>
+    <title>KuyTravel</title>
 
     <link rel="shortcut icon" href="image/logo.ico">
 

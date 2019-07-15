@@ -42,11 +42,14 @@
 
     <!--countdown-->
     
-    <title>Travel jogja</title>
+    <title>KuyTravel</title>
 
 
     <style>
-    
+  
+ 
+
+
     /*Navbar*/
 
 .kepala{
@@ -98,6 +101,7 @@
 
  .collapse ul li a:hover{
     background-color: #bdc3c7;
+    border-radius: 5px;
     
 
  }
@@ -120,7 +124,7 @@
 
 <nav class="kepala navbar navbar-expand-lg navbar-light fixed-top" style="
 background:white;
-font-family: 'Montserrat', sans-serif;">
+font-family: 'Poppins', sans-serif;">
    
 
     

@@ -589,7 +589,7 @@ include ("header.php");
                         <div class="card border-0 shadow"
                         style="
                         height: 360px;">
-                            <img src="image/ul3.jpg" class="img-fluid" alt="">
+                            <img src="image/ul5.jpg" class="img-fluid" alt="">
                             <div class="card-img-overlay"
                             style=" z-index: 20;
                             padding-left: 20px;
@@ -654,7 +654,7 @@ include ("header.php");
                     <div class="col-md-3">
                         <div class="card border-0 shadow"
                         style="height: 360px;">
-                            <img src="image/ul3.jpg" class="img-fluid" alt="">
+                            <img src="image/ul6.jfif" class="img-fluid" alt="">
                             <div class="card-img-overlay"
                             style=" z-index: 20;
                             padding-left: 20px;
@@ -1089,19 +1089,19 @@ include ("header.php");
                       <B style="margin-left: 21px;
                       margin-top: 40px;
                       color: pink;
-                      letter-spacing: .3rem;">STORIES FROM AROUND THE GLOBE</B>
+                      letter-spacing: .3rem;">DESTINASI WISATA YANG SERING DI KUNJUNGI CUSTOMER KAMI</B>
                       </h5>
                       <div>
                       <h1 style="margin-left: 20px;">
                         <p align="left">
-                          <b>From our travel blog</b>
+                          <b>Destinasi Wisata</b>
                         </p>
                       </h1>
                       <div class="flex-grow-1" style="
                       text-align: right !important;
                       padding-top: 22px;
                       padding-right: 40px;">
-                      <h6><a href="PW.html" class="text-muted">See all articles
+                      <h6><a href="PW.html" class="text-muted">Lihat Lebih
                         <i class="fas fa-angle-double-right"
                         style="
                         padding-left: 2px; 
@@ -1122,8 +1122,8 @@ include ("header.php");
                         <div class="card border-0 shadow"
                         style="
                         height: 100%;">
-                        <a href="PW.html">
-                            <img src="https://d19m59y37dris4.cloudfront.net/directory/1-2/img/photo/photo-1484154218962-a197022b5858.jpg" class="img-fluid">
+                        <a href="#" onclick="window.location.href='kunjungan.php'">
+                            <img src="image/ul3.jpg" class="img-fluid">
                             </a>
                             <div class="card-body"
                             style="">
@@ -1137,7 +1137,7 @@ include ("header.php");
                                 style="
                                 background-color: transparent;
                                 margin-top: -10px;">
-                                  Autumn fashion tips and tricks
+                                  Air Terjun Jogan
                                 </p>
                               </h5>
                               <p class="text-muted text-sm my-3">
@@ -1146,17 +1146,19 @@ include ("header.php");
                               </p>
                               <p class="text-muted"
                               style="font-family: 'Poppins',sans-serif;">
-                                Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
-                                tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
-                                quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
-                                consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
-                                cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
-                                proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+                              Senja ikut menyambut ketika YogYES tiba di Pantai Jogan.
+                               Diapit tebing-tebing tinggi khas pegunungan kapur, 
+                               Pantai Jogan bak peraduan, tempat air sungai turun gunung 
+                               menemui ombak yang pulang melaut. Dari puluhan pantai yang 
+                               berserak di sepanjang 71 kilometer pesisir Gunungkidul,
+                                Pantai Jogan menempati posisi istimewa karena keberadaan
+                                 air terjun yang langsung jatuh dari atas tebing ke bibir laut,
+                                  mengingatkan pada McWay Beach Waterfall di California. 
                               </p>
                               <a href="#" class="btn btn-link"
                               style=" letter-spacing: .3rem;
-                              margin-left: -13px;">
-                                <b>Read more
+                              margin-left: -13px;" onclick="window.location.href='kunjungan.php'">
+                                <b>Baca Lebih
                                 <i class="fas fa-share"></i>
                               </b>
                               </a>
@@ -1168,7 +1170,10 @@ include ("header.php");
                     <div class="col-md-4">
                         <div class="card border-0 shadow"
                         style="height: 100%;">
-                            <img src="https://d19m59y37dris4.cloudfront.net/directory/1-2/img/photo/photo-1426122402199-be02db90eb90.jpg" class="img-fluid">
+                            <a href="#" onclick="window.location.href='kunjungan2.php'">
+                            <img src="image/ul4.jpg" class="img-fluid">
+                          </a>
+                            
                             <div class="card-body"
                             style="">
                               <p href="#" class="text-uppercase text-muted text-sm letter-spacing-2"
@@ -1181,7 +1186,7 @@ include ("header.php");
                                 style="
                                 margin-top: -10px;
                                 background-color: transparent;">
-                                  Autumn fashion tips and tricks
+                                  Goa Pindul
                                 </p>
                               </h5>
                               <p class="text-muted text-sm my-3">
@@ -1190,17 +1195,20 @@ include ("header.php");
                               </p>
                               <p class="my-2 text-muted text-sm"
                               style="font-family: 'Poppins',sans-serif;">
-                                Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
-                                tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
-                                quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
-                                consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
-                                cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
-                                proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+                              Goa Pindul Jogja adalah sebuah goa yang sangat unik, 
+                              dimana di dalam goa ini terdapat sebuah sungai yang 
+                              melintas disepanjang goa tersebut. Aktivitas yang umumnya
+                               dilakukan di wisata ini adalah cave tubing. Cave tubing 
+                               adalah aktifitas menyusuri sungai yang ada di dalam goa 
+                               dengan menggunakan sebuah ban pelampung. cave tubing sebenarnya
+                                hampir mirip dengan rafting. Hanya saja yang membedakan keduanya
+                                adalah, rafting biasanya dilakukan di aliran air sungai yang deras. 
+                                
                               </p>
                               <a href="#" class="btn btn-link"
                               style=" letter-spacing: .3rem;
-                              margin-left: -13px;">
-                                <b>Read more
+                              margin-left: -13px;" onclick="window.location.href='kunjungan2.php'" >
+                                <b>Baca Lebih
                                 <i class="fas fa-share"></i>
                               </b>
                               </a>
@@ -1212,7 +1220,10 @@ include ("header.php");
                     <div class="col-md-4">
                         <div class="card border-0 shadow"
                         style="height: 100%;">
-                            <img src="https://d19m59y37dris4.cloudfront.net/directory/1-2/img/photo/photo-1512917774080-9991f1c4c750.jpg" class="img-fluid">
+                            <a href="#" onclick="window.location.href='kunjungan3.php'">
+                              <img src="image/ul5.jpg" class="img-fluid">
+                            </a>
+                            
                             <div class="card-body"
                             style="">
                               <p href="#" class="text-uppercase text-muted text-sm letter-spacing-2"
@@ -1225,7 +1236,7 @@ include ("header.php");
                                 style="
                                 margin-top: -10px;
                                 background-color: transparent;">
-                                  Autumn fashion tips and tricks
+                                  Taman Pelangi
                                 </p>
                               </h5>
                               <p class="text-muted text-sm my-3">
@@ -1234,18 +1245,20 @@ include ("header.php");
                               </p>
                               <p class="my-2 text-muted text-sm"
                               style="font-family: 'Poppins',sans-serif;">
-                                Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
-                                tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
-                                quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
-                                consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
-                                cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
-                                proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+                              Kalau pelangi biasanya ada di siang hari pasca hujan, 
+                              maka di Taman Pelangi Yogyakarta pengunjung justru bisa 
+                              menikmatinya setiap malam hari. Ya, ini lantaran taman 
+                              ini merupakan Taman Lampion beraneka warna dan rupa.
+                              Buka sejak petang, Taman ini memang sangat cocok dijadikan
+                               pilihan destinasi rekreasi keluarga saat malam hari. 
+                               Namun karena merupakan taman outdoor alias terbuka, 
+                               maka pilihan paling tepat untuk datang ialah saat cuaca tidak hujan.
                               </p>
-                              <a href="#" onclick="window.location.href='PW.html'" class="btn btn-link"
+                              <a href="#"  class="btn btn-link"
                               style=" letter-spacing: .3rem;
                               margin-left: -13px;
-                              font-weight: bold;">
-                                Read more
+                              font-weight: bold;" onclick="window.location.href='kunjungan3.php'">
+                                Baca Lebih
                                 <i class="fas fa-share"></i>
                               </a>
                             </div>

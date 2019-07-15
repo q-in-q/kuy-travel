@@ -22,7 +22,7 @@ style="margin-top: 50px;
 font-family: 'Poppins', sans-serif;
 margin-bottom: 20px;">
     <h2 style="margin-left: 200px;
-    margin-bottom: 20px;"> CONTACT US </h2>
+    margin-bottom: 20px;"> KONTAK KAMI </h2>
     <div class="row">
       <div class="col-md-6"
       style="margin-left: 40px;">
@@ -54,7 +54,7 @@ margin-bottom: 20px;">
             style="padding-left: 60px;">
             <div class="phone">
                 <h2>Call</h2>
-                <a href="tel:+4046872730">tel:+4046872730</a>
+                <a href="tel:+4046872730">tel:+623463472</a>
             </div>
             <div class="email">
                 <h2>Email</h2>

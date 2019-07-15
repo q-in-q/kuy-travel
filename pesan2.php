@@ -75,7 +75,13 @@
 										onblur="this.placeholder = 'Isikan Titik Penjemputan'">
 
 										<div class="col-lg-12 text-center" style="margin-top:50px;">
-											<button type="button" class="btn btn-light" onclick="window.location.href='bayar.php'">Lakukan Pembayaran</button>
+											<button type="button" class="btn btn-light" onclick="window.location.href='bayar.php'" style= " letter-spacing: .25rem;
+        							 
+          								
+          								border-radius: 10px;
+								  transition: color 0.15s ease-in-out, 
+								  background-color 0.15s ease-in-out,
+								   border-color 0.15s ease-in-out, box-shadow 0.15s ease-in-out; ">Lakukan Pembayaran</button>
 										</div>
 
 

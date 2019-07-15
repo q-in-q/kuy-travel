@@ -10,7 +10,7 @@ font-family: 'Poppins', sans-serif;">
 					letter-spacing: .2rem;">
 						Directory
 					</div>
-					<p>lorem ispsum dolor sit amet, consectetur adipisicing</p>
+					
 					<ul class="list-inline">
 						<li class="list-inline-item">
 							<a href="#" target="_blank" title="twitter"
@@ -86,7 +86,7 @@ font-family: 'Poppins', sans-serif;">
 					<ul class="list-unstyled">
 						<li>
 							<a  class="text-muted"
-							data-toggle="tooltip" title="Any Problem?" href="#" onclick="window.location.href='contactus.php'">Contact US</a>
+							data-toggle="tooltip" title="Any Problem?" href="#" onclick="window.location.href='contactus.php'">Kontak Kami</a>
 
 						</li>
 						<li>
@@ -115,9 +115,7 @@ font-family: 'Poppins', sans-serif;">
 					letter-spacing: .2rem;">
 						Daily Offers & Discounts
 					</h6>
-					<p class="">
-						Lorem ipsum dolor sitamet, consectetur adipisicing elit. At itaque temporibus.
-					</p>
+					
 					<form action="#" id="newsletter-form">
 						<div class="input-group mb-3">
 							<input type="email" placeholder="Your Email Address" 
@@ -147,7 +145,7 @@ font-family: 'Montserrat', sans-serif;">
 		<div class="container-fluid" >
 			<div class="row align-items-center">
 				<div class="col-md-6 text-center text-md-left">
-					<p class="text-md-left" style="color: white;">Copyright 2019 Your Company. All Rights reserved</p>
+					<p class="text-md-left" style="color: white;">Ⓒ- Copyright 2019 KuyTaravel</p>
 				</div>
 				<div class="col-md-6 text-center text-md-right">
 					<ul class="list-inline-item">
