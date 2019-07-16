@@ -20,14 +20,14 @@ font-family: 'Poppins', sans-serif;">
 							</a>
 						</li>
 						<li class="list-inline-item">
-							<a href="#" target="_blank" title="facebook"
+							<a href="https://www.facebook.com/rona.wardani.1" target="_blank" title="facebook"
 							class="text-muted text-hover-primary">
 								<i class="fab fa-facebook-f">
 								</i>
 							</a>
 						</li>
 						<li class="list-inline-item">
-							<a href="#" target="_blank" title="instagram"
+							<a href="https://www.instagram.com/rona_wardani/?hl=id" target="_blank" title="instagram"
 							class="text-muted text-hover-primary">
 								<i class="fab fa-instagram">
 								</i>
