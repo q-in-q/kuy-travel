@@ -48,7 +48,7 @@ font-family: 'Poppins', sans-serif;">
 							</a>
 						</li>
             <li class="list-inline-item">
-              <a href="#" target="_blank" title="whatsapp"
+              <a href="https://api.whatsapp.com/send?phone=6281242245827&text=Halo,%20Rona%20Wardani" target="_blank" title="whatsapp"
               class="text-muted text-hover-primary">
                 <i class="fab fa-whatsapp">
                 </i>
